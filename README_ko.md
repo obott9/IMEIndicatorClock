@@ -4,6 +4,18 @@
 
 IME(입력기) 상태를 시각적으로 표시하고 사용자 정의 가능한 데스크톱 시계를 제공하는 macOS 유틸리티 앱입니다.
 
+## 스크린샷
+
+### IME 상태 연동 데스크톱 시계
+| IME OFF (영어) | IME ON (일본어) |
+|:-------------:|:--------------:|
+| ![IME OFF](docs/images/clock_ime_off.png) | ![IME ON](docs/images/clock_ime_on.png) |
+
+### 설정 화면
+| IME 표시기 | 시계 | 마우스 커서 표시기 |
+|:---------:|:----:|:----------------:|
+| ![IME 설정](docs/images/settings_ime_indicator.png) | ![시계 설정](docs/images/settings_clock.png) | ![커서 설정](docs/images/settings_cursor_indicator.png) |
+
 ## 비전
 
 **우리의 목표는 전 세계의 IME를 지원하는 것입니다.**
@@ -78,6 +90,15 @@ open IMEIndicatorClock.xcodeproj
 ## 필요한 권한
 
 - **손쉬운 사용**: IME 상태 모니터링에 필요합니다. 첫 실행 시 권한을 요청합니다.
+
+## 개발
+
+이 프로젝트는 Anthropic의 [Claude AI](https://claude.ai/)와 공동 개발되었습니다.
+
+Claude가 지원한 부분:
+- 아키텍처 설계 및 코드 구현
+- 다국어 현지화
+- 문서 및 README 작성
 
 ## 기여
 

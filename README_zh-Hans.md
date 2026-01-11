@@ -4,6 +4,18 @@
 
 一款 macOS 工具应用程序，可视化显示输入法（IME）状态，并提供可自定义的桌面时钟。
 
+## 屏幕截图
+
+### 输入法状态联动桌面时钟
+| IME OFF（英文） | IME ON（日文） |
+|:--------------:|:-------------:|
+| ![IME OFF](docs/images/clock_ime_off.png) | ![IME ON](docs/images/clock_ime_on.png) |
+
+### 设置界面
+| 输入法指示器 | 时钟 | 鼠标光标指示器 |
+|:----------:|:----:|:-------------:|
+| ![IME设置](docs/images/settings_ime_indicator.png) | ![时钟设置](docs/images/settings_clock.png) | ![光标设置](docs/images/settings_cursor_indicator.png) |
+
 ## 愿景
 
 **我们的目标是支持全球各种输入法。**
@@ -78,6 +90,15 @@ open IMEIndicatorClock.xcodeproj
 ## 所需权限
 
 - **辅助功能**：用于监控输入法状态。首次启动时会提示授予权限。
+
+## 开发
+
+此项目与 Anthropic 的 [Claude AI](https://claude.ai/) 共同开发。
+
+Claude 协助了：
+- 架构设计和代码实现
+- 多语言本地化
+- 文档和 README 创建
 
 ## 贡献
 

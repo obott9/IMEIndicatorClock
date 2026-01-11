@@ -4,6 +4,18 @@
 
 IME（入力メソッドエディタ）の状態とカスタマイズ可能なデスクトップ時計を視覚的に表示するmacOSユーティリティアプリです。
 
+## スクリーンショット
+
+### IME状態連動デスクトップ時計
+| IME OFF（英語） | IME ON（日本語） |
+|:--------------:|:---------------:|
+| ![IME OFF](docs/images/clock_ime_off.png) | ![IME ON](docs/images/clock_ime_on.png) |
+
+### 設定画面
+| IMEインジケータ | 時計 | マウスカーソルインジケータ |
+|:-------------:|:----:|:------------------------:|
+| ![IME設定](docs/images/settings_ime_indicator.png) | ![時計設定](docs/images/settings_clock.png) | ![カーソル設定](docs/images/settings_cursor_indicator.png) |
+
 ## ビジョン
 
 **目標は、世界中のIMEに対応すること。**
@@ -78,6 +90,15 @@ open IMEIndicatorClock.xcodeproj
 ## 必要な権限
 
 - **アクセシビリティ**: IME状態の監視に必要です。初回起動時に許可を求められます。
+
+## 開発
+
+このプロジェクトは Anthropic の [Claude AI](https://claude.ai/) との共同作業で開発されました。
+
+Claudeは以下をサポートしました：
+- アーキテクチャ設計とコード実装
+- 多言語ローカライズ
+- ドキュメントとREADMEの作成
 
 ## 貢献
 

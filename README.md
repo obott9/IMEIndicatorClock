@@ -4,6 +4,18 @@
 
 A macOS utility app that visually displays IME (Input Method Editor) status with a customizable desktop clock.
 
+## Screenshots
+
+### Desktop Clock with IME Status
+| IME OFF (English) | IME ON (Japanese) |
+|:-----------------:|:-----------------:|
+| ![IME OFF](docs/images/clock_ime_off.png) | ![IME ON](docs/images/clock_ime_on.png) |
+
+### Settings
+| IME Indicator | Clock | Mouse Cursor Indicator |
+|:-------------:|:-----:|:----------------------:|
+| ![IME Settings](docs/images/settings_ime_indicator.png) | ![Clock Settings](docs/images/settings_clock.png) | ![Cursor Settings](docs/images/settings_cursor_indicator.png) |
+
 ## Vision
 
 **Our goal is to support IMEs from around the world.**
@@ -78,6 +90,15 @@ open IMEIndicatorClock.xcodeproj
 ## Required Permissions
 
 - **Accessibility**: Required for IME status monitoring. You'll be prompted to grant permission on first launch.
+
+## Development
+
+This project was developed in collaboration with [Claude AI](https://claude.ai/) by Anthropic.
+
+Claude assisted with:
+- Architecture design and code implementation
+- Multi-language localization
+- Documentation and README creation
 
 ## Contributing
 

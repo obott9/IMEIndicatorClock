@@ -184,7 +184,6 @@
 			);
 			fileSystemSynchronizedGroups = (
 				DFB690FC2F136BF400874A23 /* IMEIndicatorClockUITests */,
-				DFB692182F13715800874A23 /* chat-logs */,
 			);
 			name = IMEIndicatorClockUITests;
 			packageProductDependencies = (
