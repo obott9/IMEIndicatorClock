@@ -105,6 +105,12 @@ Claude assisted with:
 - Multi-language localization
 - Documentation and README creation
 
+## Support
+
+If you find this app useful, consider buying me a coffee!
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/obott9)
+
 ## Contributing
 
 We welcome contributions! Especially:

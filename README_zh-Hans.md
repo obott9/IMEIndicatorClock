@@ -105,6 +105,12 @@ Claude 协助了：
 - 多语言本地化
 - 文档和 README 创建
 
+## 支持
+
+如果您觉得这个应用程序有用，请考虑请我喝杯咖啡！
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/obott9)
+
 ## 贡献
 
 欢迎贡献！特别是：

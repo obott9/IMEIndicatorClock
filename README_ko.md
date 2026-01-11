@@ -105,6 +105,12 @@ Claude가 지원한 부분:
 - 다국어 현지화
 - 문서 및 README 작성
 
+## 지원
+
+이 앱이 유용하다면 커피 한 잔 사주세요!
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/obott9)
+
 ## 기여
 
 기여를 환영합니다! 특히:

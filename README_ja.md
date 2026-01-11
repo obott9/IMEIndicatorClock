@@ -105,6 +105,12 @@ Claudeは以下をサポートしました：
 - 多言語ローカライズ
 - ドキュメントとREADMEの作成
 
+## サポート
+
+このアプリが役に立ったら、コーヒーをおごってください！
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/obott9)
+
 ## 貢献
 
 貢献を歓迎します！特に：
