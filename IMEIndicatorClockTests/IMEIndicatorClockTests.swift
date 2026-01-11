@@ -2,7 +2,7 @@
 //  IMEIndicatorClockTests.swift
 //  IMEIndicatorClockTests
 //
-//  Created by 尾保手　秀樹 on 2026/01/11.
+//  Created by obott9 on 2026/01/11.
 //
 
 import Testing

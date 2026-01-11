@@ -1,0 +1,35 @@
+
+# Xcode
+#
+# gitignore.io targets: Swift, Xcode
+
+## User settings
+xcuserdata/
+
+## Xcode internal
+DerivedData/
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+
+## Build artifacts
+build/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Swift Package Manager
+.build/
+/Packages
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+
+## Others
+.DS_Store
+
+chat-logs/
+.claude/
+CLAUDE.md
+CLAUDE*.md
+ClockDesignRules.md
+LOCALIZATION_README.md

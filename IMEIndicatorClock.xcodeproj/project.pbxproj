@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DFB692572F13863B00874A23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB6923A2F13863B00874A23 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		DFB690F02F136BF400874A23 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,12 @@
 		DFB690E22F136BF300874A23 /* IMEIndicatorClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMEIndicatorClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFB690EF2F136BF400874A23 /* IMEIndicatorClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMEIndicatorClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFB690F92F136BF400874A23 /* IMEIndicatorClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMEIndicatorClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB6923A2F13863B00874A23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFB6927E2F13875300874A23 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DFB6927F2F13875300874A23 /* README_ja.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_ja.md; sourceTree = "<group>"; };
+		DFB692802F13875300874A23 /* README_ko.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_ko.md; sourceTree = "<group>"; };
+		DFB692812F13875300874A23 /* README_zh-Hans.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "README_zh-Hans.md"; sourceTree = "<group>"; };
+		DFB692822F13875300874A23 /* README_zh-Hant.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "README_zh-Hant.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -43,6 +53,16 @@
 		DFB690FC2F136BF400874A23 /* IMEIndicatorClockUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = IMEIndicatorClockUITests;
+			sourceTree = "<group>";
+		};
+		DFB692182F13715800874A23 /* chat-logs */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "chat-logs";
+			sourceTree = "<group>";
+		};
+		DFB6927D2F13866000874A23 /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,16 +95,24 @@
 		DFB690D92F136BF300874A23 = {
 			isa = PBXGroup;
 			children = (
+				DFB6927E2F13875300874A23 /* README.md */,
+				DFB6927F2F13875300874A23 /* README_ja.md */,
+				DFB692802F13875300874A23 /* README_ko.md */,
+				DFB692812F13875300874A23 /* README_zh-Hans.md */,
+				DFB692822F13875300874A23 /* README_zh-Hant.md */,
+				DFB692182F13715800874A23 /* chat-logs */,
 				DFB690E42F136BF300874A23 /* IMEIndicatorClock */,
 				DFB690F22F136BF400874A23 /* IMEIndicatorClockTests */,
 				DFB690FC2F136BF400874A23 /* IMEIndicatorClockUITests */,
 				DFB690E32F136BF300874A23 /* Products */,
+				DFB6927D2F13866000874A23 /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
 		DFB690E32F136BF300874A23 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				DFB6923A2F13863B00874A23 /* Assets.xcassets */,
 				DFB690E22F136BF300874A23 /* IMEIndicatorClock.app */,
 				DFB690EF2F136BF400874A23 /* IMEIndicatorClockTests.xctest */,
 				DFB690F92F136BF400874A23 /* IMEIndicatorClockUITests.xctest */,
@@ -109,6 +137,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				DFB690E42F136BF300874A23 /* IMEIndicatorClock */,
+				DFB6927D2F13866000874A23 /* Resources */,
 			);
 			name = IMEIndicatorClock;
 			packageProductDependencies = (
@@ -155,6 +184,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				DFB690FC2F136BF400874A23 /* IMEIndicatorClockUITests */,
+				DFB692182F13715800874A23 /* chat-logs */,
 			);
 			name = IMEIndicatorClockUITests;
 			packageProductDependencies = (
@@ -192,6 +222,17 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
+				he,
+				el,
+				ja,
+				hi,
+				th,
+				vi,
+				"zh-Hans",
+				ru,
+				"zh-Hant",
+				ko,
 			);
 			mainGroup = DFB690D92F136BF300874A23;
 			minimizedProjectReferenceProxies = 1;
@@ -212,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFB692572F13863B00874A23 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +370,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -384,6 +427,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 			};
 			name = Release;
 		};
