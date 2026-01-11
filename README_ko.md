@@ -71,7 +71,7 @@ IME(입력기) 상태를 시각적으로 표시하고 사용자 정의 가능한
 
 ## 시스템 요구 사항
 
-- macOS 13.0 (Ventura) 이상
+- macOS 26.2 이상
 - Apple Silicon / Intel Mac 지원
 
 ## 설치

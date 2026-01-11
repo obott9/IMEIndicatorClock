@@ -71,7 +71,7 @@ We aim to help users who switch between multiple languages see their current inp
 
 ## System Requirements
 
-- macOS 13.0 (Ventura) or later
+- macOS 26.2 or later
 - Apple Silicon / Intel Mac supported
 
 ## Installation
