@@ -71,7 +71,7 @@
 
 ## 系统要求
 
-- macOS 26.2 或更高版本
+- macOS 14.0 (Sonoma) 或更高版本
 - 支持 Apple Silicon / Intel Mac
 
 ## 安装

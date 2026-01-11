@@ -71,7 +71,7 @@ IME（入力メソッドエディタ）の状態とカスタマイズ可能な�
 
 ## 動作環境
 
-- macOS 26.2 以降
+- macOS 14.0 (Sonoma) 以降
 - Apple Silicon / Intel Mac 対応
 
 ## インストール
