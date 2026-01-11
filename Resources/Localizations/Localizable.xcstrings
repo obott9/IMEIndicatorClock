@@ -329,73 +329,73 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "تم تكوين إذن إمكانية الوصول بشكل صحيح.\n\nIME Indicator Z يعمل بكامل طاقته."
+            "value" : "تم تكوين إذن إمكانية الوصول بشكل صحيح.\n\nIME Indicator Clock يعمل بكامل طاقته."
           }
         },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Τα δικαιώματα προσβασιμότητας έχουν ρυθμιστεί σωστά.\n\nΤο IME Indicator Z λειτουργεί πλήρως."
+            "value" : "Τα δικαιώματα προσβασιμότητας έχουν ρυθμιστεί σωστά.\n\nΤο IME Indicator Clock λειτουργεί πλήρως."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Accessibility permission is correctly configured.\n\nIME Indicator Z is fully operational."
+            "value" : "Accessibility permission is correctly configured.\n\nIME Indicator Clock is fully operational."
           }
         },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "הרשאת נגישות מוגדרת כראוי.\n\nIME Indicator Z פועל במלואו."
+            "value" : "הרשאת נגישות מוגדרת כראוי.\n\nIME Indicator Clock פועל במלואו."
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "एक्सेसिबिलिटी अनुमति ठीक से कॉन्फ़िगर की गई है।\n\nIME Indicator Z पूरी तरह से काम कर रहा है।"
+            "value" : "एक्सेसिबिलिटी अनुमति ठीक से कॉन्फ़िगर की गई है।\n\nIME Indicator Clock पूरी तरह से काम कर रहा है।"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "アクセシビリティ権限は正しく設定されています。\n\nIME Indicator Z は完全に動作しています。"
+            "value" : "アクセシビリティ権限は正しく設定されています。\n\nIME Indicator Clock は完全に動作しています。"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "손쉬운 사용 권한이 올바르게 설정되었습니다.\n\nIME Indicator Z가 완전히 작동합니다."
+            "value" : "손쉬운 사용 권한이 올바르게 설정되었습니다.\n\nIME Indicator Clock가 완전히 작동합니다."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Разрешение доступности правильно настроено.\n\nIME Indicator Z работает в полном объёме."
+            "value" : "Разрешение доступности правильно настроено.\n\nIME Indicator Clock работает в полном объёме."
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "สิทธิ์การเข้าถึงได้รับการกำหนดค่าอย่างถูกต้อง\n\nIME Indicator Z ทำงานได้เต็มรูปแบบ"
+            "value" : "สิทธิ์การเข้าถึงได้รับการกำหนดค่าอย่างถูกต้อง\n\nIME Indicator Clock ทำงานได้เต็มรูปแบบ"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quyền trợ năng đã được cấu hình đúng.\n\nIME Indicator Z hoạt động đầy đủ."
+            "value" : "Quyền trợ năng đã được cấu hình đúng.\n\nIME Indicator Clock hoạt động đầy đủ."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "辅助功能权限已正确配置。\n\nIME Indicator Z 完全可用。"
+            "value" : "辅助功能权限已正确配置。\n\nIME Indicator Clock 完全可用。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "輔助使用權限已正確設定。\n\nIME Indicator Z 完全可用。"
+            "value" : "輔助使用權限已正確設定。\n\nIME Indicator Clock 完全可用。"
           }
         }
       }
@@ -482,73 +482,73 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IME Indicator Z يعمل حالياً، لكن يُنصح بمنح إذن إمكانية الوصول للعمل بشكل أكثر استقراراً.\n\n【الميزات المتاحة بدون إذن】\n✅ عرض حالة IME\n✅ اكتشاف تغيير مصدر الإدخال\n✅ جميع الميزات الأساسية\n\n【كيفية منح الإذن】\n1. افتح إعدادات النظام\n2. الخصوصية والأمان > إمكانية الوصول\n3. إذا كنت تشغل من Xcode، حدد \"Xcode\"\n4. إذا كان تطبيقاً مستقلاً، حدد \"IMEIndicatorClock\"\n\n※ يعمل بشكل جيد بدون إذن"
+            "value" : "IME Indicator Clock يعمل حالياً، لكن يُنصح بمنح إذن إمكانية الوصول للعمل بشكل أكثر استقراراً.\n\n【الميزات المتاحة بدون إذن】\n✅ عرض حالة IME\n✅ اكتشاف تغيير مصدر الإدخال\n✅ جميع الميزات الأساسية\n\n【كيفية منح الإذن】\n1. افتح إعدادات النظام\n2. الخصوصية والأمان > إمكانية الوصول\n3. إذا كنت تشغل من Xcode، حدد \"Xcode\"\n4. إذا كان تطبيقاً مستقلاً، حدد \"IMEIndicatorClock\"\n\n※ يعمل بشكل جيد بدون إذن"
           }
         },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Το IME Indicator Z λειτουργεί αυτή τη στιγμή, αλλά συνιστάται να δώσετε δικαιώματα προσβασιμότητας για πιο σταθερή λειτουργία.\n\n【Διαθέσιμες λειτουργίες χωρίς δικαιώματα】\n✅ Εμφάνιση κατάστασης IME\n✅ Ανίχνευση αλλαγής πηγής εισόδου\n✅ Όλες οι βασικές λειτουργίες\n\n【Πώς να δώσετε δικαιώματα】\n1. Ανοίξτε τις Ρυθμίσεις Συστήματος\n2. Απόρρητο και Ασφάλεια > Προσβασιμότητα\n3. Αν τρέχετε από το Xcode, επιλέξτε \"Xcode\"\n4. Αν είναι αυτόνομη εφαρμογή, επιλέξτε \"IMEIndicatorClock\"\n\n※ Λειτουργεί καλά και χωρίς δικαιώματα"
+            "value" : "Το IME Indicator Clock λειτουργεί αυτή τη στιγμή, αλλά συνιστάται να δώσετε δικαιώματα προσβασιμότητας για πιο σταθερή λειτουργία.\n\n【Διαθέσιμες λειτουργίες χωρίς δικαιώματα】\n✅ Εμφάνιση κατάστασης IME\n✅ Ανίχνευση αλλαγής πηγής εισόδου\n✅ Όλες οι βασικές λειτουργίες\n\n【Πώς να δώσετε δικαιώματα】\n1. Ανοίξτε τις Ρυθμίσεις Συστήματος\n2. Απόρρητο και Ασφάλεια > Προσβασιμότητα\n3. Αν τρέχετε από το Xcode, επιλέξτε \"Xcode\"\n4. Αν είναι αυτόνομη εφαρμογή, επιλέξτε \"IMEIndicatorClock\"\n\n※ Λειτουργεί καλά και χωρίς δικαιώματα"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IME Indicator Z is currently working, but accessibility permission is recommended for more stable operation.\n\n【Features available without permission】\n✅ IME status display\n✅ Input source change detection\n✅ All basic features\n\n【How to grant permission】\n1. Open System Settings\n2. Privacy & Security > Accessibility\n3. If running from Xcode, check \"Xcode\"\n4. If standalone app, check \"IMEIndicatorClock\"\n\n※ It works fine without permission"
+            "value" : "IME Indicator Clock is currently working, but accessibility permission is recommended for more stable operation.\n\n【Features available without permission】\n✅ IME status display\n✅ Input source change detection\n✅ All basic features\n\n【How to grant permission】\n1. Open System Settings\n2. Privacy & Security > Accessibility\n3. If running from Xcode, check \"Xcode\"\n4. If standalone app, check \"IMEIndicatorClock\"\n\n※ It works fine without permission"
           }
         },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IME Indicator Z פועל כעת, אך מומלץ להעניק הרשאת נגישות לפעולה יציבה יותר.\n\n【תכונות זמינות ללא הרשאה】\n✅ תצוגת מצב IME\n✅ זיהוי שינוי מקור קלט\n✅ כל התכונות הבסיסיות\n\n【כיצד להעניק הרשאה】\n1. פתח הגדרות מערכת\n2. פרטיות ואבטחה > נגישות\n3. אם מריץ מ-Xcode, סמן \"Xcode\"\n4. אם אפליקציה עצמאית, סמן \"IMEIndicatorClock\"\n\n※ עובד היטב ללא הרשאה"
+            "value" : "IME Indicator Clock פועל כעת, אך מומלץ להעניק הרשאת נגישות לפעולה יציבה יותר.\n\n【תכונות זמינות ללא הרשאה】\n✅ תצוגת מצב IME\n✅ זיהוי שינוי מקור קלט\n✅ כל התכונות הבסיסיות\n\n【כיצד להעניק הרשאה】\n1. פתח הגדרות מערכת\n2. פרטיות ואבטחה > נגישות\n3. אם מריץ מ-Xcode, סמן \"Xcode\"\n4. אם אפליקציה עצמאית, סמן \"IMEIndicatorClock\"\n\n※ עובד היטב ללא הרשאה"
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IME Indicator Z वर्तमान में काम कर रहा है, लेकिन अधिक स्थिर संचालन के लिए एक्सेसिबिलिटी अनुमति देने की सिफारिश की जाती है।\n\n【बिना अनुमति के उपलब्ध सुविधाएं】\n✅ IME स्थिति प्रदर्शन\n✅ इनपुट स्रोत परिवर्तन पहचान\n✅ सभी मूल सुविधाएं\n\n【अनुमति कैसे दें】\n1. सिस्टम सेटिंग्स खोलें\n2. प्राइवेसी और सुरक्षा > एक्सेसिबिलिटी\n3. यदि Xcode से चला रहे हैं, \"Xcode\" चेक करें\n4. यदि स्टैंडअलोन ऐप है, \"IMEIndicatorClock\" चेक करें\n\n※ बिना अनुमति के भी अच्छी तरह काम करता है"
+            "value" : "IME Indicator Clock वर्तमान में काम कर रहा है, लेकिन अधिक स्थिर संचालन के लिए एक्सेसिबिलिटी अनुमति देने की सिफारिश की जाती है।\n\n【बिना अनुमति के उपलब्ध सुविधाएं】\n✅ IME स्थिति प्रदर्शन\n✅ इनपुट स्रोत परिवर्तन पहचान\n✅ सभी मूल सुविधाएं\n\n【अनुमति कैसे दें】\n1. सिस्टम सेटिंग्स खोलें\n2. प्राइवेसी और सुरक्षा > एक्सेसिबिलिटी\n3. यदि Xcode से चला रहे हैं, \"Xcode\" चेक करें\n4. यदि स्टैंडअलोन ऐप है, \"IMEIndicatorClock\" चेक करें\n\n※ बिना अनुमति के भी अच्छी तरह काम करता है"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IME Indicator Z は現在動作していますが、より安定した動作のために\nアクセシビリティ権限を推奨します。\n\n【権限なしでも使える機能】\n✅ IME状態の表示\n✅ 入力ソース変更の検出\n✅ すべての基本機能\n\n【権限の付与方法】\n1. システム設定を開く\n2. プライバシーとセキュリティ > アクセシビリティ\n3. Xcodeから実行している場合は「Xcode」にチェック\n4. スタンドアロンアプリの場合は「IMEIndicatorClock」にチェック\n\n※ 現在のまま使用しても問題ありません"
+            "value" : "IME Indicator Clock は現在動作していますが、より安定した動作のために\nアクセシビリティ権限を推奨します。\n\n【権限なしでも使える機能】\n✅ IME状態の表示\n✅ 入力ソース変更の検出\n✅ すべての基本機能\n\n【権限の付与方法】\n1. システム設定を開く\n2. プライバシーとセキュリティ > アクセシビリティ\n3. Xcodeから実行している場合は「Xcode」にチェック\n4. スタンドアロンアプリの場合は「IMEIndicatorClock」にチェック\n\n※ 現在のまま使用しても問題ありません"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IME Indicator Z가 현재 작동 중이지만, 더 안정적인 작동을 위해 손쉬운 사용 권한을 권장합니다.\n\n【권한 없이 사용 가능한 기능】\n✅ IME 상태 표시\n✅ 입력 소스 변경 감지\n✅ 모든 기본 기능\n\n【권한 부여 방법】\n1. 시스템 설정 열기\n2. 개인 정보 보호 및 보안 > 손쉬운 사용\n3. Xcode에서 실행 중인 경우 「Xcode」 체크\n4. 독립 앱인 경우 「IMEIndicatorClock」 체크\n\n※ 권한 없이도 정상 작동합니다"
+            "value" : "IME Indicator Clock가 현재 작동 중이지만, 더 안정적인 작동을 위해 손쉬운 사용 권한을 권장합니다.\n\n【권한 없이 사용 가능한 기능】\n✅ IME 상태 표시\n✅ 입력 소스 변경 감지\n✅ 모든 기본 기능\n\n【권한 부여 방법】\n1. 시스템 설정 열기\n2. 개인 정보 보호 및 보안 > 손쉬운 사용\n3. Xcode에서 실행 중인 경우 「Xcode」 체크\n4. 독립 앱인 경우 「IMEIndicatorClock」 체크\n\n※ 권한 없이도 정상 작동합니다"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IME Indicator Z сейчас работает, но рекомендуется предоставить разрешение доступности для более стабильной работы.\n\n【Доступные функции без разрешения】\n✅ Отображение статуса IME\n✅ Определение смены источника ввода\n✅ Все основные функции\n\n【Как предоставить разрешение】\n1. Откройте Системные настройки\n2. Конфиденциальность и безопасность > Универсальный доступ\n3. При запуске из Xcode отметьте \"Xcode\"\n4. При автономном приложении отметьте \"IMEIndicatorClock\"\n\n※ Хорошо работает и без разрешения"
+            "value" : "IME Indicator Clock сейчас работает, но рекомендуется предоставить разрешение доступности для более стабильной работы.\n\n【Доступные функции без разрешения】\n✅ Отображение статуса IME\n✅ Определение смены источника ввода\n✅ Все основные функции\n\n【Как предоставить разрешение】\n1. Откройте Системные настройки\n2. Конфиденциальность и безопасность > Универсальный доступ\n3. При запуске из Xcode отметьте \"Xcode\"\n4. При автономном приложении отметьте \"IMEIndicatorClock\"\n\n※ Хорошо работает и без разрешения"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IME Indicator Z กำลังทำงานอยู่ แต่แนะนำให้อนุญาตสิทธิ์การเข้าถึงเพื่อการทำงานที่เสถียรยิ่งขึ้น\n\n【ฟีเจอร์ที่ใช้งานได้โดยไม่ต้องมีสิทธิ์】\n✅ แสดงสถานะ IME\n✅ ตรวจจับการเปลี่ยนแปลงแหล่งข้อมูลป้อนเข้า\n✅ ฟีเจอร์พื้นฐานทั้งหมด\n\n【วิธีให้สิทธิ์】\n1. เปิดการตั้งค่าระบบ\n2. ความเป็นส่วนตัวและความปลอดภัย > การเข้าถึง\n3. หากรันจาก Xcode ให้เลือก \"Xcode\"\n4. หากเป็นแอปแบบสแตนด์อโลน ให้เลือก \"IMEIndicatorClock\"\n\n※ ทำงานได้โดยไม่ต้องมีสิทธิ์"
+            "value" : "IME Indicator Clock กำลังทำงานอยู่ แต่แนะนำให้อนุญาตสิทธิ์การเข้าถึงเพื่อการทำงานที่เสถียรยิ่งขึ้น\n\n【ฟีเจอร์ที่ใช้งานได้โดยไม่ต้องมีสิทธิ์】\n✅ แสดงสถานะ IME\n✅ ตรวจจับการเปลี่ยนแปลงแหล่งข้อมูลป้อนเข้า\n✅ ฟีเจอร์พื้นฐานทั้งหมด\n\n【วิธีให้สิทธิ์】\n1. เปิดการตั้งค่าระบบ\n2. ความเป็นส่วนตัวและความปลอดภัย > การเข้าถึง\n3. หากรันจาก Xcode ให้เลือก \"Xcode\"\n4. หากเป็นแอปแบบสแตนด์อโลน ให้เลือก \"IMEIndicatorClock\"\n\n※ ทำงานได้โดยไม่ต้องมีสิทธิ์"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IME Indicator Z đang hoạt động, nhưng nên cấp quyền trợ năng để hoạt động ổn định hơn.\n\n【Tính năng có thể sử dụng không cần quyền】\n✅ Hiển thị trạng thái IME\n✅ Phát hiện thay đổi nguồn nhập\n✅ Tất cả tính năng cơ bản\n\n【Cách cấp quyền】\n1. Mở Cài đặt hệ thống\n2. Quyền riêng tư & Bảo mật > Trợ năng\n3. Nếu chạy từ Xcode, đánh dấu \"Xcode\"\n4. Nếu là ứng dụng độc lập, đánh dấu \"IMEIndicatorClock\"\n\n※ Vẫn hoạt động tốt mà không cần quyền"
+            "value" : "IME Indicator Clock đang hoạt động, nhưng nên cấp quyền trợ năng để hoạt động ổn định hơn.\n\n【Tính năng có thể sử dụng không cần quyền】\n✅ Hiển thị trạng thái IME\n✅ Phát hiện thay đổi nguồn nhập\n✅ Tất cả tính năng cơ bản\n\n【Cách cấp quyền】\n1. Mở Cài đặt hệ thống\n2. Quyền riêng tư & Bảo mật > Trợ năng\n3. Nếu chạy từ Xcode, đánh dấu \"Xcode\"\n4. Nếu là ứng dụng độc lập, đánh dấu \"IMEIndicatorClock\"\n\n※ Vẫn hoạt động tốt mà không cần quyền"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IME Indicator Z 目前正在运行，但建议授予辅助功能权限以获得更稳定的操作。\n\n【无需权限可用的功能】\n✅ IME 状态显示\n✅ 输入源切换检测\n✅ 所有基本功能\n\n【如何授予权限】\n1. 打开系统设置\n2. 隐私与安全性 > 辅助功能\n3. 如果从 Xcode 运行，勾选「Xcode」\n4. 如果是独立应用，勾选「IMEIndicatorClock」\n\n※ 无需权限也可正常工作"
+            "value" : "IME Indicator Clock 目前正在运行，但建议授予辅助功能权限以获得更稳定的操作。\n\n【无需权限可用的功能】\n✅ IME 状态显示\n✅ 输入源切换检测\n✅ 所有基本功能\n\n【如何授予权限】\n1. 打开系统设置\n2. 隐私与安全性 > 辅助功能\n3. 如果从 Xcode 运行，勾选「Xcode」\n4. 如果是独立应用，勾选「IMEIndicatorClock」\n\n※ 无需权限也可正常工作"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IME Indicator Z 目前正在運作，但建議授予輔助使用權限以獲得更穩定的操作。\n\n【無需權限可用的功能】\n✅ IME 狀態顯示\n✅ 輸入來源切換偵測\n✅ 所有基本功能\n\n【如何授予權限】\n1. 開啟系統設定\n2. 隱私權與安全性 > 輔助使用\n3. 如果從 Xcode 執行，勾選「Xcode」\n4. 如果是獨立 App，勾選「IMEIndicatorClock」\n\n※ 無需權限也可正常運作"
+            "value" : "IME Indicator Clock 目前正在運作，但建議授予輔助使用權限以獲得更穩定的操作。\n\n【無需權限可用的功能】\n✅ IME 狀態顯示\n✅ 輸入來源切換偵測\n✅ 所有基本功能\n\n【如何授予權限】\n1. 開啟系統設定\n2. 隱私權與安全性 > 輔助使用\n3. 如果從 Xcode 執行，勾選「Xcode」\n4. 如果是獨立 App，勾選「IMEIndicatorClock」\n\n※ 無需權限也可正常運作"
           }
         }
       }

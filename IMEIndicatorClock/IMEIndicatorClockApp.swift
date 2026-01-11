@@ -39,7 +39,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 	/// アプリケーションの起動が完了した時に呼ばれる
 	func applicationDidFinishLaunching(_ notification: Notification) {
 		dbgLog(-1, "🚀 [DEBUG] ========================================")
-		dbgLog(-1, "🚀 [DEBUG] IME Indicator Z 起動開始")
+		dbgLog(-1, "🚀 [DEBUG] IME Indicator Clock 起動開始")
 		dbgLog(-1, "🚀 [DEBUG] ========================================\n")
 
 		// 1. アクセシビリティ権限のチェック
@@ -83,7 +83,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 		dbgLog(-1, "✅ [DEBUG] マウスカーソルインジケータ初期化完了")
 
 		dbgLog(1, "\n🎉 [DEBUG] ========================================")
-		dbgLog(1, "🎉 [DEBUG] IME Indicator Z 起動完了")
+		dbgLog(1, "🎉 [DEBUG] IME Indicator Clock 起動完了")
 		dbgLog(1, "🎉 [DEBUG] ========================================\n")
 	}
 

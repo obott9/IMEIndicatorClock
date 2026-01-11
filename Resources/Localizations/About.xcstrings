@@ -7,73 +7,73 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IME Indicator Z"
+            "value" : "IME Indicator Clock"
           }
         },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IME Indicator Z"
+            "value" : "IME Indicator Clock"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IME Indicator Z"
+            "value" : "IME Indicator Clock"
           }
         },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IME Indicator Z"
+            "value" : "IME Indicator Clock"
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IME Indicator Z"
+            "value" : "IME Indicator Clock"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IME Indicator Z"
+            "value" : "IME Indicator Clock"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IME Indicator Z"
+            "value" : "IME Indicator Clock"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IME Indicator Z"
+            "value" : "IME Indicator Clock"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IME Indicator Z"
+            "value" : "IME Indicator Clock"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IME Indicator Z"
+            "value" : "IME Indicator Clock"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IME Indicator Z"
+            "value" : "IME Indicator Clock"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IME Indicator Z"
+            "value" : "IME Indicator Clock"
           }
         }
       }
@@ -1697,73 +1697,73 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "حول IME Indicator Z"
+            "value" : "حول IME Indicator Clock"
           }
         },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Σχετικά με το IME Indicator Z"
+            "value" : "Σχετικά με το IME Indicator Clock"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "About IME Indicator Z"
+            "value" : "About IME Indicator Clock"
           }
         },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "אודות IME Indicator Z"
+            "value" : "אודות IME Indicator Clock"
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IME Indicator Z के बारे में"
+            "value" : "IME Indicator Clock के बारे में"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IME Indicator Z について"
+            "value" : "IME Indicator Clock について"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "IME Indicator Z 정보"
+            "value" : "IME Indicator Clock 정보"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "О программе IME Indicator Z"
+            "value" : "О программе IME Indicator Clock"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "เกี่ยวกับ IME Indicator Z"
+            "value" : "เกี่ยวกับ IME Indicator Clock"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Giới thiệu về IME Indicator Z"
+            "value" : "Giới thiệu về IME Indicator Clock"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "关于 IME Indicator Z"
+            "value" : "关于 IME Indicator Clock"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "關於 IME Indicator Z"
+            "value" : "關於 IME Indicator Clock"
           }
         }
       }
