@@ -16,6 +16,11 @@ A macOS utility app that visually displays IME (Input Method Editor) status with
 |:-------------:|:-----:|:----------------------:|
 | ![IME Settings](docs/images/settings_ime_indicator.png) | ![Clock Settings](docs/images/settings_clock.png) | ![Cursor Settings](docs/images/settings_cursor_indicator.png) |
 
+### Multi-language UI
+| Japanese (日本語) | Traditional Chinese (繁體中文) |
+|:-----------------:|:-----------------------------:|
+| ![About Japanese](docs/images/about_ja.png) | ![About Chinese](docs/images/about_zh-Hant.png) |
+
 ## Vision
 
 **Our goal is to support IMEs from around the world.**

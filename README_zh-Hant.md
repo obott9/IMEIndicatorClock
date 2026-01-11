@@ -16,6 +16,11 @@
 |:----------:|:----:|:-------------:|
 | ![IME設定](docs/images/settings_ime_indicator.png) | ![時鐘設定](docs/images/settings_clock.png) | ![游標設定](docs/images/settings_cursor_indicator.png) |
 
+### 多語言 UI
+| 日語 | 繁體中文 |
+|:----:|:-------:|
+| ![About 日語](docs/images/about_ja.png) | ![About 中文](docs/images/about_zh-Hant.png) |
+
 ## 願景
 
 **我們的目標是支援全球各種輸入法。**

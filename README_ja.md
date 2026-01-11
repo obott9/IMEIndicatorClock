@@ -16,6 +16,11 @@ IME（入力メソッドエディタ）の状態とカスタマイズ可能な�
 |:-------------:|:----:|:------------------------:|
 | ![IME設定](docs/images/settings_ime_indicator.png) | ![時計設定](docs/images/settings_clock.png) | ![カーソル設定](docs/images/settings_cursor_indicator.png) |
 
+### 多言語UI
+| 日本語 | 繁體中文 |
+|:------:|:-------:|
+| ![About 日本語](docs/images/about_ja.png) | ![About 中文](docs/images/about_zh-Hant.png) |
+
 ## ビジョン
 
 **目標は、世界中のIMEに対応すること。**

@@ -16,6 +16,11 @@ IME(입력기) 상태를 시각적으로 표시하고 사용자 정의 가능한
 |:---------:|:----:|:----------------:|
 | ![IME 설정](docs/images/settings_ime_indicator.png) | ![시계 설정](docs/images/settings_clock.png) | ![커서 설정](docs/images/settings_cursor_indicator.png) |
 
+### 다국어 UI
+| 일본어 | 번체 중국어 |
+|:------:|:---------:|
+| ![About 일본어](docs/images/about_ja.png) | ![About 중국어](docs/images/about_zh-Hant.png) |
+
 ## 비전
 
 **우리의 목표는 전 세계의 IME를 지원하는 것입니다.**

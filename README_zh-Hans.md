@@ -16,6 +16,11 @@
 |:----------:|:----:|:-------------:|
 | ![IME设置](docs/images/settings_ime_indicator.png) | ![时钟设置](docs/images/settings_clock.png) | ![光标设置](docs/images/settings_cursor_indicator.png) |
 
+### 多语言 UI
+| 日语 | 繁体中文 |
+|:----:|:-------:|
+| ![About 日语](docs/images/about_ja.png) | ![About 中文](docs/images/about_zh-Hant.png) |
+
 ## 愿景
 
 **我们的目标是支持全球各种输入法。**
