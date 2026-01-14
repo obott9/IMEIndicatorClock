@@ -132,8 +132,8 @@ class ClockWindowManager: NSObject, NSWindowDelegate {
 		
 		// ウィンドウサイズの制限を設定
 		// 詳細は ClockDesignRules.md を参照
-		window.minSize = NSSize(width: 100, height: 100)
-		window.maxSize = NSSize(width: 500, height: 500)
+		window.minSize = NSSize(width: AppConstants.clockWindowMinSize, height: AppConstants.clockWindowMinSize)
+		window.maxSize = NSSize(width: AppConstants.clockWindowMaxSize, height: AppConstants.clockWindowMaxSize)
 		
 		// アニメーションを完全に無効化（クラッシュ防止）
 		window.animationBehavior = .none
@@ -275,8 +275,8 @@ class ClockWindowManager: NSObject, NSWindowDelegate {
 		
 		// ウィンドウサイズの制限を設定
 		// 詳細は ClockDesignRules.md を参照
-		window.minSize = NSSize(width: 100, height: 100)
-		window.maxSize = NSSize(width: 500, height: 500)
+		window.minSize = NSSize(width: AppConstants.clockWindowMinSize, height: AppConstants.clockWindowMinSize)
+		window.maxSize = NSSize(width: AppConstants.clockWindowMaxSize, height: AppConstants.clockWindowMaxSize)
 		
 		// 表示/非表示の切り替え
 		if settings.isVisible {
@@ -290,9 +290,9 @@ class ClockWindowManager: NSObject, NSWindowDelegate {
 		// ウィンドウサイズを更新
 		let windowSize = calculateWindowSize(for: settings)
 		
-		// 最大サイズ制限（500px）を確実に適用
-		let clampedWidth = min(windowSize.width, 500)
-		let clampedHeight = min(windowSize.height, 500)
+		// 最大サイズ制限を確実に適用
+		let clampedWidth = min(windowSize.width, AppConstants.clockWindowMaxSize)
+		let clampedHeight = min(windowSize.height, AppConstants.clockWindowMaxSize)
 		let clampedSize = NSSize(width: clampedWidth, height: clampedHeight)
 		
 		var frame = window.frame
@@ -526,8 +526,9 @@ class ClockWindowManager: NSObject, NSWindowDelegate {
 		let currentX = settingsManager.settings.clock.positionX
 		let currentY = settingsManager.settings.clock.positionY
 		
-		// 10px 以下の差は無視（微小な変動を防ぐ）
-		guard abs(relativeX - currentX) > 10 || abs(relativeY - currentY) > 10 else {
+		// しきい値以下の差は無視（微小な変動を防ぐ）
+		guard abs(relativeX - currentX) > AppConstants.windowPositionThreshold ||
+			  abs(relativeY - currentY) > AppConstants.windowPositionThreshold else {
 			return
 		}
 		
@@ -555,9 +556,9 @@ class ClockWindowManager: NSObject, NSWindowDelegate {
 		// マウス位置を取得
 		let mouseLocation = NSEvent.mouseLocation
 		
-		// 制限に達しているかチェック（500pxまたは100px）
-		let isAtMaxLimit = windowSize.width >= 500 || windowSize.height >= 500
-		let isAtMinLimit = windowSize.width <= 100 || windowSize.height <= 100
+		// 制限に達しているかチェック
+		let isAtMaxLimit = windowSize.width >= AppConstants.clockWindowMaxSize || windowSize.height >= AppConstants.clockWindowMaxSize
+		let isAtMinLimit = windowSize.width <= AppConstants.clockWindowMinSize || windowSize.height <= AppConstants.clockWindowMinSize
 		
 		// 制限に達している時のみログ出力
 		if isAtMaxLimit || isAtMinLimit {
@@ -588,56 +589,49 @@ class ClockWindowManager: NSObject, NSWindowDelegate {
 		let relativeX = windowOrigin.x - screen.frame.origin.x
 		let relativeY = windowOrigin.y - screen.frame.origin.y
 		
-		// 1. UserDefaults に直接保存
-		var updatedSettings = settingsManager.settings
-		updatedSettings.clock.windowWidth = newWidth
-		updatedSettings.clock.windowHeight = newHeight
-		updatedSettings.clock.positionX = relativeX
-		updatedSettings.clock.positionY = relativeY
-		
-		if let encoded = try? JSONEncoder().encode(updatedSettings) {
-			UserDefaults.standard.set(encoded, forKey: "appSettings")
-			dbgLog(1, "💾 リサイズ終了: ウィンドウ(%dx%d) 位置(%d, %d)", Int(newWidth), Int(newHeight), Int(relativeX), Int(relativeY))
-		}
-		
-		// 2. @Publishedを更新（設定画面のテキストフィールド更新のため）
+		// @Publishedを更新（設定画面のテキストフィールド更新のため）
 		// ※ isUpdatingFromWindow フラグでsave()の再呼び出しを防ぐ
 		settingsManager.isUpdatingFromWindow = true
 		settingsManager.settings.clock.windowWidth = newWidth
 		settingsManager.settings.clock.windowHeight = newHeight
 		settingsManager.settings.clock.positionX = relativeX
 		settingsManager.settings.clock.positionY = relativeY
-		
+
+		// JSONファイルに保存（AppSettingsManagerの統一メソッドを使用）
+		settingsManager.save()
+		dbgLog(1, "💾 リサイズ終了: ウィンドウ(%dx%d) 位置(%d, %d)", Int(newWidth), Int(newHeight), Int(relativeX), Int(relativeY))
+
 		DispatchQueue.main.async {
 			self.settingsManager.isUpdatingFromWindow = false
 		}
-		
+
 		dbgLog(1, "✅ リサイズ完了: 設定画面を更新しました")
 	}
 	
 	// MARK: - NSWindowDelegate
 	
-	/// リサイズ中にサイズを制限（500x500まで）
+	/// リサイズ中にサイズを制限
 	func windowWillResize(_ sender: NSWindow, to frameSize: NSSize) -> NSSize {
 		// マウス位置を取得
 		let mouseLocation = NSEvent.mouseLocation
-		
+
 		// 最大サイズ制限を適用
-		let clampedWidth = min(frameSize.width, 500)
-		let clampedHeight = min(frameSize.height, 500)
-		
+		let clampedWidth = min(frameSize.width, AppConstants.clockWindowMaxSize)
+		let clampedHeight = min(frameSize.height, AppConstants.clockWindowMaxSize)
+
 		// 最小サイズ制限も適用
-		let finalWidth = max(clampedWidth, 100)
-		let finalHeight = max(clampedHeight, 100)
-		
+		let finalWidth = max(clampedWidth, AppConstants.clockWindowMinSize)
+		let finalHeight = max(clampedHeight, AppConstants.clockWindowMinSize)
+
 		// ウィンドウ位置
 		let windowOrigin = sender.frame.origin
-		
+
 		// 制限が適用された場合のみログ
-		if frameSize.width > 500 || frameSize.height > 500 || frameSize.width < 100 || frameSize.height < 100 {
+		if frameSize.width > AppConstants.clockWindowMaxSize || frameSize.height > AppConstants.clockWindowMaxSize ||
+		   frameSize.width < AppConstants.clockWindowMinSize || frameSize.height < AppConstants.clockWindowMinSize {
 			dbgLog(1, "🔒 リサイズ制限: マウス位置(%d, %d) 要求(%dx%d) → ウィンドウ(%dx%d) 位置(%d, %d)", Int(mouseLocation.x), Int(mouseLocation.y), Int(frameSize.width), Int(frameSize.height), Int(finalWidth), Int(finalHeight), Int(windowOrigin.x), Int(windowOrigin.y))
 		}
-		
+
 		return NSSize(width: finalWidth, height: finalHeight)
 	}
 }

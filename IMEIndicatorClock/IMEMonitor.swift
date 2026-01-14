@@ -95,6 +95,17 @@ class IMEMonitor {
 
 	private init() {}
 
+	deinit {
+		// タイマーを停止
+		pollingTimer?.invalidate()
+		pollingTimer = nil
+
+		// オブザーバーを削除
+		DistributedNotificationCenter.default().removeObserver(self)
+
+		dbgLog(1, "🗑️ [IMEMonitor] IMEMonitor が解放されました")
+	}
+
 	// MARK: - 監視
 
 	/// IME状態の監視を開始
@@ -109,7 +120,7 @@ class IMEMonitor {
 
 		// 方法2: タイマーで定期的にチェック（バックアップ）
 		// メモリリーク防止のためプロパティに保持
-		pollingTimer = Timer.scheduledTimer(withTimeInterval: 0.3, repeats: true) { [weak self] _ in
+		pollingTimer = Timer.scheduledTimer(withTimeInterval: AppConstants.imePollingInterval, repeats: true) { [weak self] _ in
 			self?.checkIMEState()
 		}
 

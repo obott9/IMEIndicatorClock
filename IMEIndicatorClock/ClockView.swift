@@ -35,9 +35,9 @@ struct ClockView: View {
 	
 	/// 現在時刻（1秒ごとに更新）
 	@State private var currentTime = Date()
-	
-	/// タイマー（ビューの生存期間中保持）
-	@State private var timer: Timer?
+
+	/// Combineタイマー購読のキャンセル用
+	@State private var timerCancellable: AnyCancellable?
 	
 	init(settingsManager: AppSettingsManager) {
 		self.settingsManager = settingsManager
@@ -61,16 +61,17 @@ struct ClockView: View {
 			.padding(16)
 		}
 		.onAppear {
-			// タイマーを開始して保持
-			// structなのでweakは不要（循環参照の心配なし）
-			timer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { _ in
-				currentTime = Date()
-			}
+			// Combineの Timer.publish を使用（SwiftUI推奨パターン）
+			timerCancellable = Timer.publish(every: AppConstants.clockUpdateInterval, on: .main, in: .common)
+				.autoconnect()
+				.sink { _ in
+					currentTime = Date()
+				}
 		}
 		.onDisappear {
-			// ビューが消える時にタイマーを確実に停止
-			timer?.invalidate()
-			timer = nil
+			// ビューが消える時にタイマー購読をキャンセル
+			timerCancellable?.cancel()
+			timerCancellable = nil
 		}
 	}
 	

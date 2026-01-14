@@ -260,16 +260,16 @@ class IMEIndicatorWindowManager: NSObject {
 	@objc private func settingsChanged() {
 		dbgLog(1, "🔔 [IMEIndicator] 設定変更通知を受信")
 
-		let settings = settings
+		let currentSettings = settings
 
 		// 位置やサイズが変わった場合はウィンドウを再作成
 		if let window = indicatorWindow {
 			let currentFrame = window.frame
-			let screen = NSScreen.screens[safe: settings.displayIndex] ?? NSScreen.main ?? NSScreen.screens[0]
-			let expectedX = screen.frame.origin.x + settings.positionX
-			let expectedY = screen.frame.origin.y + settings.positionY
+			let screen = NSScreen.screens[safe: currentSettings.displayIndex] ?? NSScreen.main ?? NSScreen.screens[0]
+			let expectedX = screen.frame.origin.x + currentSettings.positionX
+			let expectedY = screen.frame.origin.y + currentSettings.positionY
 
-			let needsRecreate = (currentFrame.width != settings.indicatorSize ||
+			let needsRecreate = (currentFrame.width != currentSettings.indicatorSize ||
 								 currentFrame.origin.x != expectedX ||
 								 currentFrame.origin.y != expectedY)
 
@@ -277,7 +277,7 @@ class IMEIndicatorWindowManager: NSObject {
 				recreate()
 			} else {
 				// 表示状態の更新
-				isVisible = settings.isVisible
+				isVisible = currentSettings.isVisible
 				if isVisible {
 					indicatorWindow?.orderFrontRegardless()
 				} else {
@@ -285,22 +285,14 @@ class IMEIndicatorWindowManager: NSObject {
 				}
 				updateView()
 			}
-		} else if settings.isVisible {
+		} else if currentSettings.isVisible {
 			// ウィンドウがない場合は新規作成
 			show()
 		}
 
 		// 移動モードの更新
-		indicatorWindow?.isMovableByWindowBackground = settings.moveMode
+		indicatorWindow?.isMovableByWindowBackground = currentSettings.moveMode
 
 		dbgLog(1, "✅ [IMEIndicator] 設定の適用完了")
-	}
-}
-
-// MARK: - Array Extension
-
-private extension Array {
-	subscript(safe index: Index) -> Element? {
-		return indices.contains(index) ? self[index] : nil
 	}
 }
