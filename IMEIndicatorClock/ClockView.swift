@@ -85,8 +85,10 @@ struct ClockView: View {
 	/// - デジタル: テキストのみをVStack/HStackで配置
 	///
 	/// 【配置パターン】
-	/// - vertical: 日付（上）+ 時刻（下）を縦に配置
-	/// - horizontal: 日付 + 時刻を横に配置
+	/// - dateTimeVertical: 日付（上）+ 時刻（下）を縦に配置
+	/// - dateTimeHorizontal: 日付 + 時刻を横に配置
+	/// - timeDateVertical: 時刻（上）+ 日付（下）を縦に配置
+	/// - timeDateHorizontal: 時刻 + 日付を横に配置
 	/// - dateOnly: 日付のみ
 	/// - timeOnly: 時刻のみ（アナログの場合は時計盤）
 	///
@@ -106,7 +108,8 @@ struct ClockView: View {
 						// - ZStack: テキストをアナログ時計上に重ねる
 						// - fixedSize(): テキストの折り返しを防止
 						// - frame(): GeometryReaderのサイズに合わせて中央配置
-						if settings.dateTimePosition == .vertical {
+						switch settings.dateTimePosition {
+						case .dateTimeVertical:
 							// 縦配置: 日付（上）+ 時刻（下）
 							ZStack {
 								VStack {
@@ -117,7 +120,7 @@ struct ClockView: View {
 								.fixedSize()
 							}
 							.frame(width: geometry.size.width, height: geometry.size.height)
-						} else if settings.dateTimePosition == .horizontal {
+						case .dateTimeHorizontal:
 							// 横配置: 日付 + 時刻
 							ZStack(alignment: .center) {
 								HStack {
@@ -127,15 +130,36 @@ struct ClockView: View {
 								.fixedSize()
 							}
 							.frame(width: geometry.size.width, height: geometry.size.height)
-						} else if settings.dateTimePosition == .dateOnly {
+						case .timeDateVertical:
+							// 縦配置: 時刻（上）+ 日付（下）
+							ZStack {
+								VStack {
+									timeText(currentDate: currentDate)
+									Spacer()
+									dateText(currentDate: currentDate)
+								}
+								.fixedSize()
+							}
+							.frame(width: geometry.size.width, height: geometry.size.height)
+						case .timeDateHorizontal:
+							// 横配置: 時刻 + 日付
+							ZStack(alignment: .center) {
+								HStack {
+									timeText(currentDate: currentDate)
+									dateText(currentDate: currentDate)
+								}
+								.fixedSize()
+							}
+							.frame(width: geometry.size.width, height: geometry.size.height)
+						case .dateOnly:
 							// 日付のみ
 							ZStack(alignment: .center) {
 								dateText(currentDate: currentDate)
 									.fixedSize()
 							}
 							.frame(width: geometry.size.width, height: geometry.size.height)
-						} else {
-							// 時刻のみ（timeOnly）
+						case .timeOnly:
+							// 時刻のみ
 							ZStack(alignment: .center) {
 								timeText(currentDate: currentDate)
 									.fixedSize()
@@ -148,20 +172,31 @@ struct ClockView: View {
 			// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 			// デジタル時計: テキストのみをシンプルに配置
 			// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-			if settings.dateTimePosition == .vertical {
-				// 縦配置
+			switch settings.dateTimePosition {
+			case .dateTimeVertical:
+				// 縦配置: 日付＋時刻
 				dateText(currentDate: currentDate)
 				timeText(currentDate: currentDate)
-			} else if settings.dateTimePosition == .horizontal {
-				// 横配置
+			case .dateTimeHorizontal:
+				// 横配置: 日付＋時刻
 				HStack(spacing: 12) {
 					dateText(currentDate: currentDate)
 					timeText(currentDate: currentDate)
 				}
-			} else if settings.dateTimePosition == .dateOnly {
+			case .timeDateVertical:
+				// 縦配置: 時刻＋日付
+				timeText(currentDate: currentDate)
+				dateText(currentDate: currentDate)
+			case .timeDateHorizontal:
+				// 横配置: 時刻＋日付
+				HStack(spacing: 12) {
+					timeText(currentDate: currentDate)
+					dateText(currentDate: currentDate)
+				}
+			case .dateOnly:
 				// 日付のみ
 				dateText(currentDate: currentDate)
-			} else {
+			case .timeOnly:
 				// 時刻のみ
 				timeText(currentDate: currentDate)
 			}
@@ -327,11 +362,11 @@ struct ClockView: View {
 
 //// アナログ時計 - 縦配置
 
-#Preview("アナログ-縦") {
+#Preview("アナログ-日時縦") {
 	ClockView(settingsManager: {
 		let manager = AppSettingsManager.forPreview()
 		manager.settings.clock.style = .analog
-		manager.settings.clock.dateTimePosition = .vertical
+		manager.settings.clock.dateTimePosition = .dateTimeVertical
 		manager.settings.clock.analogClockSize = 200
 		manager.settings.clock.fontSize = 82
 		manager.settings.clock.timeFormatStyle = .complete
@@ -339,23 +374,45 @@ struct ClockView: View {
 		return manager
 	}())
 	.frame(width: 400, height: 300)
-	//	.previewDisplayName("アナログ-縦配置")
 }
 
-#Preview("アナログ-横") {
-	// アナログ時計 - 横配置
+#Preview("アナログ-日時横") {
 	ClockView(settingsManager: {
 		let manager = AppSettingsManager.forPreview()
 		manager.settings.clock.style = .analog
-		manager.settings.clock.dateTimePosition = .horizontal
+		manager.settings.clock.dateTimePosition = .dateTimeHorizontal
 		manager.settings.clock.analogClockSize = 200
 		manager.isJapaneseInput = false
 		return manager
 	}())
 	.frame(width: 400, height: 300)
 }
-#Preview("アナログ-日") {
-	// アナログ時計 - 日付のみ
+
+#Preview("アナログ-時日縦") {
+	ClockView(settingsManager: {
+		let manager = AppSettingsManager.forPreview()
+		manager.settings.clock.style = .analog
+		manager.settings.clock.dateTimePosition = .timeDateVertical
+		manager.settings.clock.analogClockSize = 200
+		manager.isJapaneseInput = false
+		return manager
+	}())
+	.frame(width: 400, height: 300)
+}
+
+#Preview("アナログ-時日横") {
+	ClockView(settingsManager: {
+		let manager = AppSettingsManager.forPreview()
+		manager.settings.clock.style = .analog
+		manager.settings.clock.dateTimePosition = .timeDateHorizontal
+		manager.settings.clock.analogClockSize = 200
+		manager.isJapaneseInput = false
+		return manager
+	}())
+	.frame(width: 400, height: 300)
+}
+
+#Preview("アナログ-日のみ") {
 	ClockView(settingsManager: {
 		let manager = AppSettingsManager.forPreview()
 		manager.settings.clock.style = .analog
@@ -367,8 +424,7 @@ struct ClockView: View {
 	.frame(width: 400, height: 300)
 }
 
-#Preview("アナログ-時") {
-	// アナログ時計 - 時刻のみ
+#Preview("アナログ-時のみ") {
 	ClockView(settingsManager: {
 		let manager = AppSettingsManager.forPreview()
 		manager.settings.clock.style = .analog
@@ -380,12 +436,11 @@ struct ClockView: View {
 	.frame(width: 400, height: 300)
 }
 
-#Preview("デジタル-縦") {
-	// デジタル時計 - 縦配置
+#Preview("デジタル-日時縦") {
 	ClockView(settingsManager: {
 		let manager = AppSettingsManager.forPreview()
 		manager.settings.clock.style = .digital
-		manager.settings.clock.dateTimePosition = .vertical
+		manager.settings.clock.dateTimePosition = .dateTimeVertical
 		manager.settings.clock.fontSize = 56
 		manager.isJapaneseInput = true
 		return manager
@@ -393,12 +448,35 @@ struct ClockView: View {
 	.frame(width: 500, height: 150)
 }
 
-#Preview("デジタル-横") {
-	// デジタル時計 - 横配置
+#Preview("デジタル-日時横") {
 	ClockView(settingsManager: {
 		let manager = AppSettingsManager.forPreview()
 		manager.settings.clock.style = .digital
-		manager.settings.clock.dateTimePosition = .horizontal
+		manager.settings.clock.dateTimePosition = .dateTimeHorizontal
+		manager.settings.clock.fontSize = 26
+		manager.isJapaneseInput = false
+		return manager
+	}())
+	.frame(width: 400, height: 100)
+}
+
+#Preview("デジタル-時日縦") {
+	ClockView(settingsManager: {
+		let manager = AppSettingsManager.forPreview()
+		manager.settings.clock.style = .digital
+		manager.settings.clock.dateTimePosition = .timeDateVertical
+		manager.settings.clock.fontSize = 56
+		manager.isJapaneseInput = true
+		return manager
+	}())
+	.frame(width: 500, height: 150)
+}
+
+#Preview("デジタル-時日横") {
+	ClockView(settingsManager: {
+		let manager = AppSettingsManager.forPreview()
+		manager.settings.clock.style = .digital
+		manager.settings.clock.dateTimePosition = .timeDateHorizontal
 		manager.settings.clock.fontSize = 26
 		manager.isJapaneseInput = false
 		return manager

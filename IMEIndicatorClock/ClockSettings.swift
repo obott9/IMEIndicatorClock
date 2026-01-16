@@ -75,7 +75,7 @@ struct ClockSettings: Codable {
 	var showSeconds: Bool = true
 	
 	/// 日付と時刻の表示位置
-	var dateTimePosition: DateTimePosition = .vertical
+	var dateTimePosition: DateTimePosition = .dateTimeVertical
 	
 	// MARK: - インタラクション設定
 	
@@ -167,16 +167,42 @@ enum ClockStyle: String, Codable, CaseIterable {
 
 /// 日付と時刻の配置方向
 enum DateTimePosition: String, Codable, CaseIterable {
-	case vertical = "vertical"
-	case horizontal = "horizontal"
-	case dateOnly = "date_only"
-	case timeOnly = "time_only"
+	case dateTimeVertical = "date_time_vertical"     // 日付＋時刻（縦）
+	case dateTimeHorizontal = "date_time_horizontal" // 日付＋時刻（横）
+	case timeDateVertical = "time_date_vertical"     // 時刻＋日付（縦）
+	case timeDateHorizontal = "time_date_horizontal" // 時刻＋日付（横）
+	case dateOnly = "date_only"                      // 日付のみ
+	case timeOnly = "time_only"                      // 時刻のみ
+
+	// 旧値からのマイグレーション用
+	init(from decoder: Decoder) throws {
+		let container = try decoder.singleValueContainer()
+		let rawValue = try container.decode(String.self)
+		switch rawValue {
+		case "vertical", "date_time_vertical":
+			self = .dateTimeVertical
+		case "horizontal", "date_time_horizontal":
+			self = .dateTimeHorizontal
+		case "time_date_vertical":
+			self = .timeDateVertical
+		case "time_date_horizontal":
+			self = .timeDateHorizontal
+		case "date_only":
+			self = .dateOnly
+		case "time_only":
+			self = .timeOnly
+		default:
+			self = .dateTimeVertical
+		}
+	}
 
 	/// ローカライズ用キー（Clock.stringsで使用）
 	var localizationKey: String {
 		switch self {
-		case .vertical: return "position_vertical"
-		case .horizontal: return "position_horizontal"
+		case .dateTimeVertical: return "position_date_time_vertical"
+		case .dateTimeHorizontal: return "position_date_time_horizontal"
+		case .timeDateVertical: return "position_time_date_vertical"
+		case .timeDateHorizontal: return "position_time_date_horizontal"
 		case .dateOnly: return "position_date_only"
 		case .timeOnly: return "position_time_only"
 		}

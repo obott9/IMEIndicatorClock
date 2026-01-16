@@ -4934,149 +4934,6 @@
         }
       }
     },
-    "position_horizontal": {
-      "extractionState": "manual",
-      "localizations": {
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "التاريخ+الوقت (أفقي)"
-          }
-        },
-        "el": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ημερομηνία+Ώρα (οριζόντια)"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Date+Time (Horizontal)"
-          }
-        },
-        "he": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "תאריך+שעה (אופקי)"
-          }
-        },
-        "hi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "दिनांक+समय (क्षैतिज)"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "日付+時刻（横）"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "날짜+시간 (가로)"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Дата+Время (горизонтально)"
-          }
-        },
-        "th": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "วันที่+เวลา (แนวนอน)"
-          }
-        },
-        "vi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ngày+Giờ (Ngang)"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "日期+时间（横向）"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "日期+時間（橫向）"
-          }
-        },
-        "bn": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "অনুভূমিক:"
-          }
-        },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "افقی:"
-          }
-        },
-        "km": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ផ្ដេក:"
-          }
-        },
-        "lo": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ແນວນອນ:"
-          }
-        },
-        "mn": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Хэвтээ:"
-          }
-        },
-        "my": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "အလျားလိုက်:"
-          }
-        },
-        "ne": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "तेर्सो:"
-          }
-        },
-        "si": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "තිරස්:"
-          }
-        },
-        "ta": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "கிடைமட்டம்:"
-          }
-        },
-        "te": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "అడ్డంగా:"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Горизонтально:"
-          }
-        }
-      }
-    },
     "position_time_only": {
       "extractionState": "manual",
       "localizations": {
@@ -5216,150 +5073,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Лише час"
-          }
-        }
-      }
-    },
-    "position_vertical": {
-      "comment": "Content",
-      "extractionState": "manual",
-      "localizations": {
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "التاريخ+الوقت (عمودي)"
-          }
-        },
-        "el": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ημερομηνία+Ώρα (κάθετα)"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Date+Time (Vertical)"
-          }
-        },
-        "he": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "תאריך+שעה (אנכי)"
-          }
-        },
-        "hi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "दिनांक+समय (लंबवत)"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "日付+時刻（縦）"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "날짜+시간 (세로)"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Дата+Время (вертикально)"
-          }
-        },
-        "th": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "วันที่+เวลา (แนวตั้ง)"
-          }
-        },
-        "vi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ngày+Giờ (Dọc)"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "日期+时间（纵向）"
-          }
-        },
-        "zh-Hant": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "日期+時間（直向）"
-          }
-        },
-        "bn": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "উল্লম্ব:"
-          }
-        },
-        "fa": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "عمودی:"
-          }
-        },
-        "km": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "បញ្ឈរ:"
-          }
-        },
-        "lo": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ແນວຕັ້ງ:"
-          }
-        },
-        "mn": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Босоо:"
-          }
-        },
-        "my": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ဒေါင်လိုက်:"
-          }
-        },
-        "ne": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ठाडो:"
-          }
-        },
-        "si": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "සිරස්:"
-          }
-        },
-        "ta": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "செங்குத்து:"
-          }
-        },
-        "te": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "నిలువుగా:"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Вертикально:"
           }
         }
       }
@@ -8790,6 +8503,578 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ширина:"
+          }
+        }
+      }
+    },
+    "position_date_time_vertical": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "التاريخ+الوقت (عمودي)"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ημερομηνία+Ώρα (κάθετα)"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Date+Time (Vertical)"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "תאריך+שעה (אנכי)"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "दिनांक+समय (लंबवत)"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "日付+時刻（縦）"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "날짜+시간 (세로)"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Дата+Время (вертикально)"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "วันที่+เวลา (แนวตั้ง)"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ngày+Giờ (Dọc)"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "日期+时间（纵向）"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "日期+時間（直向）"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "উল্লম্ব:"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "عمودی:"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "បញ្ឈរ:"
+          }
+        },
+        "lo": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ແນວຕັ້ງ:"
+          }
+        },
+        "mn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Босоо:"
+          }
+        },
+        "my": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ဒေါင်လိုက်:"
+          }
+        },
+        "ne": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ठाडो:"
+          }
+        },
+        "si": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "සිරස්:"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "செங்குத்து:"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "నిలువుగా:"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вертикально:"
+          }
+        }
+      }
+    },
+    "position_date_time_horizontal": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "التاريخ+الوقت (أفقي)"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ημερομηνία+Ώρα (οριζόντια)"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Date+Time (Horizontal)"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "תאריך+שעה (אופקי)"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "दिनांक+समय (क्षैतिज)"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "日付+時刻（横）"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "날짜+시간 (가로)"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Дата+Время (горизонтально)"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "วันที่+เวลา (แนวนอน)"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ngày+Giờ (Ngang)"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "日期+时间（横向）"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "日期+時間（橫向）"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "অনুভূমিক:"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "افقی:"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ផ្ដេក:"
+          }
+        },
+        "lo": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ແນວນອນ:"
+          }
+        },
+        "mn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Хэвтээ:"
+          }
+        },
+        "my": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "အလျားလိုက်:"
+          }
+        },
+        "ne": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "तेर्सो:"
+          }
+        },
+        "si": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "තිරස්:"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "கிடைமட்டம்:"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "అడ్డంగా:"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Горизонтально:"
+          }
+        }
+      }
+    },
+    "position_time_date_vertical": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Time+Date (Vertical)"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "時刻＋日付（縦）"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "时间+日期（纵向）"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "時間+日期（縱向）"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "시간+날짜 (세로)"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الوقت+التاريخ (عمودي)"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "שעה+תאריך (אנכי)"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "समय+दिनांक (लंबवत)"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Время+Дата (вертикально)"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ώρα+Ημερομηνία (κάθετα)"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เวลา+วันที่ (แนวตั้ง)"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giờ+Ngày (Dọc)"
+          }
+        },
+        "mn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Цаг+Огноо (босоо)"
+          }
+        },
+        "my": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "အချိန်+ရက်စွဲ (ဒေါင်လိုက်)"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ម៉ោង+កាលបរិច្ឆេទ (បញ្ឈរ)"
+          }
+        },
+        "lo": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ເວລາ+ວັນທີ (ແນວຕັ້ງ)"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "সময়+তারিখ (উল্লম্ব)"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "நேரம்+தேதி (செங்குத்து)"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "సమయం+తేదీ (నిలువు)"
+          }
+        },
+        "ne": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "समय+मिति (ठाडो)"
+          }
+        },
+        "si": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "වේලාව+දිනය (සිරස්)"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "زمان+تاریخ (عمودی)"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Час+Дата (вертикально)"
+          }
+        }
+      }
+    },
+    "position_time_date_horizontal": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Time+Date (Horizontal)"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "時刻＋日付（横）"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "时间+日期（横向）"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "時間+日期（橫向）"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "시간+날짜 (가로)"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الوقت+التاريخ (أفقي)"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "שעה+תאריך (אופקי)"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "समय+दिनांक (क्षैतिज)"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Время+Дата (горизонтально)"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ώρα+Ημερομηνία (οριζόντια)"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เวลา+วันที่ (แนวนอน)"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giờ+Ngày (Ngang)"
+          }
+        },
+        "mn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Цаг+Огноо (хэвтээ)"
+          }
+        },
+        "my": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "အချိန်+ရက်စွဲ (အလျားလိုက်)"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ម៉ោង+កាលបរិច្ឆេទ (ផ្តេក)"
+          }
+        },
+        "lo": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ເວລາ+ວັນທີ (ແນວນອນ)"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "সময়+তারিখ (অনুভূমিক)"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "நேரம்+தேதி (கிடைமட்டம்)"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "సమయం+తేదీ (క్షితిజ సమాంతర)"
+          }
+        },
+        "ne": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "समय+मिति (तेर्सो)"
+          }
+        },
+        "si": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "වේලාව+දිනය (තිරස්)"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "زمان+تاریخ (افقی)"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Час+Дата (горизонтально)"
           }
         }
       }

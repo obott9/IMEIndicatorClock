@@ -2,7 +2,7 @@
 
 [日本語](README_ja.md) | [繁體中文](README_zh-Hant.md) | [简体中文](README_zh-Hans.md) | [한국어](README_ko.md)
 
-A macOS utility app that visually displays IME (Input Method Editor) status with a customizable desktop clock.
+A macOS utility app that visually displays IME (Input Method Editor) status, shows it near the mouse cursor, and provides a customizable desktop clock.
 
 ## Screenshots
 
@@ -25,7 +25,7 @@ A macOS utility app that visually displays IME (Input Method Editor) status with
 
 **Our goal is to support IMEs from around the world.**
 
-We aim to help users who switch between multiple languages see their current input method at a glance.
+We aim to help IME users see their current input mode at a glance.
 
 ## Features
 
@@ -76,9 +76,14 @@ We aim to help users who switch between multiple languages see their current inp
 
 ## Installation
 
-1. Clone this repository
-2. Open the project in Xcode
-3. Build and run
+### Download Release (Recommended)
+
+1. Download the latest release from [Releases](https://github.com/obott9/IMEIndicatorClock/releases)
+2. Unzip the downloaded file
+3. Move `IMEIndicatorClock.app` to your Applications folder
+4. Launch the app
+
+### Build from Source
 
 ```bash
 git clone https://github.com/obott9/IMEIndicatorClock.git
@@ -90,7 +95,7 @@ open IMEIndicatorClock.xcodeproj
 
 1. Launch the app - an icon appears in the menu bar
 2. Access settings from the menu bar icon
-3. Drag the clock or indicator to your preferred position
+3. Drag the clock or indicator to your preferred position while the settings window is open
 
 ## Required Permissions
 
@@ -114,8 +119,7 @@ If you find this app useful, consider buying me a coffee!
 ## Contributing
 
 We welcome contributions! Especially:
-- UI translations for additional languages
-- Support for more IME types
+- Translation error checking
 - Bug reports and feature requests
 
 ## License
