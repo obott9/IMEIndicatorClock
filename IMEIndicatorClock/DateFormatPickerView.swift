@@ -35,8 +35,8 @@ struct DateFormatPickerView: View {
 	/// よく使うカスタムフォーマット
 	private let customExamples = [
 		"yyyy/MM/dd",
-		"yyyy/MM/dd E",
-		"yyyy-MM-dd",
+		"yyyy.MM.dd EEEE",
+		"yyyy-MM-dd (E)",
 		"yyyy.MM.dd",
 		"M/d (E)",
 		"yyyy年M月d日",

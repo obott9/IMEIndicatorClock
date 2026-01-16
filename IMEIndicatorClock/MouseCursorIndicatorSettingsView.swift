@@ -185,9 +185,12 @@ struct MouseCursorIndicatorSettingsView: View {
                 }
                 .buttonStyle(.bordered)
             }
+
+            // 上詰めにするためのスペーサー
+            Spacer()
         }
         .padding(20)
-        .frame(width: 380, height: 580)
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
     }
 
     // MARK: - ヘルパー

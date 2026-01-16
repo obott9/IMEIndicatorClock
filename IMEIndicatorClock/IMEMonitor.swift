@@ -27,6 +27,17 @@ enum InputLanguage: String, Codable, CaseIterable {
 	case hindi = "hindi"                           // ヒンディー語
 	case russian = "russian"                       // ロシア語
 	case greek = "greek"                           // ギリシャ語
+	case mongolian = "mongolian"                   // モンゴル語
+	case myanmar = "myanmar"                       // ミャンマー語
+	case khmer = "khmer"                           // クメール語
+	case lao = "lao"                               // ラオス語
+	case bengali = "bengali"                       // ベンガル語
+	case tamil = "tamil"                           // タミル語
+	case telugu = "telugu"                         // テルグ語
+	case nepali = "nepali"                         // ネパール語
+	case sinhala = "sinhala"                       // シンハラ語
+	case persian = "persian"                       // ペルシア語
+	case ukrainian = "ukrainian"                   // ウクライナ語
 	case other = "other"                           // その他のIME
 
 	/// IMEがONかどうか（英語以外はすべてON）
@@ -49,6 +60,17 @@ enum InputLanguage: String, Codable, CaseIterable {
 		case .hindi: return "अ"
 		case .russian: return "Я"
 		case .greek: return "Ω"
+		case .mongolian: return "ᠮ"
+		case .myanmar: return "မ"
+		case .khmer: return "ក"
+		case .lao: return "ລ"
+		case .bengali: return "ব"
+		case .tamil: return "த"
+		case .telugu: return "త"
+		case .nepali: return "ने"
+		case .sinhala: return "සි"
+		case .persian: return "ف"
+		case .ukrainian: return "У"
 		case .other: return "?"
 		}
 	}
@@ -234,15 +256,89 @@ class IMEMonitor {
 			return .hebrew
 		}
 
-		// ヒンディー語・インド系言語（デーヴァナーガリー、テルグ語など）
+		// テルグ語（ヒンディー語より先に判定）
+		if sourceID.contains("Telugu") ||
+		   sourceID.contains("com.apple.keylayout.Telugu") ||
+		   sourceID.contains("TransliterationIM.te") {
+			return .telugu
+		}
+
+		// タミル語
+		if sourceID.contains("Tamil") ||
+		   sourceID.contains("com.apple.keylayout.Tamil") ||
+		   sourceID.contains("TransliterationIM.ta") {
+			return .tamil
+		}
+
+		// ベンガル語
+		if sourceID.contains("Bengali") ||
+		   sourceID.contains("Bangla") ||
+		   sourceID.contains("com.apple.keylayout.Bengali") ||
+		   sourceID.contains("TransliterationIM.bn") {
+			return .bengali
+		}
+
+		// ネパール語
+		if sourceID.contains("Nepali") ||
+		   sourceID.contains("com.apple.keylayout.Nepali") ||
+		   sourceID.contains("TransliterationIM.ne") {
+			return .nepali
+		}
+
+		// シンハラ語
+		if sourceID.contains("Sinhala") ||
+		   sourceID.contains("com.apple.keylayout.Sinhala") ||
+		   sourceID.contains("TransliterationIM.si") {
+			return .sinhala
+		}
+
+		// ヒンディー語（デーヴァナーガリー）
 		if sourceID.contains("Hindi") ||
 		   sourceID.contains("Devanagari") ||
-		   sourceID.contains("Telugu") ||
 		   sourceID.contains("com.apple.keylayout.Devanagari") ||
 		   sourceID.contains("com.apple.inputmethod.Hindi") ||
-		   sourceID.contains("TransliterationIM.hi") ||
-		   sourceID.contains("TransliterationIM.te") {
+		   sourceID.contains("TransliterationIM.hi") {
 			return .hindi
+		}
+
+		// ミャンマー語
+		if sourceID.contains("Myanmar") ||
+		   sourceID.contains("Burmese") ||
+		   sourceID.contains("com.apple.keylayout.Myanmar") {
+			return .myanmar
+		}
+
+		// クメール語（カンボジア語）
+		if sourceID.contains("Khmer") ||
+		   sourceID.contains("Cambodian") ||
+		   sourceID.contains("com.apple.keylayout.Khmer") {
+			return .khmer
+		}
+
+		// ラオス語
+		if sourceID.contains("Lao") ||
+		   sourceID.contains("com.apple.keylayout.Lao") {
+			return .lao
+		}
+
+		// モンゴル語
+		if sourceID.contains("Mongolian") ||
+		   sourceID.contains("com.apple.keylayout.Mongolian") {
+			return .mongolian
+		}
+
+		// ペルシア語（ファルシ語）
+		if sourceID.contains("Persian") ||
+		   sourceID.contains("Farsi") ||
+		   sourceID.contains("com.apple.keylayout.Persian") ||
+		   sourceID.contains("TransliterationIM.fa") {
+			return .persian
+		}
+
+		// ウクライナ語
+		if sourceID.contains("Ukrainian") ||
+		   sourceID.contains("com.apple.keylayout.Ukrainian") {
+			return .ukrainian
 		}
 
 		// ロシア語（キリル文字）

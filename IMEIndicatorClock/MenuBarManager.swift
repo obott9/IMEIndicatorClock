@@ -61,7 +61,7 @@ class MenuBarManager: NSObject, NSMenuDelegate {
 
 		menu.addItem(NSMenuItem.separator())
 
-		// --- IMEインジケータグループ ---
+		// --- 表示トグル ---
 		let toggleItem = NSMenuItem(
 			title: String(localized: "menu.show_ime_indicator"),
 			action: #selector(toggleIndicator),
@@ -71,17 +71,6 @@ class MenuBarManager: NSObject, NSMenuDelegate {
 		toggleItem.state = IMEIndicatorWindowManager.shared.isVisible ? .on : .off
 		menu.addItem(toggleItem)
 
-		let imeSettingsItem = NSMenuItem(
-			title: String(localized: "menu.ime_indicator_settings"),
-			action: #selector(openIMEIndicatorSettings),
-			keyEquivalent: ""
-		)
-		imeSettingsItem.target = self
-		menu.addItem(imeSettingsItem)
-
-		menu.addItem(NSMenuItem.separator())
-
-		// --- 時計グループ ---
 		let clockSettings = AppSettingsManager.shared.settings.clock
 		let toggleClockItem = NSMenuItem(
 			title: String(localized: "menu.show_clock"),
@@ -92,17 +81,6 @@ class MenuBarManager: NSObject, NSMenuDelegate {
 		toggleClockItem.state = clockSettings.isVisible ? .on : .off
 		menu.addItem(toggleClockItem)
 
-		let clockSettingsItem = NSMenuItem(
-			title: String(localized: "menu.clock_settings"),
-			action: #selector(openClockSettings),
-			keyEquivalent: ""
-		)
-		clockSettingsItem.target = self
-		menu.addItem(clockSettingsItem)
-
-		menu.addItem(NSMenuItem.separator())
-
-		// --- マウスカーソルインジケータグループ ---
 		let mouseCursorSettings = AppSettingsManager.shared.settings.mouseCursorIndicator
 		let toggleMouseCursorItem = NSMenuItem(
 			title: String(localized: "menu.show_mouse_cursor_indicator"),
@@ -113,13 +91,16 @@ class MenuBarManager: NSObject, NSMenuDelegate {
 		toggleMouseCursorItem.state = mouseCursorSettings.isVisible ? .on : .off
 		menu.addItem(toggleMouseCursorItem)
 
-		let mouseCursorSettingsItem = NSMenuItem(
-			title: String(localized: "menu.mouse_cursor_indicator_settings"),
-			action: #selector(openMouseCursorIndicatorSettings),
-			keyEquivalent: ""
+		menu.addItem(NSMenuItem.separator())
+
+		// --- 設定（統合ウィンドウ） ---
+		let settingsItem = NSMenuItem(
+			title: String(localized: "menu.settings"),
+			action: #selector(openSettings),
+			keyEquivalent: ","
 		)
-		mouseCursorSettingsItem.target = self
-		menu.addItem(mouseCursorSettingsItem)
+		settingsItem.target = self
+		menu.addItem(settingsItem)
 
 		menu.addItem(NSMenuItem.separator())
 
@@ -204,7 +185,7 @@ class MenuBarManager: NSObject, NSMenuDelegate {
 	/// アプリについてのウィンドウを開く
 	@objc func openAbout() {
 		dbgLog(1, "ℹ️ [MenuBar] Aboutウィンドウを開きます...")
-		AboutWindowManager.shared.openAbout()
+		UnifiedSettingsWindowManager.shared.openAbout()
 	}
 
 	/// インジケータの表示/非表示を切り替え
@@ -214,10 +195,10 @@ class MenuBarManager: NSObject, NSMenuDelegate {
 		updateIndicatorMenuState()
 	}
 
-	/// IMEインジケータ設定ウィンドウを開く
-	@objc func openIMEIndicatorSettings() {
-		dbgLog(1, "⚙️ [MenuBar] IMEインジケータ設定ウィンドウを開きます...")
-		IMEIndicatorSettingsWindowManager.shared.openSettings()
+	/// 設定ウィンドウを開く
+	@objc func openSettings() {
+		dbgLog(1, "⚙️ [MenuBar] 設定ウィンドウを開きます...")
+		UnifiedSettingsWindowManager.shared.openSettings()
 	}
 
 	/// 時計の表示/非表示を切り替え
@@ -231,12 +212,6 @@ class MenuBarManager: NSObject, NSMenuDelegate {
 
 		updateClockMenuState()
 		dbgLog(1, "🔍 [MenuBar] clock.isVisible = \(settingsManager.settings.clock.isVisible)")
-	}
-
-	/// 時計設定ウィンドウを開く
-	@objc func openClockSettings() {
-		dbgLog(1, "🕐 [MenuBar] 時計設定ウィンドウを開きます...")
-		ClockSettingsWindowManager.shared.openSettings()
 	}
 
 	/// マウスカーソルインジケータの表示/非表示を切り替え
@@ -255,12 +230,6 @@ class MenuBarManager: NSObject, NSMenuDelegate {
 
 		updateMouseCursorIndicatorMenuState()
 		dbgLog(1, "🔍 [MenuBar] mouseCursorIndicator.isVisible = \(settingsManager.settings.mouseCursorIndicator.isVisible)")
-	}
-
-	/// マウスカーソルインジケータ設定ウィンドウを開く
-	@objc func openMouseCursorIndicatorSettings() {
-		dbgLog(1, "🖱️ [MenuBar] マウスカーソルインジケータ設定ウィンドウを開きます...")
-		MouseCursorIndicatorSettingsWindowManager.shared.openSettings()
 	}
 
 	/// アクセシビリティ権限を再確認

@@ -26,18 +26,21 @@ import Combine
 
 /// 時計全体を表示するビュー
 struct ClockView: View {
-	
+
 	/// 設定マネージャー（監視して背景色を切り替える）
 	@ObservedObject var settingsManager: AppSettingsManager
-	
+
 	/// 設定のスナップショット（初期化時に取得）
 	private let settings: ClockSettings
-	
+
 	/// 現在時刻（1秒ごとに更新）
 	@State private var currentTime = Date()
 
 	/// Combineタイマー購読のキャンセル用
 	@State private var timerCancellable: AnyCancellable?
+
+	/// システムのロケール（タイムゾーン名などのローカライズに使用）
+	@Environment(\.locale) var locale
 	
 	init(settingsManager: AppSettingsManager) {
 		self.settingsManager = settingsManager
@@ -169,6 +172,14 @@ struct ClockView: View {
 	
 	/// 現在の背景色（IME状態に応じて切り替え）
 	private var currentBackgroundColor: Color {
+		// IMEインジケータの言語別色を使用する場合
+		if settingsManager.settings.clock.useIMEIndicatorColors {
+			let currentLanguage = IMEMonitor.shared.currentLanguage
+			let colorComponents = settingsManager.settings.imeIndicator.color(for: currentLanguage)
+			return colorComponents.color
+		}
+
+		// 独自の色設定を使用する場合
 		if settingsManager.isJapaneseInput {
 			return settings.backgroundColorOn.color
 		} else {
@@ -263,23 +274,23 @@ struct ClockView: View {
 	private func formatDate(_ date: Date) -> String {
 		switch settings.dateFormatStyle {
 		case .custom1:
-			return DateFormatStyle.formatCustom(date, format: settings.customDateFormat1)
+			return DateFormatStyle.formatCustom(date, format: settings.customDateFormat1, locale: locale)
 		case .custom2:
-			return DateFormatStyle.formatCustom(date, format: settings.customDateFormat2)
+			return DateFormatStyle.formatCustom(date, format: settings.customDateFormat2, locale: locale)
 		default:
-			return settings.dateFormatStyle.format(date)
+			return settings.dateFormatStyle.format(date, locale: locale)
 		}
 	}
-	
+
 	/// 時刻をフォーマット
 	private func formatTime(_ date: Date) -> String {
 		switch settings.timeFormatStyle {
 		case .custom1:
-			return TimeFormatStyle.formatCustom(date, format: settings.customTimeFormat1)
+			return TimeFormatStyle.formatCustom(date, format: settings.customTimeFormat1, locale: locale)
 		case .custom2:
-			return TimeFormatStyle.formatCustom(date, format: settings.customTimeFormat2)
+			return TimeFormatStyle.formatCustom(date, format: settings.customTimeFormat2, locale: locale)
 		default:
-			return settings.timeFormatStyle.format(date)
+			return settings.timeFormatStyle.format(date, locale: locale)
 		}
 	}
 	

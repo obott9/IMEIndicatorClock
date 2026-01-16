@@ -76,6 +76,39 @@ struct MouseCursorIndicatorSettings: Codable {
     /// 独自のギリシャ語の色
     var greekColor: ColorComponents = ColorComponents(red: 0.0, green: 0.4, blue: 0.8, alpha: 1.0)
 
+    /// 独自のモンゴル語の色
+    var mongolianColor: ColorComponents = ColorComponents(red: 0.3, green: 0.5, blue: 0.7, alpha: 1.0)
+
+    /// 独自のミャンマー語の色
+    var myanmarColor: ColorComponents = ColorComponents(red: 0.8, green: 0.6, blue: 0.0, alpha: 1.0)
+
+    /// 独自のクメール語の色
+    var khmerColor: ColorComponents = ColorComponents(red: 0.2, green: 0.6, blue: 0.4, alpha: 1.0)
+
+    /// 独自のラオス語の色
+    var laoColor: ColorComponents = ColorComponents(red: 0.4, green: 0.7, blue: 0.3, alpha: 1.0)
+
+    /// 独自のベンガル語の色
+    var bengaliColor: ColorComponents = ColorComponents(red: 0.0, green: 0.5, blue: 0.5, alpha: 1.0)
+
+    /// 独自のタミル語の色
+    var tamilColor: ColorComponents = ColorComponents(red: 0.8, green: 0.2, blue: 0.2, alpha: 1.0)
+
+    /// 独自のテルグ語の色
+    var teluguColor: ColorComponents = ColorComponents(red: 0.6, green: 0.3, blue: 0.0, alpha: 1.0)
+
+    /// 独自のネパール語の色
+    var nepaliColor: ColorComponents = ColorComponents(red: 0.8, green: 0.0, blue: 0.4, alpha: 1.0)
+
+    /// 独自のシンハラ語の色
+    var sinhalaColor: ColorComponents = ColorComponents(red: 0.5, green: 0.0, blue: 0.5, alpha: 1.0)
+
+    /// 独自のペルシア語の色
+    var persianColor: ColorComponents = ColorComponents(red: 0.0, green: 0.6, blue: 0.3, alpha: 1.0)
+
+    /// 独自のウクライナ語の色
+    var ukrainianColor: ColorComponents = ColorComponents(red: 0.0, green: 0.35, blue: 0.7, alpha: 1.0)
+
     /// 独自のその他のIMEの色
     var otherColor: ColorComponents = ColorComponents(red: 0.5, green: 0.5, blue: 0.5, alpha: 1.0)
 
@@ -99,6 +132,17 @@ struct MouseCursorIndicatorSettings: Codable {
             case .hindi: return hindiColor
             case .russian: return russianColor
             case .greek: return greekColor
+            case .mongolian: return mongolianColor
+            case .myanmar: return myanmarColor
+            case .khmer: return khmerColor
+            case .lao: return laoColor
+            case .bengali: return bengaliColor
+            case .tamil: return tamilColor
+            case .telugu: return teluguColor
+            case .nepali: return nepaliColor
+            case .sinhala: return sinhalaColor
+            case .persian: return persianColor
+            case .ukrainian: return ukrainianColor
             case .other: return otherColor
             }
         }

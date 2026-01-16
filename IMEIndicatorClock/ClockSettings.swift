@@ -58,7 +58,10 @@ struct ClockSettings: Codable {
 	
 	/// 背景の透過度（0.0〜1.0）
 	var backgroundOpacity: Double = 0.6
-	
+
+	/// IMEインジケータの言語別色を使用するかどうか
+	var useIMEIndicatorColors: Bool = false
+
 	/// 下位互換性のための計算プロパティ
 	@available(*, deprecated, message: "backgroundColorOff または backgroundColorOn を使用してください")
 	var backgroundColor: ColorComponents {
@@ -93,6 +96,7 @@ struct ClockSettings: Codable {
 		case backgroundColorOff
 		case backgroundColorOn
 		case backgroundOpacity
+		case useIMEIndicatorColors
 		case fontName
 		case showSeconds
 		case dateTimePosition

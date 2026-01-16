@@ -59,7 +59,7 @@ struct MouseCursorIndicatorView: View {
             // --- レイヤー3: テキスト ---
             Text(indicatorText)
                 .foregroundColor(.white)
-                .font(.system(size: indicatorSize * 0.5, weight: .bold))
+                .font(.system(size: indicatorSize * fontSizeRatio, weight: .bold))
                 .shadow(color: .black.opacity(0.3), radius: 1, x: 0, y: 0.5)
         }
         .frame(width: indicatorSize, height: indicatorSize, alignment: .topLeading)
@@ -96,6 +96,11 @@ struct MouseCursorIndicatorView: View {
     /// インジケータの不透明度
     private var indicatorOpacity: Double {
         return appSettings.settings.mouseCursorIndicator.opacity
+    }
+
+    /// フォントサイズ比率（IMEインジケータと同じ）
+    private var fontSizeRatio: CGFloat {
+        return appSettings.settings.imeIndicator.fontSizeRatio
     }
 }
 

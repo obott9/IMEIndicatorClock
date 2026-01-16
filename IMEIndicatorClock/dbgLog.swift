@@ -24,7 +24,13 @@ enum PathStyle {
 /// - 0: 何も表示しない
 /// - 1〜99: 指定レベル以上を表示（コンソールのみ）
 /// - -1〜-99: 指定レベル（絶対値）以上をファイルに出力 + コンソールにも出力
+///
+/// リリースビルドでは自動的に0（無効）になります
+#if DEBUG
 private let DEBUG_LEVEL: Int = 1
+#else
+private let DEBUG_LEVEL: Int = 0
+#endif
 
 /// パス表示スタイル設定
 private let PATH_STYLE: PathStyle = .parent2
@@ -52,7 +58,16 @@ private func getLogFilePath() -> URL {
 	// キャッシュがない場合は生成
 	let fileManager = FileManager.default
 	let appSupport = fileManager.urls(for: .applicationSupportDirectory, in: .userDomainMask).first!
-	let appDirectory = appSupport.appendingPathComponent("IMEIndicatorClock")
+
+	// Bundle IDに基づいてディレクトリ名を決定（デバッグとリリースで分離）
+	let bundleId = Bundle.main.bundleIdentifier ?? "IMEIndicatorClock"
+	let directoryName: String
+	if bundleId.hasSuffix(".debug") {
+		directoryName = "IMEIndicatorClock-Debug"
+	} else {
+		directoryName = "IMEIndicatorClock"
+	}
+	let appDirectory = appSupport.appendingPathComponent(directoryName)
 	let logFile = appDirectory.appendingPathComponent("debug.log")
 	// キャッシュに保存
 	cachedLogFileURL = logFile

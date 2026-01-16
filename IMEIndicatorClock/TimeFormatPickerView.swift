@@ -35,14 +35,14 @@ struct TimeFormatPickerView: View {
 	/// よく使うカスタムフォーマット
 	private let customExamples = [
 		"HH:mm",
-		"HH:mm:ss",
+		"HH:mm:ss z",
 		"H:mm",
 		"h:mm a",
 		"h:mm:ss a",
 		"HH:mm:ss.SSS",
 		"H時mm分",
 		"H時mm分ss秒",
-		"HH:mm z",
+		"HH:mm zzzz",
 		"HH:mm:ss zzz",
 	]
 

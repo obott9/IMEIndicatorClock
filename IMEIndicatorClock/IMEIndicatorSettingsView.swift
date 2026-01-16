@@ -34,6 +34,17 @@ struct IMEIndicatorSettingsView: View {
 	@State private var selectedHindiColor: Color
 	@State private var selectedRussianColor: Color
 	@State private var selectedGreekColor: Color
+	@State private var selectedMongolianColor: Color
+	@State private var selectedMyanmarColor: Color
+	@State private var selectedKhmerColor: Color
+	@State private var selectedLaoColor: Color
+	@State private var selectedBengaliColor: Color
+	@State private var selectedTamilColor: Color
+	@State private var selectedTeluguColor: Color
+	@State private var selectedNepaliColor: Color
+	@State private var selectedSinhalaColor: Color
+	@State private var selectedPersianColor: Color
+	@State private var selectedUkrainianColor: Color
 	@State private var selectedOtherColor: Color
 
 	// 無限ループ防止フラグ
@@ -53,6 +64,17 @@ struct IMEIndicatorSettingsView: View {
 		_selectedHindiColor = State(initialValue: imeSettings.hindiColor.color)
 		_selectedRussianColor = State(initialValue: imeSettings.russianColor.color)
 		_selectedGreekColor = State(initialValue: imeSettings.greekColor.color)
+		_selectedMongolianColor = State(initialValue: imeSettings.mongolianColor.color)
+		_selectedMyanmarColor = State(initialValue: imeSettings.myanmarColor.color)
+		_selectedKhmerColor = State(initialValue: imeSettings.khmerColor.color)
+		_selectedLaoColor = State(initialValue: imeSettings.laoColor.color)
+		_selectedBengaliColor = State(initialValue: imeSettings.bengaliColor.color)
+		_selectedTamilColor = State(initialValue: imeSettings.tamilColor.color)
+		_selectedTeluguColor = State(initialValue: imeSettings.teluguColor.color)
+		_selectedNepaliColor = State(initialValue: imeSettings.nepaliColor.color)
+		_selectedSinhalaColor = State(initialValue: imeSettings.sinhalaColor.color)
+		_selectedPersianColor = State(initialValue: imeSettings.persianColor.color)
+		_selectedUkrainianColor = State(initialValue: imeSettings.ukrainianColor.color)
 		_selectedOtherColor = State(initialValue: imeSettings.otherColor.color)
 		dbgLog(1, "🟢 [IMEIndicatorSettingsView] init が呼ばれました")
 	}
@@ -60,7 +82,7 @@ struct IMEIndicatorSettingsView: View {
 	var body: some View {
 		ScrollView {
 			VStack(spacing: 0) {
-				HStack(spacing: 40) {
+				HStack(alignment: .top, spacing: 40) {
 					// 左カラム
 					VStack(alignment: .leading, spacing: 20) {
 
@@ -212,6 +234,94 @@ struct IMEIndicatorSettingsView: View {
 								Image(systemName: "arrow.up.left.and.arrow.down.right")
 							}
 						}
+
+						// 位置設定
+						GroupBox {
+							VStack(alignment: .leading, spacing: 12) {
+
+								// X座標
+								HStack {
+									Text("position_x", tableName: "IMEIndicator")
+										.frame(width: 80, alignment: .leading)
+									TextField("", text: Binding(
+										get: { String(format: "%.0f", appSettings.settings.imeIndicator.positionX) },
+										set: { newValue in
+											guard !isUpdatingFromExternal else { return }
+											if let value = Double(newValue) {
+												appSettings.settings.imeIndicator.positionX = CGFloat(value)
+												saveSettings()
+											}
+										}
+									))
+									.textFieldStyle(.roundedBorder)
+									.frame(width: 100)
+									Text("unit_pixels", tableName: "IMEIndicator")
+										.foregroundColor(.secondary)
+								}
+
+								// Y座標
+								HStack {
+									Text("position_y", tableName: "IMEIndicator")
+										.frame(width: 80, alignment: .leading)
+									TextField("", text: Binding(
+										get: { String(format: "%.0f", appSettings.settings.imeIndicator.positionY) },
+										set: { newValue in
+											guard !isUpdatingFromExternal else { return }
+											if let value = Double(newValue) {
+												appSettings.settings.imeIndicator.positionY = CGFloat(value)
+												saveSettings()
+											}
+										}
+									))
+									.textFieldStyle(.roundedBorder)
+									.frame(width: 100)
+									Text("unit_pixels", tableName: "IMEIndicator")
+										.foregroundColor(.secondary)
+								}
+
+								// ディスプレイ選択
+								HStack {
+									Text("display", tableName: "IMEIndicator")
+										.frame(width: 80, alignment: .leading)
+									Picker("", selection: $appSettings.settings.imeIndicator.displayIndex) {
+										ForEach(0..<NSScreen.screens.count, id: \.self) { index in
+											Text("display_number \(index + 1)", tableName: "IMEIndicator").tag(index)
+										}
+									}
+									.labelsHidden()
+									.onChange(of: appSettings.settings.imeIndicator.displayIndex) { _, _ in
+										saveSettings()
+									}
+								}
+
+								// プリセット位置ボタン
+								HStack(spacing: 10) {
+									Button { setPositionBottomLeft() } label: {
+										Text("bottom_left", tableName: "IMEIndicator")
+									}
+									.buttonStyle(.bordered)
+									Button { setPositionBottomRight() } label: {
+										Text("bottom_right", tableName: "IMEIndicator")
+									}
+									.buttonStyle(.bordered)
+									Button { setPositionTopLeft() } label: {
+										Text("top_left", tableName: "IMEIndicator")
+									}
+									.buttonStyle(.bordered)
+									Button { setPositionTopRight() } label: {
+										Text("top_right", tableName: "IMEIndicator")
+									}
+									.buttonStyle(.bordered)
+								}
+							}
+							.padding(8)
+						} label: {
+							Label {
+								Text("position", tableName: "IMEIndicator")
+							} icon: {
+								Image(systemName: "move.3d")
+							}
+						}
 					}
 					.frame(maxWidth: .infinity)
 
@@ -337,6 +447,94 @@ struct IMEIndicatorSettingsView: View {
 											onColorChange: { appSettings.settings.imeIndicator.greekColor = ColorComponents(nsColor: NSColor($0)) }
 										)
 
+										// モンゴル語
+										languageRow(
+											label: "lang_mongolian",
+											text: $appSettings.settings.imeIndicator.mongolianText,
+											color: $selectedMongolianColor,
+											onColorChange: { appSettings.settings.imeIndicator.mongolianColor = ColorComponents(nsColor: NSColor($0)) }
+										)
+
+										// ミャンマー語
+										languageRow(
+											label: "lang_myanmar",
+											text: $appSettings.settings.imeIndicator.myanmarText,
+											color: $selectedMyanmarColor,
+											onColorChange: { appSettings.settings.imeIndicator.myanmarColor = ColorComponents(nsColor: NSColor($0)) }
+										)
+
+										// クメール語
+										languageRow(
+											label: "lang_khmer",
+											text: $appSettings.settings.imeIndicator.khmerText,
+											color: $selectedKhmerColor,
+											onColorChange: { appSettings.settings.imeIndicator.khmerColor = ColorComponents(nsColor: NSColor($0)) }
+										)
+
+										// ラオス語
+										languageRow(
+											label: "lang_lao",
+											text: $appSettings.settings.imeIndicator.laoText,
+											color: $selectedLaoColor,
+											onColorChange: { appSettings.settings.imeIndicator.laoColor = ColorComponents(nsColor: NSColor($0)) }
+										)
+
+										// ベンガル語
+										languageRow(
+											label: "lang_bengali",
+											text: $appSettings.settings.imeIndicator.bengaliText,
+											color: $selectedBengaliColor,
+											onColorChange: { appSettings.settings.imeIndicator.bengaliColor = ColorComponents(nsColor: NSColor($0)) }
+										)
+
+										// タミル語
+										languageRow(
+											label: "lang_tamil",
+											text: $appSettings.settings.imeIndicator.tamilText,
+											color: $selectedTamilColor,
+											onColorChange: { appSettings.settings.imeIndicator.tamilColor = ColorComponents(nsColor: NSColor($0)) }
+										)
+
+										// テルグ語
+										languageRow(
+											label: "lang_telugu",
+											text: $appSettings.settings.imeIndicator.teluguText,
+											color: $selectedTeluguColor,
+											onColorChange: { appSettings.settings.imeIndicator.teluguColor = ColorComponents(nsColor: NSColor($0)) }
+										)
+
+										// ネパール語
+										languageRow(
+											label: "lang_nepali",
+											text: $appSettings.settings.imeIndicator.nepaliText,
+											color: $selectedNepaliColor,
+											onColorChange: { appSettings.settings.imeIndicator.nepaliColor = ColorComponents(nsColor: NSColor($0)) }
+										)
+
+										// シンハラ語
+										languageRow(
+											label: "lang_sinhala",
+											text: $appSettings.settings.imeIndicator.sinhalaText,
+											color: $selectedSinhalaColor,
+											onColorChange: { appSettings.settings.imeIndicator.sinhalaColor = ColorComponents(nsColor: NSColor($0)) }
+										)
+
+										// ペルシア語
+										languageRow(
+											label: "lang_persian",
+											text: $appSettings.settings.imeIndicator.persianText,
+											color: $selectedPersianColor,
+											onColorChange: { appSettings.settings.imeIndicator.persianColor = ColorComponents(nsColor: NSColor($0)) }
+										)
+
+										// ウクライナ語
+										languageRow(
+											label: "lang_ukrainian",
+											text: $appSettings.settings.imeIndicator.ukrainianText,
+											color: $selectedUkrainianColor,
+											onColorChange: { appSettings.settings.imeIndicator.ukrainianColor = ColorComponents(nsColor: NSColor($0)) }
+										)
+
 										// その他のIME
 										languageRow(
 											label: "lang_other",
@@ -346,7 +544,8 @@ struct IMEIndicatorSettingsView: View {
 										)
 									}
 								}
-								.frame(height: 120)
+								// ウィンドウサイズに追従（最小高さを設定）
+								.frame(minHeight: 150, maxHeight: .infinity)
 
 								Divider()
 									.padding(.vertical, 4)
@@ -402,94 +601,6 @@ struct IMEIndicatorSettingsView: View {
 								Text("color", tableName: "IMEIndicator")
 							} icon: {
 								Image(systemName: "paintpalette")
-							}
-						}
-
-						// 位置設定
-						GroupBox {
-							VStack(alignment: .leading, spacing: 12) {
-
-								// X座標
-								HStack {
-									Text("position_x", tableName: "IMEIndicator")
-										.frame(width: 80, alignment: .leading)
-									TextField("", text: Binding(
-										get: { String(format: "%.0f", appSettings.settings.imeIndicator.positionX) },
-										set: { newValue in
-											guard !isUpdatingFromExternal else { return }
-											if let value = Double(newValue) {
-												appSettings.settings.imeIndicator.positionX = CGFloat(value)
-												saveSettings()
-											}
-										}
-									))
-									.textFieldStyle(.roundedBorder)
-									.frame(width: 100)
-									Text("unit_pixels", tableName: "IMEIndicator")
-										.foregroundColor(.secondary)
-								}
-
-								// Y座標
-								HStack {
-									Text("position_y", tableName: "IMEIndicator")
-										.frame(width: 80, alignment: .leading)
-									TextField("", text: Binding(
-										get: { String(format: "%.0f", appSettings.settings.imeIndicator.positionY) },
-										set: { newValue in
-											guard !isUpdatingFromExternal else { return }
-											if let value = Double(newValue) {
-												appSettings.settings.imeIndicator.positionY = CGFloat(value)
-												saveSettings()
-											}
-										}
-									))
-									.textFieldStyle(.roundedBorder)
-									.frame(width: 100)
-									Text("unit_pixels", tableName: "IMEIndicator")
-										.foregroundColor(.secondary)
-								}
-
-								// ディスプレイ選択
-								HStack {
-									Text("display", tableName: "IMEIndicator")
-										.frame(width: 80, alignment: .leading)
-									Picker("", selection: $appSettings.settings.imeIndicator.displayIndex) {
-										ForEach(0..<NSScreen.screens.count, id: \.self) { index in
-											Text("display_number \(index + 1)", tableName: "IMEIndicator").tag(index)
-										}
-									}
-									.labelsHidden()
-									.onChange(of: appSettings.settings.imeIndicator.displayIndex) { _, _ in
-										saveSettings()
-									}
-								}
-
-								// プリセット位置ボタン
-								HStack(spacing: 10) {
-									Button { setPositionBottomLeft() } label: {
-										Text("bottom_left", tableName: "IMEIndicator")
-									}
-									.buttonStyle(.bordered)
-									Button { setPositionBottomRight() } label: {
-										Text("bottom_right", tableName: "IMEIndicator")
-									}
-									.buttonStyle(.bordered)
-									Button { setPositionTopLeft() } label: {
-										Text("top_left", tableName: "IMEIndicator")
-									}
-									.buttonStyle(.bordered)
-									Button { setPositionTopRight() } label: {
-										Text("top_right", tableName: "IMEIndicator")
-									}
-									.buttonStyle(.bordered)
-								}
-							}
-							.padding(8)
-						} label: {
-							Label {
-								Text("position", tableName: "IMEIndicator")
-							} icon: {
-								Image(systemName: "move.3d")
 							}
 						}
 					}
@@ -606,6 +717,17 @@ struct IMEIndicatorSettingsView: View {
 		selectedHindiColor = appSettings.settings.imeIndicator.hindiColor.color
 		selectedRussianColor = appSettings.settings.imeIndicator.russianColor.color
 		selectedGreekColor = appSettings.settings.imeIndicator.greekColor.color
+		selectedMongolianColor = appSettings.settings.imeIndicator.mongolianColor.color
+		selectedMyanmarColor = appSettings.settings.imeIndicator.myanmarColor.color
+		selectedKhmerColor = appSettings.settings.imeIndicator.khmerColor.color
+		selectedLaoColor = appSettings.settings.imeIndicator.laoColor.color
+		selectedBengaliColor = appSettings.settings.imeIndicator.bengaliColor.color
+		selectedTamilColor = appSettings.settings.imeIndicator.tamilColor.color
+		selectedTeluguColor = appSettings.settings.imeIndicator.teluguColor.color
+		selectedNepaliColor = appSettings.settings.imeIndicator.nepaliColor.color
+		selectedSinhalaColor = appSettings.settings.imeIndicator.sinhalaColor.color
+		selectedPersianColor = appSettings.settings.imeIndicator.persianColor.color
+		selectedUkrainianColor = appSettings.settings.imeIndicator.ukrainianColor.color
 		selectedOtherColor = appSettings.settings.imeIndicator.otherColor.color
 		saveSettings()
 	}

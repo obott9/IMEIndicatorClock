@@ -81,6 +81,39 @@ struct IMEIndicatorSettings: Codable {
 	/// ギリシャ語の色
 	var greekColor: ColorComponents = ColorComponents(red: 0.0, green: 0.4, blue: 0.8, alpha: 1.0)
 
+	/// モンゴル語の色
+	var mongolianColor: ColorComponents = ColorComponents(red: 0.3, green: 0.5, blue: 0.7, alpha: 1.0)
+
+	/// ミャンマー語の色
+	var myanmarColor: ColorComponents = ColorComponents(red: 0.8, green: 0.6, blue: 0.0, alpha: 1.0)
+
+	/// クメール語の色
+	var khmerColor: ColorComponents = ColorComponents(red: 0.2, green: 0.6, blue: 0.4, alpha: 1.0)
+
+	/// ラオス語の色
+	var laoColor: ColorComponents = ColorComponents(red: 0.4, green: 0.7, blue: 0.3, alpha: 1.0)
+
+	/// ベンガル語の色
+	var bengaliColor: ColorComponents = ColorComponents(red: 0.0, green: 0.5, blue: 0.5, alpha: 1.0)
+
+	/// タミル語の色
+	var tamilColor: ColorComponents = ColorComponents(red: 0.8, green: 0.2, blue: 0.2, alpha: 1.0)
+
+	/// テルグ語の色
+	var teluguColor: ColorComponents = ColorComponents(red: 0.6, green: 0.3, blue: 0.0, alpha: 1.0)
+
+	/// ネパール語の色
+	var nepaliColor: ColorComponents = ColorComponents(red: 0.8, green: 0.0, blue: 0.4, alpha: 1.0)
+
+	/// シンハラ語の色
+	var sinhalaColor: ColorComponents = ColorComponents(red: 0.5, green: 0.0, blue: 0.5, alpha: 1.0)
+
+	/// ペルシア語の色
+	var persianColor: ColorComponents = ColorComponents(red: 0.0, green: 0.6, blue: 0.3, alpha: 1.0)
+
+	/// ウクライナ語の色
+	var ukrainianColor: ColorComponents = ColorComponents(red: 0.0, green: 0.35, blue: 0.7, alpha: 1.0)
+
 	/// その他のIMEの色
 	var otherColor: ColorComponents = ColorComponents(red: 0.5, green: 0.5, blue: 0.5, alpha: 1.0)
 
@@ -122,6 +155,39 @@ struct IMEIndicatorSettings: Codable {
 	/// ギリシャ語の表示テキスト
 	var greekText: String = "Ω"
 
+	/// モンゴル語の表示テキスト
+	var mongolianText: String = "ᠮ"
+
+	/// ミャンマー語の表示テキスト
+	var myanmarText: String = "မ"
+
+	/// クメール語の表示テキスト
+	var khmerText: String = "ក"
+
+	/// ラオス語の表示テキスト
+	var laoText: String = "ລ"
+
+	/// ベンガル語の表示テキスト
+	var bengaliText: String = "ব"
+
+	/// タミル語の表示テキスト
+	var tamilText: String = "த"
+
+	/// テルグ語の表示テキスト
+	var teluguText: String = "త"
+
+	/// ネパール語の表示テキスト
+	var nepaliText: String = "ने"
+
+	/// シンハラ語の表示テキスト
+	var sinhalaText: String = "සි"
+
+	/// ペルシア語の表示テキスト
+	var persianText: String = "ف"
+
+	/// ウクライナ語の表示テキスト
+	var ukrainianText: String = "У"
+
 	/// その他のIMEの表示テキスト
 	var otherText: String = "?"
 
@@ -157,6 +223,17 @@ struct IMEIndicatorSettings: Codable {
 		case hindiColor
 		case russianColor
 		case greekColor
+		case mongolianColor
+		case myanmarColor
+		case khmerColor
+		case laoColor
+		case bengaliColor
+		case tamilColor
+		case teluguColor
+		case nepaliColor
+		case sinhalaColor
+		case persianColor
+		case ukrainianColor
 		case otherColor
 		// テキスト設定
 		case englishText
@@ -171,6 +248,17 @@ struct IMEIndicatorSettings: Codable {
 		case hindiText
 		case russianText
 		case greekText
+		case mongolianText
+		case myanmarText
+		case khmerText
+		case laoText
+		case bengaliText
+		case tamilText
+		case teluguText
+		case nepaliText
+		case sinhalaText
+		case persianText
+		case ukrainianText
 		case otherText
 		case fontName
 		// moveMode は除外（保存しない）
@@ -193,6 +281,17 @@ struct IMEIndicatorSettings: Codable {
 		case .hindi: return hindiColor
 		case .russian: return russianColor
 		case .greek: return greekColor
+		case .mongolian: return mongolianColor
+		case .myanmar: return myanmarColor
+		case .khmer: return khmerColor
+		case .lao: return laoColor
+		case .bengali: return bengaliColor
+		case .tamil: return tamilColor
+		case .telugu: return teluguColor
+		case .nepali: return nepaliColor
+		case .sinhala: return sinhalaColor
+		case .persian: return persianColor
+		case .ukrainian: return ukrainianColor
 		case .other: return otherColor
 		}
 	}
@@ -212,6 +311,17 @@ struct IMEIndicatorSettings: Codable {
 		case .hindi: return hindiText
 		case .russian: return russianText
 		case .greek: return greekText
+		case .mongolian: return mongolianText
+		case .myanmar: return myanmarText
+		case .khmer: return khmerText
+		case .lao: return laoText
+		case .bengali: return bengaliText
+		case .tamil: return tamilText
+		case .telugu: return teluguText
+		case .nepali: return nepaliText
+		case .sinhala: return sinhalaText
+		case .persian: return persianText
+		case .ukrainian: return ukrainianText
 		case .other: return otherText
 		}
 	}

@@ -234,6 +234,14 @@ struct ClockSettingsView: View {
 									.labelsHidden()
 								}
 
+								// IMEインジケータの色を使用するスイッチ
+								Toggle(isOn: $settingsManager.settings.clock.useIMEIndicatorColors) {
+									Text("use_ime_indicator_colors", tableName: "Clock")
+								}
+								.onChange(of: settingsManager.settings.clock.useIMEIndicatorColors) { _, _ in
+									saveSettings()
+								}
+
 								// 背景色 (OFF/ON) を1行に
 								HStack(spacing: 16) {
 									Text("background", tableName: "Clock")
@@ -246,6 +254,7 @@ struct ClockSettingsView: View {
 										}
 									))
 									.labelsHidden()
+									.disabled(settingsManager.settings.clock.useIMEIndicatorColors)
 
 									Text("ime_on", tableName: "Clock")
 									ColorPicker("", selection: Binding(
@@ -256,7 +265,9 @@ struct ClockSettingsView: View {
 										}
 									))
 									.labelsHidden()
+									.disabled(settingsManager.settings.clock.useIMEIndicatorColors)
 								}
+								.opacity(settingsManager.settings.clock.useIMEIndicatorColors ? 0.5 : 1.0)
 
 								// 背景透過度
 								HStack {

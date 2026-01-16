@@ -10,6 +10,12 @@
             "value" : "أساسي"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "মৌলিক"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20,6 +26,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Basic"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "پایه"
           }
         },
         "he" : {
@@ -40,10 +52,40 @@
             "value" : "基本設定"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "មូលដ្ឋាន"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "기본"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ພື້ນຖານ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Үндсэн"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အခြေခံ"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "आधारभूत"
           }
         },
         "ru" : {
@@ -52,10 +94,34 @@
             "value" : "Основные"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "මූලික"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "அடிப்படை"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ప్రాథమిక"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "พื้นฐาน"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Основні"
           }
         },
         "vi" : {
@@ -87,6 +153,12 @@
             "value" : "أسفل اليسار"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "নিচে বামে"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -97,6 +169,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bottom Left"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "پایین چپ"
           }
         },
         "he" : {
@@ -117,10 +195,40 @@
             "value" : "左下"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ខាងក្រោមឆ្វេង"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "왼쪽 하단"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ລຸ່ມຊ້າຍ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зүүн доод"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အောက်ဘယ်"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "तल बायाँ"
           }
         },
         "ru" : {
@@ -129,10 +237,34 @@
             "value" : "Внизу слева"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "පහළ වම"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "கீழ் இடது"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "దిగువ ఎడమ"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ล่างซ้าย"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Внизу ліворуч"
           }
         },
         "vi" : {
@@ -163,6 +295,12 @@
             "value" : "أسفل اليمين"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "নিচে ডানে"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -173,6 +311,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bottom Right"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "پایین راست"
           }
         },
         "he" : {
@@ -193,10 +337,40 @@
             "value" : "右下"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ខាងក្រោមស្តាំ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "오른쪽 하단"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ລຸ່ມຂວາ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Баруун доод"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အောက်ညာ"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "तल दायाँ"
           }
         },
         "ru" : {
@@ -205,10 +379,34 @@
             "value" : "Внизу справа"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "පහළ දකුණ"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "கீழ் வலது"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "దిగువ కుడి"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ล่างขวา"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Внизу праворуч"
           }
         },
         "vi" : {
@@ -240,6 +438,12 @@
             "value" : "المظهر"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "চেহারা"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -250,6 +454,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Appearance"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ظاهر"
           }
         },
         "he" : {
@@ -270,10 +480,40 @@
             "value" : "外観"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "រូបរាង"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "외관"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຮູບລັກສະນະ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Харагдах байдал"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အသွင်အပြင်"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "देखावट"
           }
         },
         "ru" : {
@@ -282,10 +522,34 @@
             "value" : "Внешний вид"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "පෙනුම"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "தோற்றம்"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "రూపం"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ลักษณะ"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зовнішній вигляд"
           }
         },
         "vi" : {
@@ -316,6 +580,12 @@
             "value" : "اللون"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "রং"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -326,6 +596,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Color"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رنگ"
           }
         },
         "he" : {
@@ -346,10 +622,40 @@
             "value" : "色"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ពណ៌"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "색상"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ສີ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Өнгө"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အရောင်"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "रङ"
           }
         },
         "ru" : {
@@ -358,10 +664,34 @@
             "value" : "Цвет"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "වර්ණය"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "நிறம்"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "రంగు"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "สี"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Колір"
           }
         },
         "vi" : {
@@ -392,6 +722,12 @@
             "value" : "الشاشة:"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ডিসপ্লে:"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -402,6 +738,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Display:"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نمایشگر:"
           }
         },
         "he" : {
@@ -422,10 +764,40 @@
             "value" : "ディスプレイ:"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "អេក្រង់:"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "디스플레이:"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຈໍສະແດງຜົນ:"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дэлгэц:"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "မျက်နှာပြင်:"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "डिस्प्ले:"
           }
         },
         "ru" : {
@@ -434,10 +806,34 @@
             "value" : "Дисплей:"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "සංදර්ශකය:"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "திரை:"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "డిస్‌ప్లే:"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "จอแสดงผล:"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дисплей:"
           }
         },
         "vi" : {
@@ -468,6 +864,12 @@
             "value" : "الشاشة %lld"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ডিসপ্লে %lld"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -478,6 +880,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Display %lld"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نمایشگر %lld"
           }
         },
         "he" : {
@@ -498,10 +906,40 @@
             "value" : "ディスプレイ %lld"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "អេក្រង់ %lld"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "디스플레이 %lld"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຈໍສະແດງຜົນ %lld"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дэлгэц %lld"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "မျက်နှာပြင် %lld"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "डिस्प्ले %lld"
           }
         },
         "ru" : {
@@ -510,10 +948,34 @@
             "value" : "Дисплей %lld"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "සංදර්ශකය %lld"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "திரை %lld"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "డిస్‌ప్లే %lld"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "จอแสดงผล %lld"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дисплей %lld"
           }
         },
         "vi" : {
@@ -546,6 +1008,12 @@
             "value" : "نص العرض"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "প্রদর্শন টেক্সট"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -556,6 +1024,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Display Text"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "متن نمایش"
           }
         },
         "he" : {
@@ -576,10 +1050,40 @@
             "value" : "表示テキスト"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "អត្ថបទបង្ហាញ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "표시 텍스트"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຂໍ້ຄວາມສະແດງ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Харуулах текст"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပြသမည့်စာသား"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "प्रदर्शन पाठ"
           }
         },
         "ru" : {
@@ -588,10 +1092,34 @@
             "value" : "Отображаемый текст"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "සංදර්ශක පෙළ"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "காட்சி உரை"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ప్రదర్శన టెక్స్ట్"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ข้อความที่แสดง"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Текст для відображення"
           }
         },
         "vi" : {
@@ -622,6 +1150,12 @@
             "value" : "أثناء فتح نافذة الإعدادات هذه، يمكنك سحب المؤشر لنقله"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "এই সেটিংস উইন্ডো খোলা থাকাকালীন, আপনি সূচকটি টেনে সরাতে পারেন"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -632,6 +1166,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "While this settings window is open, you can drag the indicator to move it"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هنگامی که این پنجره تنظیمات باز است، می‌توانید نشانگر را بکشید تا جابجا شود"
           }
         },
         "he" : {
@@ -652,10 +1192,40 @@
             "value" : "この設定画面を開いている間、インジケータをドラッグで移動できます"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ខណៈពេលបង្អួចការកំណត់នេះបើក អ្នកអាចអូសទីតាំងសូចនាករដើម្បីផ្លាស់ទី"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "설정 창이 열려 있는 동안 표시기를 드래그하여 이동할 수 있습니다"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ໃນຂະນະທີ່ໜ້າຕ່າງການຕັ້ງຄ່ານີ້ເປີດຢູ່, ທ່ານສາມາດລາກຕົວຊີ້ບອກເພື່ອເຄື່ອນຍ້າຍ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Энэ тохиргооны цонх нээлттэй байх үед заагчийг чирж шилжүүлэх боломжтой"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဤဆက်တင်ဝင်းဒိုးဖွင့်ထားစဉ် ညွှန်းကိန်းကို ဆွဲယူရွှေ့နိုင်သည်"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "यो सेटिङ्स विन्डो खुला रहँदा, तपाईं सूचकलाई तानेर सार्न सक्नुहुन्छ"
           }
         },
         "ru" : {
@@ -664,10 +1234,34 @@
             "value" : "Когда это окно настроек открыто, индикатор можно перетаскивать"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "මෙම සැකසුම් කවුළුව විවෘතව ඇති විට, ඔබට දර්ශකය ඇදගෙන ගෙනයා හැක"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "இந்த அமைப்புகள் சாளரம் திறந்திருக்கும்போது, குறிகாட்டியை இழுத்து நகர்த்தலாம்"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ఈ సెట్టింగ్‌ల విండో తెరిచి ఉన్నప్పుడు, మీరు సూచికను లాగి తరలించవచ్చు"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ขณะที่หน้าต่างการตั้งค่านี้เปิดอยู่ คุณสามารถลากตัวบ่งชี้เพื่อเคลื่อนย้ายได้"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поки це вікно налаштувань відкрите, ви можете перетягнути індикатор, щоб перемістити його"
           }
         },
         "vi" : {
@@ -698,6 +1292,12 @@
             "value" : "الخط:"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ফন্ট:"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -708,6 +1308,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Font:"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فونت:"
           }
         },
         "he" : {
@@ -728,10 +1334,40 @@
             "value" : "フォント:"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ពុម្ពអក្សរ:"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "글꼴:"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຟອນ:"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фонт:"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဖောင့်:"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "फन्ट:"
           }
         },
         "ru" : {
@@ -740,10 +1376,34 @@
             "value" : "Шрифт:"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "අකුරු:"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "எழுத்துரு:"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ఫాంట్:"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "แบบอักษร:"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Шрифт:"
           }
         },
         "vi" : {
@@ -774,6 +1434,12 @@
             "value" : "حجم المؤشر:"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "সূচক আকার:"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -784,6 +1450,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Indicator Size:"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اندازه نشانگر:"
           }
         },
         "he" : {
@@ -804,10 +1476,40 @@
             "value" : "インジケータサイズ:"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ទំហំសូចនាករ:"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "표시기 크기:"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຂະໜາດຕົວຊີ້ບອກ:"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Заагчийн хэмжээ:"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ညွှန်းကိန်းအရွယ်အစား:"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "सूचक आकार:"
           }
         },
         "ru" : {
@@ -816,10 +1518,34 @@
             "value" : "Размер индикатора:"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "දර්ශක ප්‍රමාණය:"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "குறிகாட்டி அளவு:"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "సూచిక పరిమాణం:"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ขนาดตัวบ่งชี้:"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Розмір індикатора:"
           }
         },
         "vi" : {
@@ -851,6 +1577,12 @@
             "value" : "العربية"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "আরবি"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -861,6 +1593,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Arabic"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عربی"
           }
         },
         "he" : {
@@ -881,10 +1619,40 @@
             "value" : "アラビア語"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "អារ៉ាប់"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "아랍어"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ອາຣັບ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Араб"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အာရဗီ"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "अरबी"
           }
         },
         "ru" : {
@@ -893,10 +1661,34 @@
             "value" : "Арабский"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "අරාබි"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "அரபு"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "అరబిక్"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ภาษาอาหรับ"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Арабська"
           }
         },
         "vi" : {
@@ -928,6 +1720,12 @@
             "value" : "الصينية (مبسطة)"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "চীনা (সরলীকৃত)"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -938,6 +1736,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chinese (Simplified)"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "چینی (ساده‌شده)"
           }
         },
         "he" : {
@@ -958,10 +1762,40 @@
             "value" : "中国語（簡体字）"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ចិន (អក្សរកាត់)"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "중국어 (간체)"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຈີນ (ຕົວຫຍໍ້)"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Хятад (хялбаршуулсан)"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "တရုတ် (ရိုးရှင်း)"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "चिनियाँ (सरलीकृत)"
           }
         },
         "ru" : {
@@ -970,10 +1804,34 @@
             "value" : "Китайский (упрощённый)"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "චීන (සරල)"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "சீனம் (எளிமை)"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "చైనీస్ (సరళీకృత)"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ภาษาจีน (ตัวย่อ)"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Китайська (спрощена)"
           }
         },
         "vi" : {
@@ -1005,6 +1863,12 @@
             "value" : "الصينية (تقليدية)"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "চীনা (ঐতিহ্যগত)"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1015,6 +1879,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chinese (Traditional)"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "چینی (سنتی)"
           }
         },
         "he" : {
@@ -1035,10 +1905,40 @@
             "value" : "中国語（繁体字）"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ចិន (អក្សរពេញ)"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "중국어 (번체)"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຈີນ (ດັ້ງເດີມ)"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Хятад (уламжлалт)"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "တရုတ် (ရိုးရာ)"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "चिनियाँ (परम्परागत)"
           }
         },
         "ru" : {
@@ -1047,10 +1947,34 @@
             "value" : "Китайский (традиционный)"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "චීන (සාම්ප්‍රදායික)"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "சீனம் (பாரம்பரிய)"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "చైనీస్ (సంప్రదాయ)"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ภาษาจีน (ตัวเต็ม)"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Китайська (традиційна)"
           }
         },
         "vi" : {
@@ -1082,6 +2006,12 @@
             "value" : "الإنجليزية (IME مغلق)"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ইংরেজি (IME বন্ধ)"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1092,6 +2022,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "English (IME OFF)"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انگلیسی (IME خاموش)"
           }
         },
         "he" : {
@@ -1112,10 +2048,40 @@
             "value" : "英語 (IME OFF)"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "អង់គ្លេស (IME បិទ)"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "영어 (IME OFF)"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ອັງກິດ (IME ປິດ)"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Англи (IME унтраасан)"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အင်္ဂလိပ် (IME ပိတ်)"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "अङ्ग्रेजी (IME बन्द)"
           }
         },
         "ru" : {
@@ -1124,10 +2090,34 @@
             "value" : "Английский (IME выкл.)"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ඉංග්‍රීසි (IME අක්‍රිය)"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ஆங்கிலம் (IME அணைப்பு)"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ఆంగ్లం (IME ఆఫ్)"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ภาษาอังกฤษ (IME ปิด)"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Англійська (IME вимк.)"
           }
         },
         "vi" : {
@@ -1159,6 +2149,12 @@
             "value" : "اليونانية"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "গ্রীক"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1169,6 +2165,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Greek"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "یونانی"
           }
         },
         "he" : {
@@ -1189,10 +2191,40 @@
             "value" : "ギリシャ語"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ក្រិក"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "그리스어"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ກຣີກ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Грек"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဂရိ"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ग्रीक"
           }
         },
         "ru" : {
@@ -1201,10 +2233,34 @@
             "value" : "Греческий"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ග්‍රීක"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "கிரேக்கம்"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "గ్రీకు"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ภาษากรีก"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Грецька"
           }
         },
         "vi" : {
@@ -1236,6 +2292,12 @@
             "value" : "العبرية"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "হিব্রু"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1246,6 +2308,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hebrew"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عبری"
           }
         },
         "he" : {
@@ -1266,10 +2334,40 @@
             "value" : "ヘブライ語"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ហេប្រឺ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "히브리어"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຮີບຣູ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Еврей"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဟီဘရူး"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "हिब्रू"
           }
         },
         "ru" : {
@@ -1278,10 +2376,34 @@
             "value" : "Иврит"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "හීබෲ"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "எபிரேயம்"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "హీబ్రూ"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ภาษาฮิบรู"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Іврит"
           }
         },
         "vi" : {
@@ -1313,6 +2435,12 @@
             "value" : "الهندية"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "হিন্দি"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1323,6 +2451,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hindi"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هندی"
           }
         },
         "he" : {
@@ -1343,10 +2477,40 @@
             "value" : "ヒンディー語"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ហិណ្ឌី"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "힌디어"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຮິນດີ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Хинди"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဟိန္ဒီ"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "हिन्दी"
           }
         },
         "ru" : {
@@ -1355,10 +2519,34 @@
             "value" : "Хинди"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "හින්දි"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "இந்தி"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "హిందీ"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ภาษาฮินดี"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Гінді"
           }
         },
         "vi" : {
@@ -1390,6 +2578,12 @@
             "value" : "اليابانية"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "জাপানি"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1400,6 +2594,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Japanese"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ژاپنی"
           }
         },
         "he" : {
@@ -1420,10 +2620,40 @@
             "value" : "日本語"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ជប៉ុន"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "일본어"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຍີ່ປຸ່ນ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Япон"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဂျပန်"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "जापानी"
           }
         },
         "ru" : {
@@ -1432,10 +2662,34 @@
             "value" : "Японский"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ජපන්"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ஜப்பானியம்"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "జపనీస్"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ภาษาญี่ปุ่น"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Японська"
           }
         },
         "vi" : {
@@ -1467,6 +2721,12 @@
             "value" : "الكورية"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "কোরিয়ান"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1477,6 +2737,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Korean"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "کره‌ای"
           }
         },
         "he" : {
@@ -1497,10 +2763,40 @@
             "value" : "韓国語"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "កូរ៉េ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "한국어"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ເກົາຫຼີ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Солонгос"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ကိုရီးယား"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "कोरियाली"
           }
         },
         "ru" : {
@@ -1509,10 +2805,34 @@
             "value" : "Корейский"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "කොරියානු"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "கொரியன்"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "కొరియన్"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ภาษาเกาหลี"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Корейська"
           }
         },
         "vi" : {
@@ -1535,6 +2855,1579 @@
         }
       }
     },
+    "lang_bengali" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "البنغالية"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "বাংলা"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μπενγκάλι"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bengali"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بنگالی"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "בנגלית"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "बंगाली"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ベンガル語"
+          }
+        },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ភាសាបង់ក្លាដែស"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "벵골어"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ພາສາເບັງກາລີ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бенгал"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဘင်္ဂါလီ"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "बंगाली"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бенгальский"
+          }
+        },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "බෙංගාලි"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "வங்காளம்"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "బెంగాలీ"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาษาเบงกาลี"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бенгальська"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiếng Bengal"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "孟加拉语"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "孟加拉語"
+          }
+        }
+      }
+    },
+    "lang_khmer" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الخميرية"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "খেমার"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χμερικά"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khmer"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "خمری"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "קמרית"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "खमेर"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "クメール語"
+          }
+        },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ភាសាខ្មែរ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "크메르어"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ພາສາກໍາປູເຈຍ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Кхмер"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ခမာ"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "खमेर"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Кхмерский"
+          }
+        },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "කැම්බෝඩියානු"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "கெமர்"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ఖైమర్"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาษาเขมร"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Кхмерська"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiếng Khmer"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "高棉语"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "高棉語"
+          }
+        }
+      }
+    },
+    "lang_lao" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اللاوية"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "লাও"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Λαοτινά"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lao"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لائو"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "לאוטית"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "लाओ"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ラオス語"
+          }
+        },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ភាសាឡាវ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "라오어"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ພາສາລາວ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Лаос"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "လာအို"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "लाओ"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Лаосский"
+          }
+        },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ලාඕ"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "லாவோ"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "లావో"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาษาลาว"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Лаоська"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiếng Lào"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "老挝语"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "老撾語"
+          }
+        }
+      }
+    },
+    "lang_mongolian" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المنغولية"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "মঙ্গোলীয়"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μογγολικά"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mongolian"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مغولی"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "מונגולית"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "मंगोलियाई"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "モンゴル語"
+          }
+        },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ភាសាម៉ុងហ្គោលី"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "몽골어"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ພາສາມົງໂກເລຍ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Монгол"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "မွန်ဂိုလီယား"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "मंगोलियाली"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Монгольский"
+          }
+        },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "මොංගෝලියානු"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "மங்கோலிய"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "మంగోలియన్"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาษามองโกเลีย"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Монгольська"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiếng Mông Cổ"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "蒙古语"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "蒙古語"
+          }
+        }
+      }
+    },
+    "lang_myanmar" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الميانمارية"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "মায়ানমার"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μιανμαρικά"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Myanmar"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "میانماری"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "בורמזית"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "म्यांमार"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ミャンマー語"
+          }
+        },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ភាសាមីយ៉ាន់ម៉ា"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "미얀마어"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ພາສາມຽນມາ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мьянмар"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "မြန်မာ"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "म्यान्मार"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мьянманский"
+          }
+        },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "මියන්මාර්"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "மியான்மர்"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "మయన్మార్"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาษาพม่า"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "М'янманська"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiếng Myanmar"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "缅甸语"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "緬甸語"
+          }
+        }
+      }
+    },
+    "lang_nepali" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "النيبالية"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "নেপালি"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Νεπάλι"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nepali"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نپالی"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "נפאלית"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "नेपाली"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ネパール語"
+          }
+        },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ភាសានេប៉ាល់"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "네팔어"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ພາສາເນປານ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Непал"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "နီပေါလ်"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "नेपाली"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Непальский"
+          }
+        },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "නේපාල"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "நேபாளி"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "నేపాలీ"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาษาเนปาล"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Непальська"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiếng Nepal"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "尼泊尔语"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "尼泊爾語"
+          }
+        }
+      }
+    },
+    "lang_persian" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الفارسية"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ফার্সি"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Περσικά"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Persian"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فارسی"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "פרסית"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "फ़ारसी"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ペルシア語"
+          }
+        },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ភាសាពែរ្ស"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "페르시아어"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ພາສາເປີເຊຍ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перс"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပါရှန်"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "फारसी"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Персидский"
+          }
+        },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "පර්සියානු"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "பாரசீக"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "పర్షియన్"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาษาเปอร์เซีย"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перська"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiếng Ba Tư"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "波斯语"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "波斯語"
+          }
+        }
+      }
+    },
+    "lang_sinhala" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "السنهالية"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "সিংহলী"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σινχαλέζικα"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sinhala"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سینهالی"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "סינהלית"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "सिंहली"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "シンハラ語"
+          }
+        },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ភាសាស្រីលង្កា"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "싱할라어"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ພາສາສິນຫາລາ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Синхала"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "သီဟိုဠ်"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "सिंहाली"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сингальский"
+          }
+        },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "සිංහල"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "சிங்களம்"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "సింహళం"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาษาสิงหล"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сингальська"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiếng Sinhala"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "僧伽罗语"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "僧伽羅語"
+          }
+        }
+      }
+    },
+    "lang_tamil" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التاميلية"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "তামিল"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ταμίλ"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tamil"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تامیلی"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "טמילית"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "तमिल"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タミル語"
+          }
+        },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ភាសាតាមីល"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "타밀어"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ພາສາທະມິນ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тамил"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "တမီး"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "तामिल"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тамильский"
+          }
+        },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "දෙමළ"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "தமிழ்"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "తమిళం"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาษาทมิฬ"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тамільська"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiếng Tamil"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "泰米尔语"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "泰米爾語"
+          }
+        }
+      }
+    },
+    "lang_telugu" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التيلوغوية"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "তেলুগু"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τελούγκου"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Telugu"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تلوگو"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "טלוגו"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "तेलुगु"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "テルグ語"
+          }
+        },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ភាសាតេឡូហ្គូ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "텔루구어"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ພາສາເທລູກູ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Телугу"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "တယ်လူဂူ"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "तेलुगु"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Телугу"
+          }
+        },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "තෙළිඟු"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "தெலுங்கு"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "తెలుగు"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาษาเตลูกู"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Телугу"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiếng Telugu"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "泰卢固语"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "泰盧固語"
+          }
+        }
+      }
+    },
+    "lang_ukrainian" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الأوكرانية"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ইউক্রেনীয়"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ουκρανικά"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ukrainian"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اوکراینی"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "אוקראינית"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "यूक्रेनी"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ウクライナ語"
+          }
+        },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ភាសាអ៊ុយក្រែន"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "우크라이나어"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ພາສາຢູເຄຣນ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Украин"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ယူကရိန်း"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "युक्रेनी"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Украинский"
+          }
+        },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "යුක්රේනියානු"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "உக்ரேனியன்"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ఉక్రేనియన్"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาษายูเครน"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Українська"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiếng Ukraina"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "乌克兰语"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "烏克蘭語"
+          }
+        }
+      }
+    },
     "lang_other" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1542,6 +4435,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "IME أخرى"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "অন্যান্য IME"
           }
         },
         "el" : {
@@ -1554,6 +4453,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Other IME"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IME دیگر"
           }
         },
         "he" : {
@@ -1574,10 +4479,40 @@
             "value" : "その他のIME"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IME ផ្សេងទៀត"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "기타 입력기"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IME ອື່ນ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бусад IME"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အခြား IME"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "अन्य IME"
           }
         },
         "ru" : {
@@ -1586,10 +4521,34 @@
             "value" : "Другой IME"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "වෙනත් IME"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "பிற IME"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ఇతర IME"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "IME อื่นๆ"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Інший IME"
           }
         },
         "vi" : {
@@ -1621,6 +4580,12 @@
             "value" : "الروسية"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "রাশিয়ান"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1631,6 +4596,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Russian"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "روسی"
           }
         },
         "he" : {
@@ -1651,10 +4622,40 @@
             "value" : "ロシア語"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "រុស្ស៊ី"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "러시아어"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ລັດເຊຍ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Орос"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ရုရှ"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "रूसी"
           }
         },
         "ru" : {
@@ -1663,10 +4664,34 @@
             "value" : "Русский"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "රුසියානු"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ரஷ்யன்"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "రష్యన్"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ภาษารัสเซีย"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Російська"
           }
         },
         "vi" : {
@@ -1698,6 +4723,12 @@
             "value" : "التايلاندية"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "থাই"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1708,6 +4739,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thai"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تایلندی"
           }
         },
         "he" : {
@@ -1728,10 +4765,40 @@
             "value" : "タイ語"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ថៃ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "태국어"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ໄທ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тайланд"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ထိုင်း"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "थाई"
           }
         },
         "ru" : {
@@ -1740,10 +4807,34 @@
             "value" : "Тайский"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "තායි"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "தாய்"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "థాయ్"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ภาษาไทย"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тайська"
           }
         },
         "vi" : {
@@ -1775,6 +4866,12 @@
             "value" : "الفيتنامية"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ভিয়েতনামী"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1785,6 +4882,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vietnamese"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ویتنامی"
           }
         },
         "he" : {
@@ -1805,10 +4908,40 @@
             "value" : "ベトナム語"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "វៀតណាម"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "베트남어"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຫວຽດນາມ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вьетнам"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဗီယက်နမ်"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "भियतनामी"
           }
         },
         "ru" : {
@@ -1817,10 +4950,34 @@
             "value" : "Вьетнамский"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "වියට්නාම"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "வியட்நாம்"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "వియత్నామీస్"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ภาษาเวียดนาม"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "В'єтнамська"
           }
         },
         "vi" : {
@@ -1852,6 +5009,12 @@
             "value" : "إعدادات اللغة"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ভাষা সেটিংস"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1862,6 +5025,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Language Settings"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تنظیمات زبان"
           }
         },
         "he" : {
@@ -1882,10 +5051,40 @@
             "value" : "言語別設定"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ការកំណត់ភាសា"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "언어 설정"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ການຕັ້ງຄ່າພາສາ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Хэлний тохиргоо"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဘာသာစကားဆက်တင်များ"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "भाषा सेटिङ्स"
           }
         },
         "ru" : {
@@ -1894,10 +5093,34 @@
             "value" : "Настройки языков"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "භාෂා සැකසුම්"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "மொழி அமைப்புகள்"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "భాష సెట్టింగ్‌లు"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "การตั้งค่าภาษา"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Налаштування мови"
           }
         },
         "vi" : {
@@ -1928,6 +5151,12 @@
             "value" : "الشفافية:"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "অস্বচ্ছতা:"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1938,6 +5167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Opacity:"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "کدری:"
           }
         },
         "he" : {
@@ -1958,10 +5193,40 @@
             "value" : "不透明度:"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ភាពស្រអាប់:"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "불투명도:"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຄວາມທຶບ:"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тунгалаг бус байдал:"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အလင်းပိတ်မှု:"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "अपारदर्शिता:"
           }
         },
         "ru" : {
@@ -1970,10 +5235,34 @@
             "value" : "Непрозрачность:"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "අපැහැදිලි බව:"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ஒளிபுகாநிலை:"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "అపారదర్శకత:"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ความทึบ:"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Непрозорість:"
           }
         },
         "vi" : {
@@ -2005,6 +5294,12 @@
             "value" : "الموضع"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "অবস্থান"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2015,6 +5310,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Position"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "موقعیت"
           }
         },
         "he" : {
@@ -2035,10 +5336,40 @@
             "value" : "位置"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ទីតាំង"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "위치"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຕຳແໜ່ງ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Байрлал"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "တည်နေရာ"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "स्थिति"
           }
         },
         "ru" : {
@@ -2047,10 +5378,34 @@
             "value" : "Позиция"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ස්ථානය"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "நிலை"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "స్థానం"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ตำแหน่ง"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Позиція"
           }
         },
         "vi" : {
@@ -2081,6 +5436,12 @@
             "value" : "X:"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "X:"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2088,6 +5449,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "X:"
+          }
+        },
+        "fa" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "X:"
@@ -2111,7 +5478,37 @@
             "value" : "X座標:"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "X:"
+          }
+        },
         "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "X:"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "X:"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "X:"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "X:"
+          }
+        },
+        "ne" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "X:"
@@ -2123,7 +5520,31 @@
             "value" : "X:"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "X:"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "X:"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "X:"
+          }
+        },
         "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "X:"
+          }
+        },
+        "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "X:"
@@ -2157,6 +5578,12 @@
             "value" : "Y:"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Y:"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2164,6 +5591,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Y:"
+          }
+        },
+        "fa" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Y:"
@@ -2187,7 +5620,37 @@
             "value" : "Y座標:"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Y:"
+          }
+        },
         "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Y:"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Y:"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Y:"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Y:"
+          }
+        },
+        "ne" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Y:"
@@ -2199,7 +5662,31 @@
             "value" : "Y:"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Y:"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Y:"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Y:"
+          }
+        },
         "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Y:"
+          }
+        },
+        "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Y:"
@@ -2234,6 +5721,12 @@
             "value" : "إعادة تعيين"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "রিসেট"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2244,6 +5737,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reset"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بازنشانی"
           }
         },
         "he" : {
@@ -2264,10 +5763,40 @@
             "value" : "リセット"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "កំណត់ឡើងវិញ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "재설정"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຣີເຊັດ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дахин тохируулах"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပြန်လည်သတ်မှတ်ရန်"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "रिसेट"
           }
         },
         "ru" : {
@@ -2276,10 +5805,34 @@
             "value" : "Сброс"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "යළි පිහිටුවන්න"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "மீட்டமை"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "రీసెట్"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "รีเซ็ต"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скинути"
           }
         },
         "vi" : {
@@ -2310,6 +5863,12 @@
             "value" : "إظهار المؤشر"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "সূচক দেখান"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2320,6 +5879,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Show Indicator"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نمایش نشانگر"
           }
         },
         "he" : {
@@ -2340,10 +5905,40 @@
             "value" : "インジケータを表示"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "បង្ហាញសូចនាករ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "표시기 표시"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ສະແດງຕົວຊີ້ວັດ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Заагч харуулах"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ညွှန်ပြချက်ပြရန်"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "सूचक देखाउनुहोस्"
           }
         },
         "ru" : {
@@ -2352,10 +5947,34 @@
             "value" : "Показать индикатор"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "දර්ශකය පෙන්වන්න"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "காட்டி காட்டு"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "సూచిక చూపించు"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "แสดงตัวบ่งชี้"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показати індикатор"
           }
         },
         "vi" : {
@@ -2387,6 +6006,12 @@
             "value" : "الحجم"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "আকার"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2397,6 +6022,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Size"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اندازه"
           }
         },
         "he" : {
@@ -2417,10 +6048,40 @@
             "value" : "サイズ"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ទំហំ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "크기"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຂະໜາດ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Хэмжээ"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အရွယ်အစား"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "आकार"
           }
         },
         "ru" : {
@@ -2429,10 +6090,34 @@
             "value" : "Размер"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ප්‍රමාණය"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "அளவு"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "పరిమాణం"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ขนาด"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Розмір"
           }
         },
         "vi" : {
@@ -2463,6 +6148,12 @@
             "value" : "كبير (80)"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "বড় (80)"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2473,6 +6164,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "L (80)"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بزرگ (80)"
           }
         },
         "he" : {
@@ -2493,10 +6190,40 @@
             "value" : "大 (80)"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ធំ (80)"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "대 (80)"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ໃຫຍ່ (80)"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Том (80)"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ကြီး (80)"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ठूलो (80)"
           }
         },
         "ru" : {
@@ -2505,10 +6232,34 @@
             "value" : "Большой (80)"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "විශාල (80)"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "பெரிய (80)"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "పెద్ద (80)"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใหญ่ (80)"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Великий (80)"
           }
         },
         "vi" : {
@@ -2539,6 +6290,12 @@
             "value" : "متوسط (60)"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "মাঝারি (60)"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2549,6 +6306,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "M (60)"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "متوسط (60)"
           }
         },
         "he" : {
@@ -2569,10 +6332,40 @@
             "value" : "中 (60)"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "មធ្យម (60)"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "중 (60)"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ກາງ (60)"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дунд (60)"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အလယ် (60)"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "मध्यम (60)"
           }
         },
         "ru" : {
@@ -2581,10 +6374,34 @@
             "value" : "Средний (60)"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "මධ්‍යම (60)"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "நடுத்தர (60)"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "మధ్యస్థ (60)"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "กลาง (60)"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Середній (60)"
           }
         },
         "vi" : {
@@ -2615,6 +6432,12 @@
             "value" : "صغير (40)"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ছোট (40)"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2625,6 +6448,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "S (40)"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "کوچک (40)"
           }
         },
         "he" : {
@@ -2645,10 +6474,40 @@
             "value" : "小 (40)"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "តូច (40)"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "소 (40)"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ນ້ອຍ (40)"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Жижиг (40)"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "သေး (40)"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "सानो (40)"
           }
         },
         "ru" : {
@@ -2657,10 +6516,34 @@
             "value" : "Маленький (40)"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "කුඩා (40)"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "சிறிய (40)"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "చిన్న (40)"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "เล็ก (40)"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Малий (40)"
           }
         },
         "vi" : {
@@ -2691,6 +6574,12 @@
             "value" : "كبير جداً (100)"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "অতিরিক্ত বড় (100)"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2701,6 +6590,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "XL (100)"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "خیلی بزرگ (100)"
           }
         },
         "he" : {
@@ -2721,10 +6616,40 @@
             "value" : "特大 (100)"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ធំបំផុត (100)"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "특대 (100)"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ໃຫຍ່ຫຼາຍ (100)"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Маш том (100)"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အလွန်ကြီး (100)"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "धेरै ठूलो (100)"
           }
         },
         "ru" : {
@@ -2733,10 +6658,34 @@
             "value" : "Очень большой (100)"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ඉතා විශාල (100)"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "மிகப்பெரிய (100)"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "చాలా పెద్ద (100)"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใหญ่มาก (100)"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дуже великий (100)"
           }
         },
         "vi" : {
@@ -2767,6 +6716,12 @@
             "value" : "خط النظام"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "সিস্টেম ফন্ট"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2777,6 +6732,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "System Font"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فونت سیستم"
           }
         },
         "he" : {
@@ -2797,10 +6758,40 @@
             "value" : "システムフォント"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ពុម្ពអក្សរប្រព័ន្ធ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "시스템 글꼴"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຟອນລະບົບ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Системийн фонт"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "စနစ်ဖောင့်"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "सिस्टम फन्ट"
           }
         },
         "ru" : {
@@ -2809,10 +6800,34 @@
             "value" : "Системный шрифт"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "පද්ධති අකුරු"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "கணினி எழுத்துரு"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "సిస్టమ్ ఫాంట్"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "แบบอักษรระบบ"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Системний шрифт"
           }
         },
         "vi" : {
@@ -2843,6 +6858,12 @@
             "value" : "النص"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "টেক্সট"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2853,6 +6874,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Text"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "متن"
           }
         },
         "he" : {
@@ -2873,10 +6900,40 @@
             "value" : "テキスト"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "អត្ថបទ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "텍스트"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຂໍ້ຄວາມ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Текст"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "စာသား"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "पाठ"
           }
         },
         "ru" : {
@@ -2885,10 +6942,34 @@
             "value" : "Текст"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "පෙළ"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "உரை"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "టెక్స్ట్"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ข้อความ"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Текст"
           }
         },
         "vi" : {
@@ -2919,6 +7000,12 @@
             "value" : "كبير (60%)"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "বড় (60%)"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2929,6 +7016,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "L (60%)"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بزرگ (60%)"
           }
         },
         "he" : {
@@ -2949,10 +7042,40 @@
             "value" : "大 (60%)"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ធំ (60%)"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "대 (60%)"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ໃຫຍ່ (60%)"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Том (60%)"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ကြီး (60%)"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ठूलो (60%)"
           }
         },
         "ru" : {
@@ -2961,10 +7084,34 @@
             "value" : "Большой (60%)"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "විශාල (60%)"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "பெரிய (60%)"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "పెద్ద (60%)"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใหญ่ (60%)"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Великий (60%)"
           }
         },
         "vi" : {
@@ -2995,6 +7142,12 @@
             "value" : "عادي (50%)"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "স্বাভাবিক (50%)"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3005,6 +7158,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Normal (50%)"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "معمولی (50%)"
           }
         },
         "he" : {
@@ -3025,10 +7184,40 @@
             "value" : "標準 (50%)"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ធម្មតា (50%)"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "보통 (50%)"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ປົກກະຕິ (50%)"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Энгийн (50%)"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပုံမှန် (50%)"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "सामान्य (50%)"
           }
         },
         "ru" : {
@@ -3037,10 +7226,34 @@
             "value" : "Обычный (50%)"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "සාමාන්‍ය (50%)"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "சாதாரண (50%)"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "సాధారణ (50%)"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ปกติ (50%)"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Звичайний (50%)"
           }
         },
         "vi" : {
@@ -3071,6 +7284,12 @@
             "value" : "حجم النص:"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "টেক্সট আকার:"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3081,6 +7300,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Text Size:"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اندازه متن:"
           }
         },
         "he" : {
@@ -3101,10 +7326,40 @@
             "value" : "テキストサイズ:"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ទំហំអត្ថបទ:"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "텍스트 크기:"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຂະໜາດຂໍ້ຄວາມ:"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Текстийн хэмжээ:"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "စာသားအရွယ်အစား:"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "पाठ आकार:"
           }
         },
         "ru" : {
@@ -3113,10 +7368,34 @@
             "value" : "Размер текста:"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "පෙළ ප්‍රමාණය:"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "உரை அளவு:"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "టెక్స్ట్ పరిమాణం:"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ขนาดข้อความ:"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Розмір тексту:"
           }
         },
         "vi" : {
@@ -3147,6 +7426,12 @@
             "value" : "صغير (40%)"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ছোট (40%)"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3157,6 +7442,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "S (40%)"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "کوچک (40%)"
           }
         },
         "he" : {
@@ -3177,10 +7468,40 @@
             "value" : "小 (40%)"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "តូច (40%)"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "소 (40%)"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ນ້ອຍ (40%)"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Жижиг (40%)"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "သေး (40%)"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "सानो (40%)"
           }
         },
         "ru" : {
@@ -3189,10 +7510,34 @@
             "value" : "Маленький (40%)"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "කුඩා (40%)"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "சிறிய (40%)"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "చిన్న (40%)"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "เล็ก (40%)"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Малий (40%)"
           }
         },
         "vi" : {
@@ -3224,6 +7569,12 @@
             "value" : "إعدادات مؤشر IME"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IME সূচক সেটিংস"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3234,6 +7585,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "IME Indicator Settings"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تنظیمات نشانگر IME"
           }
         },
         "he" : {
@@ -3254,10 +7611,40 @@
             "value" : "IMEインジケータ設定"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ការកំណត់សូចនាករ IME"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "IME 표시기 설정"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ການຕັ້ງຄ່າຕົວຊີ້ວັດ IME"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IME заагчийн тохиргоо"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IME ညွှန်ပြချက် ဆက်တင်များ"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IME सूचक सेटिङ्स"
           }
         },
         "ru" : {
@@ -3266,10 +7653,34 @@
             "value" : "Настройки индикатора IME"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IME දර්ශක සැකසුම්"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IME காட்டி அமைப்புகள்"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IME సూచిక సెట్టింగ్‌లు"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "การตั้งค่าตัวบ่งชี้ IME"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Налаштування індикатора IME"
           }
         },
         "vi" : {
@@ -3300,6 +7711,12 @@
             "value" : "أعلى اليسار"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "উপরে বাম"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3310,6 +7727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Top Left"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بالا چپ"
           }
         },
         "he" : {
@@ -3330,10 +7753,40 @@
             "value" : "左上"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "កំពូលឆ្វេង"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "왼쪽 상단"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ເທິງຊ້າຍ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дээд зүүн"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ထိပ်ဘယ်"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "माथि बायाँ"
           }
         },
         "ru" : {
@@ -3342,10 +7795,34 @@
             "value" : "Вверху слева"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ඉහළ වම"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "மேல் இடது"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ఎగువ ఎడమ"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "บนซ้าย"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вгорі ліворуч"
           }
         },
         "vi" : {
@@ -3376,6 +7853,12 @@
             "value" : "أعلى اليمين"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "উপরে ডান"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3386,6 +7869,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Top Right"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بالا راست"
           }
         },
         "he" : {
@@ -3406,10 +7895,40 @@
             "value" : "右上"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "កំពូលស្ដាំ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "오른쪽 상단"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ເທິງຂວາ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дээд баруун"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ထိပ်ညာ"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "माथि दायाँ"
           }
         },
         "ru" : {
@@ -3418,10 +7937,34 @@
             "value" : "Вверху справа"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ඉහළ දකුණ"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "மேல் வலது"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ఎగువ కుడి"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "บนขวา"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вгорі праворуч"
           }
         },
         "vi" : {
@@ -3453,6 +7996,12 @@
             "value" : "بكسل"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "px"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3460,6 +8009,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "px"
+          }
+        },
+        "fa" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "px"
@@ -3483,7 +8038,37 @@
             "value" : "px"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "px"
+          }
+        },
         "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "px"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "px"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "px"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "px"
+          }
+        },
+        "ne" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "px"
@@ -3495,10 +8080,34 @@
             "value" : "пикс."
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "px"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "px"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "px"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "px"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "пікс."
           }
         },
         "vi" : {

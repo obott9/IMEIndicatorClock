@@ -10,6 +10,12 @@
             "value" : "المظهر"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "চেহারা"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20,6 +26,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Appearance"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ظاهر"
           }
         },
         "he" : {
@@ -40,10 +52,40 @@
             "value" : "外観"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "រូបរាង"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "외관"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຮູບລັກສະນະ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Харагдах байдал"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အသွင်အပြင်"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "उपस्थिति"
           }
         },
         "ru" : {
@@ -52,10 +94,34 @@
             "value" : "Внешний вид"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "පෙනුම"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "தோற்றம்"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "రూపం"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ลักษณะ"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зовнішній вигляд"
           }
         },
         "vi" : {
@@ -87,6 +153,12 @@
             "value" : "أساسي"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "মৌলিক"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -97,6 +169,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Basic"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "پایه"
           }
         },
         "he" : {
@@ -117,10 +195,40 @@
             "value" : "基本設定"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "មូលដ្ឋាន"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "기본"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ພື້ນຖານ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Үндсэн"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အခြေခံ"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "आधारभूत"
           }
         },
         "ru" : {
@@ -129,10 +237,34 @@
             "value" : "Основные"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "මූලික"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "அடிப்படை"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ప్రాథమిక"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "พื้นฐาน"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Основні"
           }
         },
         "vi" : {
@@ -164,6 +296,12 @@
             "value" : "لتعيين ألوان مخصصة، قم بتغييرها في إعدادات مؤشر IME"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "কাস্টম রঙ সেট করতে, IME ইন্ডিকেটর সেটিংসে পরিবর্তন করুন"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -174,6 +312,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "To set custom colors, change them in IME Indicator settings"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "برای تنظیم رنگ‌های سفارشی، آنها را در تنظیمات نشانگر IME تغییر دهید"
           }
         },
         "he" : {
@@ -194,10 +338,40 @@
             "value" : "独自の色を設定するには、IMEインジケータ設定で色を変更してください"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ដើម្បីកំណត់ពណ៌ផ្ទាល់ខ្លួន សូមប្តូរពួកវានៅក្នុងការកំណត់សូចនាករ IME"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "사용자 정의 색상을 설정하려면 IME 표시기 설정에서 변경하세요"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ເພື່ອຕັ້ງສີທີ່ກຳນົດເອງ, ປ່ຽນພວກມັນໃນການຕັ້ງຄ່າຕົວຊີ້ບອກ IME"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Өнгийг өөрчлөхийн тулд IME заагчийн тохиргоонд өөрчилнө үү"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "စိတ်ကြိုက်အရောင်များသတ်မှတ်ရန် IME ညွှန်ပြချက်ဆက်တင်များတွင် ပြောင်းလဲပါ"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "कस्टम रङहरू सेट गर्न, IME सूचक सेटिङहरूमा परिवर्तन गर्नुहोस्"
           }
         },
         "ru" : {
@@ -206,10 +380,34 @@
             "value" : "Для настройки цветов измените в настройках индикатора IME"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "අභිරුචි වර්ණ සැකසීමට, IME දර්ශක සැකසුම් තුළ වෙනස් කරන්න"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "தனிப்பயன் நிறங்களை அமைக்க, IME காட்டி அமைப்புகளில் மாற்றவும்"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "అనుకూల రంగులను సెట్ చేయడానికి, IME సూచిక సెట్టింగ్‌లలో మార్చండి"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "หากต้องการตั้งค่าสีที่กำหนดเอง ให้เปลี่ยนในการตั้งค่าตัวบ่งชี้ IME"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Щоб встановити власні кольори, змініть їх у налаштуваннях індикатора IME"
           }
         },
         "vi" : {
@@ -240,6 +438,12 @@
             "value" : "المسافة من المؤشر"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "কার্সার থেকে অফসেট"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -250,6 +454,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Offset from Cursor"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فاصله از نشانگر"
           }
         },
         "he" : {
@@ -270,10 +480,40 @@
             "value" : "カーソルからの距離"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "អុហ្វសិតពីទស្សន៍ទ្រនិច"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "커서로부터의 거리"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ໄລຍະຫ່າງຈາກຕົວຊີ້"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Курсороос зай"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ကာဆာမှ အကွာအဝေး"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "कर्सरबाट दूरी"
           }
         },
         "ru" : {
@@ -282,10 +522,34 @@
             "value" : "Отступ от курсора"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "කර්සරයෙන් ඕෆ්සෙට්"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "கர்சரிலிருந்து ஆஃப்செட்"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "కర్సర్ నుండి ఆఫ్‌సెట్"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ระยะห่างจากเคอร์เซอร์"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зміщення від курсора"
           }
         },
         "vi" : {
@@ -316,6 +580,12 @@
             "value" : "الشفافية"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "অস্বচ্ছতা"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -326,6 +596,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Opacity"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "کدری"
           }
         },
         "he" : {
@@ -346,10 +622,40 @@
             "value" : "不透明度"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ភាពស្រអាប់"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "불투명도"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຄວາມທຶບ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тунгалаг бус байдал"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အလင်းမဖောက်နိုင်မှု"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "अपारदर्शिता"
           }
         },
         "ru" : {
@@ -358,10 +664,34 @@
             "value" : "Непрозрачность"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "අපාරදර්ශිතාව"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ஒளிபுகாநிலை"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "అపారదర్శకత"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ความทึบ"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Непрозорість"
           }
         },
         "vi" : {
@@ -394,6 +724,12 @@
             "value" : "معاينة"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "পূর্বরূপ"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -404,6 +740,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Preview"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "پیش‌نمایش"
           }
         },
         "he" : {
@@ -424,10 +766,40 @@
             "value" : "プレビュー"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "មើលជាមុន"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "미리보기"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ເບິ່ງກ່ອນ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Урьдчилан үзэх"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အကြိုကြည့်ရှု"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "पूर्वावलोकन"
           }
         },
         "ru" : {
@@ -436,10 +808,34 @@
             "value" : "Предпросмотр"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "පූර්වදර්ශනය"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "முன்னோட்டம்"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ప్రివ్యూ"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ตัวอย่าง"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Попередній перегляд"
           }
         },
         "vi" : {
@@ -471,6 +867,12 @@
             "value" : "الإنجليزية"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ইংরেজি"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -481,6 +883,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "English"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انگلیسی"
           }
         },
         "he" : {
@@ -501,10 +909,40 @@
             "value" : "英語"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "អង់គ្លេស"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "영어"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ພາສາອັງກິດ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Англи"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အင်္ဂလိပ်"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "अंग्रेजी"
           }
         },
         "ru" : {
@@ -513,10 +951,34 @@
             "value" : "Английский"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ඉංග්‍රීසි"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ஆங்கிலம்"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ఆంగ్లం"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ภาษาอังกฤษ"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Англійська"
           }
         },
         "vi" : {
@@ -548,6 +1010,12 @@
             "value" : "اليابانية"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "জাপানি"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -558,6 +1026,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Japanese"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ژاپنی"
           }
         },
         "he" : {
@@ -578,10 +1052,40 @@
             "value" : "日本語"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ជប៉ុន"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "일본어"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ພາສາຍີ່ປຸ່ນ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Япон"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ဂျပန်"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "जापानी"
           }
         },
         "ru" : {
@@ -590,10 +1094,34 @@
             "value" : "Японский"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ජපන්"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ஜப்பானியம்"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "జపనీస్"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ภาษาญี่ปุ่น"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Японська"
           }
         },
         "vi" : {
@@ -625,6 +1153,12 @@
             "value" : "إعادة تعيين"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "রিসেট"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -635,6 +1169,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reset"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بازنشانی"
           }
         },
         "he" : {
@@ -655,10 +1195,40 @@
             "value" : "リセット"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "កំណត់ឡើងវិញ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "초기화"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຕັ້ງໃໝ່"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дахин тохируулах"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပြန်လည်သတ်မှတ်"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "रिसेट"
           }
         },
         "ru" : {
@@ -667,10 +1237,34 @@
             "value" : "Сброс"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "නැවත සකසන්න"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "மீட்டமை"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "రీసెట్"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "รีเซ็ต"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скинути"
           }
         },
         "vi" : {
@@ -701,6 +1295,12 @@
             "value" : "النص واللون يتبعان إعدادات مؤشر IME"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "প্রদর্শন টেক্সট এবং রঙ IME ইন্ডিকেটর সেটিংস অনুসরণ করে"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -711,6 +1311,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Display text and colors follow IME Indicator settings"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "متن و رنگ‌ها از تنظیمات نشانگر IME پیروی می‌کنند"
           }
         },
         "he" : {
@@ -731,10 +1337,40 @@
             "value" : "表示文字・色はIMEインジケータ設定が使用されます"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "អក្សរបង្ហាញ និងពណ៌ធ្វើតាមការកំណត់សូចនាករ IME"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "표시 문자와 색상은 IME 표시기 설정을 따릅니다"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຂໍ້ຄວາມ ແລະ ສີສະແດງຕາມການຕັ້ງຄ່າຕົວຊີ້ບອກ IME"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Текст болон өнгө нь IME заагчийн тохиргоог дагана"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ပြသသည့်စာသား နှင့် အရောင်များသည် IME ညွှန်ပြချက်ဆက်တင်များကို လိုက်နာသည်"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "प्रदर्शन पाठ र रङहरू IME सूचक सेटिङहरू अनुसरण गर्छन्"
           }
         },
         "ru" : {
@@ -743,10 +1379,34 @@
             "value" : "Текст и цвета соответствуют настройкам индикатора IME"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "පෙන්වන පෙළ සහ වර්ණ IME දර්ශක සැකසුම් අනුගමනය කරයි"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "காட்சி உரை மற்றும் நிறங்கள் IME காட்டி அமைப்புகளைப் பின்பற்றும்"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ప్రదర్శన టెక్స్ట్ మరియు రంగులు IME సూచిక సెట్టింగ్‌లను అనుసరిస్తాయి"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ข้อความและสีใช้การตั้งค่าตัวบ่งชี้ IME"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Текст та кольори відповідають налаштуванням індикатора IME"
           }
         },
         "vi" : {
@@ -777,6 +1437,12 @@
             "value" : "إظهار المؤشر"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ইন্ডিকেটর দেখান"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -787,6 +1453,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Show Indicator"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نمایش نشانگر"
           }
         },
         "he" : {
@@ -807,10 +1479,40 @@
             "value" : "インジケータを表示"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "បង្ហាញសូចនាករ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "표시기 표시"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ສະແດງຕົວຊີ້ບອກ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Заагчийг харуулах"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ညွှန်ပြချက်ပြသရန်"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "सूचक देखाउनुहोस्"
           }
         },
         "ru" : {
@@ -819,10 +1521,34 @@
             "value" : "Показать индикатор"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "දර්ශකය පෙන්වන්න"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "காட்டியைக் காட்டு"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "సూచికను చూపించు"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "แสดงตัวบ่งชี้"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показати індикатор"
           }
         },
         "vi" : {
@@ -853,6 +1579,12 @@
             "value" : "الحجم"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "আকার"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -863,6 +1595,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Size"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اندازه"
           }
         },
         "he" : {
@@ -883,10 +1621,40 @@
             "value" : "サイズ"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ទំហំ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "크기"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຂະໜາດ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Хэмжээ"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အရွယ်အစား"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "आकार"
           }
         },
         "ru" : {
@@ -895,10 +1663,34 @@
             "value" : "Размер"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ප්‍රමාණය"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "அளவு"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "పరిమాణం"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ขนาด"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Розмір"
           }
         },
         "vi" : {
@@ -929,6 +1721,12 @@
             "value" : "كبير"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "বড়"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -939,6 +1737,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "L"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بزرگ"
           }
         },
         "he" : {
@@ -959,10 +1763,40 @@
             "value" : "大"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ធំ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "대"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ໃຫຍ່"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Том"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ကြီး"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ठूलो"
           }
         },
         "ru" : {
@@ -971,10 +1805,34 @@
             "value" : "Большой"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "විශාල"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "பெரிய"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "పెద్ద"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใหญ่"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Великий"
           }
         },
         "vi" : {
@@ -1005,6 +1863,12 @@
             "value" : "متوسط"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "মাঝারি"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1015,6 +1879,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "M"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "متوسط"
           }
         },
         "he" : {
@@ -1035,10 +1905,40 @@
             "value" : "中"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "មធ្យម"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "중"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ກາງ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дунд"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အလယ်"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "मध्यम"
           }
         },
         "ru" : {
@@ -1047,10 +1947,34 @@
             "value" : "Средний"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "මධ්‍යම"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "நடுத்தர"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "మధ్యస్థ"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "กลาง"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Середній"
           }
         },
         "vi" : {
@@ -1082,6 +2006,12 @@
             "value" : "الحجم والموضع"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "আকার এবং অবস্থান"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1092,6 +2022,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Size & Position"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اندازه و موقعیت"
           }
         },
         "he" : {
@@ -1112,10 +2048,40 @@
             "value" : "サイズ・位置"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ទំហំ និង ទីតាំង"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "크기 및 위치"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຂະໜາດ ແລະ ຕຳແໜ່ງ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Хэмжээ ба байрлал"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "အရွယ်အစား နှင့် တည်နေရာ"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "आकार र स्थिति"
           }
         },
         "ru" : {
@@ -1124,10 +2090,34 @@
             "value" : "Размер и позиция"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ප්‍රමාණය සහ පිහිටීම"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "அளவு மற்றும் நிலை"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "పరిమాణం & స్థానం"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ขนาดและตำแหน่ง"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Розмір та положення"
           }
         },
         "vi" : {
@@ -1158,6 +2148,12 @@
             "value" : "صغير"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ছোট"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1168,6 +2164,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "S"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "کوچک"
           }
         },
         "he" : {
@@ -1188,10 +2190,40 @@
             "value" : "小"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "តូច"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "소"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ນ້ອຍ"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Жижиг"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "သေး"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "सानो"
           }
         },
         "ru" : {
@@ -1200,10 +2232,34 @@
             "value" : "Маленький"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "කුඩා"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "சிறிய"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "చిన్న"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "เล็ก"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Малий"
           }
         },
         "vi" : {
@@ -1235,6 +2291,12 @@
             "value" : "إعدادات مؤشر الماوس"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "মাউস কার্সার ইন্ডিকেটর সেটিংস"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1245,6 +2307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mouse Cursor Indicator Settings"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تنظیمات نشانگر نشانگر ماوس"
           }
         },
         "he" : {
@@ -1265,10 +2333,40 @@
             "value" : "マウスカーソルインジケータ設定"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ការកំណត់សូចនាករទស្សន៍ទ្រនិចកណ្ដុរ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "마우스 커서 표시기 설정"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ການຕັ້ງຄ່າຕົວຊີ້ບອກຕົວຊີ້ເມົາສ໌"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Хулганы курсорын заагчийн тохиргоо"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "မောက်စ်ကာဆာ ညွှန်ပြချက် ဆက်တင်များ"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "माउस कर्सर सूचक सेटिङहरू"
           }
         },
         "ru" : {
@@ -1277,10 +2375,34 @@
             "value" : "Настройки индикатора курсора мыши"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "මවුස් කර්සර දර්ශක සැකසුම්"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "மவுஸ் கர்சர் காட்டி அமைப்புகள்"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "మౌస్ కర్సర్ సూచిక సెట్టింగ్‌లు"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "การตั้งค่าตัวบ่งชี้เคอร์เซอร์เมาส์"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Налаштування індикатора курсора миші"
           }
         },
         "vi" : {
@@ -1312,6 +2434,12 @@
             "value" : "استخدام نفس لون مؤشر IME"
           }
         },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IME ইন্ডিকেটরের মতো একই রঙ ব্যবহার করুন"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1322,6 +2450,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Use same color as IME Indicator"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استفاده از همان رنگ نشانگر IME"
           }
         },
         "he" : {
@@ -1342,10 +2476,40 @@
             "value" : "IMEインジケータと同じ色を使う"
           }
         },
+        "km" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ប្រើពណ៌ដូចសូចនាករ IME"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "IME 표시기와 같은 색상 사용"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ໃຊ້ສີດຽວກັນກັບຕົວຊີ້ບອກ IME"
+          }
+        },
+        "mn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IME заагчтай ижил өнгө ашиглах"
+          }
+        },
+        "my" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IME ညွှန်ပြချက်နှင့် အရောင်တူသုံးပါ"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IME सूचक जस्तै रङ प्रयोग गर्नुहोस्"
           }
         },
         "ru" : {
@@ -1354,10 +2518,34 @@
             "value" : "Использовать тот же цвет, что и индикатор IME"
           }
         },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IME දර්ශකය හා සමාන වර්ණය භාවිතා කරන්න"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IME காட்டியின் அதே நிறத்தைப் பயன்படுத்து"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IME సూచిక వలె అదే రంగును ఉపయోగించండి"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใช้สีเดียวกับตัวบ่งชี้ IME"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Використовувати той самий колір, що й індикатор IME"
           }
         },
         "vi" : {

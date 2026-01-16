@@ -211,4 +211,39 @@ class DraggableHostingView<Content: View>: NSHostingView<Content> {
 			   displayIndex + 1,
 			   Int(relativeX), Int(relativeY))
 	}
+
+	/// 右クリックイベント（コンテキストメニュー表示）
+	override func rightMouseDown(with event: NSEvent) {
+		// 設定ウィンドウが開いている場合はメニューを表示しない
+		guard !UnifiedSettingsWindowManager.shared.isOpen else {
+			dbgLog(1, "🖱️ [IMEIndicator] 設定ウィンドウが開いているためメニューをスキップ")
+			super.rightMouseDown(with: event)
+			return
+		}
+
+		dbgLog(1, "🖱️ [IMEIndicator] 右クリックメニューを表示")
+
+		// メニューを作成
+		let menu = NSMenu()
+		menu.autoenablesItems = false  // 自動バリデーションを無効化
+
+		// 設定を開くメニュー項目
+		let settingsItem = NSMenuItem(
+			title: String(localized: "menu.settings"),
+			action: #selector(openSettings),
+			keyEquivalent: ""
+		)
+		settingsItem.target = self
+		settingsItem.isEnabled = true
+		menu.addItem(settingsItem)
+
+		// メニューを表示
+		NSMenu.popUpContextMenu(menu, with: event, for: self)
+	}
+
+	/// 設定ウィンドウを開く
+	@objc private func openSettings() {
+		dbgLog(1, "🖱️ [IMEIndicator] 設定ウィンドウを開く: tab=imeIndicator")
+		UnifiedSettingsWindowManager.shared.openSettings(tab: .imeIndicator)
+	}
 }
