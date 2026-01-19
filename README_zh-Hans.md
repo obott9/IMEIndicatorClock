@@ -9,7 +9,7 @@
 ### 输入法状态联动桌面时钟
 | IME OFF（英文） | IME ON（日文） |
 |:--------------:|:-------------:|
-| ![IME OFF](docs/images/clock_ime_off.png) | ![IME ON](docs/images/clock_ime_on.png) |
+| ![IME OFF](docs/images/clock_ime_off.jpg) | ![IME ON](docs/images/clock_ime_on.jpg) |
 
 ### 设置界面
 | 输入法指示器 | 时钟 | 鼠标光标指示器 |

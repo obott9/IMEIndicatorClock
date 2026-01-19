@@ -9,7 +9,7 @@ A macOS utility app that visually displays IME (Input Method Editor) status, sho
 ### Desktop Clock with IME Status
 | IME OFF (English) | IME ON (Japanese) |
 |:-----------------:|:-----------------:|
-| ![IME OFF](docs/images/clock_ime_off.png) | ![IME ON](docs/images/clock_ime_on.png) |
+| ![IME OFF](docs/images/clock_ime_off.jpg) | ![IME ON](docs/images/clock_ime_on.jpg) |
 
 ### Settings
 | IME Indicator | Clock | Mouse Cursor Indicator |

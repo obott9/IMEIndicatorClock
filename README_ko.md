@@ -9,7 +9,7 @@ IME(입력기) 상태를 시각적으로 표시하고, 마우스 커서 근처�
 ### IME 상태 연동 데스크톱 시계
 | IME OFF (영어) | IME ON (일본어) |
 |:-------------:|:--------------:|
-| ![IME OFF](docs/images/clock_ime_off.png) | ![IME ON](docs/images/clock_ime_on.png) |
+| ![IME OFF](docs/images/clock_ime_off.jpg) | ![IME ON](docs/images/clock_ime_on.jpg) |
 
 ### 설정 화면
 | IME 표시기 | 시계 | 마우스 커서 표시기 |

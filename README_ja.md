@@ -9,7 +9,7 @@ IME（入力メソッドエディタ）の状態表示とそれをマウスカ�
 ### IME状態連動デスクトップ時計
 | IME OFF（英語） | IME ON（日本語） |
 |:--------------:|:---------------:|
-| ![IME OFF](docs/images/clock_ime_off.png) | ![IME ON](docs/images/clock_ime_on.png) |
+| ![IME OFF](docs/images/clock_ime_off.jpg) | ![IME ON](docs/images/clock_ime_on.jpg) |
 
 ### 設定画面
 | IMEインジケータ | 時計 | マウスカーソルインジケータ |
