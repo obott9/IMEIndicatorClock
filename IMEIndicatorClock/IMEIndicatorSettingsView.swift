@@ -290,7 +290,8 @@ struct IMEIndicatorSettingsView: View {
 									}
 									.labelsHidden()
 									.onChange(of: appSettings.settings.imeIndicator.displayIndex) { _, _ in
-										saveSettings()
+										// ディスプレイ変更時は左下に配置
+										setPositionBottomLeft()
 									}
 								}
 

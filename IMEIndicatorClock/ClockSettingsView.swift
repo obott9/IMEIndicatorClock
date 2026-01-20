@@ -333,7 +333,8 @@ struct ClockSettingsView: View {
 									.labelsHidden()
 									.frame(width: 120)
 									.onChange(of: settingsManager.settings.clock.displayIndex) { _, _ in
-										saveSettings()
+										// ディスプレイ変更時は右下に配置
+										setPositionBottomRight()
 									}
 								}
 
