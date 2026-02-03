@@ -31,9 +31,13 @@ We aim to help IME users see their current input mode at a glance.
 
 ### IME Indicator
 - Visually displays the current input method status on screen
-- Japanese: Red circle with "あ"
-- English: Blue circle with "A"
-- Customizable position, size, and opacity
+
+| Japanese | Korean | Chinese (Traditional) | Chinese (Simplified) | English |
+|:--------:|:------:|:---------------------:|:--------------------:|:-------:|
+| <img src="docs/images/ime_ja.png" width="48"> | <img src="docs/images/ime_ko.png" width="48"> | <img src="docs/images/ime_zh_hant.png" width="48"> | <img src="docs/images/ime_zh_hans.png" width="48"> | <img src="docs/images/ime_en.png" width="48"> |
+| Red "あ" | Purple "가" | Dark Green "繁" | Green "简" | Blue "A" |
+
+- Customizable position, size, background color, font, font color, and opacity
 
 ### Desktop Clock
 - Floating clock supporting both analog and digital modes
@@ -43,6 +47,7 @@ We aim to help IME users see their current input mode at a glance.
 
 ### Mouse Cursor Indicator
 - Displays IME status near the mouse cursor
+- Shows a smaller version of the IME indicator
 - Convenient for text input
 
 ## Language Support
