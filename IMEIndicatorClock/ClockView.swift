@@ -53,16 +53,16 @@ struct ClockView: View {
 			// 背景（IME状態に応じて色を切り替え）
 			RoundedRectangle(cornerRadius: 10)
 				.fill(currentBackgroundColor)
-				.opacity(settings.backgroundOpacity)
 			// アニメーションは要らない
 			//				.animation(.easeInOut(duration: 0.3), value: settingsManager.isJapaneseInput)
-			
+
 			// 時計の内容
 			VStack(spacing: 8) {
 				clockContent(currentDate: currentTime)
 			}
 			.padding(16)
 		}
+		.opacity(settings.backgroundOpacity)
 		.onAppear {
 			// Combineの Timer.publish を使用（SwiftUI推奨パターン）
 			timerCancellable = Timer.publish(every: AppConstants.clockUpdateInterval, on: .main, in: .common)

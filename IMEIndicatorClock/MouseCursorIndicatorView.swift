@@ -27,8 +27,8 @@ struct MouseCursorIndicatorView: View {
                 .fill(
                     RadialGradient(
                         gradient: Gradient(colors: [
-                            indicatorColor.opacity(indicatorOpacity * 0.6),
-                            indicatorColor.opacity(indicatorOpacity * 0.3),
+                            indicatorColor.opacity(0.6),
+                            indicatorColor.opacity(0.3),
                             Color.clear
                         ]),
                         center: .center,
@@ -43,8 +43,8 @@ struct MouseCursorIndicatorView: View {
                 .fill(
                     LinearGradient(
                         gradient: Gradient(colors: [
-                            indicatorColor.opacity(indicatorOpacity),
-                            indicatorColor.opacity(indicatorOpacity * 0.7)
+                            indicatorColor,
+                            indicatorColor.opacity(0.7)
                         ]),
                         startPoint: .topLeading,
                         endPoint: .bottomTrailing
@@ -64,6 +64,7 @@ struct MouseCursorIndicatorView: View {
         }
         .frame(width: indicatorSize, height: indicatorSize, alignment: .topLeading)
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
+        .opacity(indicatorOpacity)
         .onReceive(NotificationCenter.default.publisher(for: NSNotification.Name("MouseCursorIndicatorLanguageChanged"))) { notification in
             if let language = notification.object as? InputLanguage {
                 currentLanguage = language

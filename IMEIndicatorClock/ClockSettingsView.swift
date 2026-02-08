@@ -272,7 +272,7 @@ struct ClockSettingsView: View {
 								// 背景透過度
 								HStack {
 									Text("opacity", tableName: "Clock")
-									Slider(value: $settingsManager.settings.clock.backgroundOpacity, in: 0...1, step: 0.05)
+									Slider(value: $settingsManager.settings.clock.backgroundOpacity, in: 0.1...1, step: 0.05)
 										.onChange(of: settingsManager.settings.clock.backgroundOpacity) { _, _ in
 											saveSettings()
 										}

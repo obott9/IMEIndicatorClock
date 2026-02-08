@@ -587,7 +587,7 @@ struct IMEIndicatorSettingsView: View {
 								HStack {
 									Text("opacity", tableName: "IMEIndicator")
 										.frame(width: 100, alignment: .leading)
-									Slider(value: $appSettings.settings.imeIndicator.backgroundOpacity, in: 0...1, step: 0.05)
+									Slider(value: $appSettings.settings.imeIndicator.backgroundOpacity, in: 0.1...1, step: 0.05)
 									.onChange(of: appSettings.settings.imeIndicator.backgroundOpacity) { _, _ in
 										saveSettings()
 									}

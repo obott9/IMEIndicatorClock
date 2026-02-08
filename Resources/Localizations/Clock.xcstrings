@@ -4541,7 +4541,7 @@
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "透過度:"
+            "value": "不透明度:"
           }
         },
         "ko": {
@@ -5935,139 +5935,139 @@
         "ar": {
           "stringUnit": {
             "state": "translated",
-            "value": "إظهار الثواني"
+            "value": "إظهار عقرب الثواني"
           }
         },
         "el": {
           "stringUnit": {
             "state": "translated",
-            "value": "Εμφάνιση δευτερολέπτων"
+            "value": "Εμφάνιση δείκτη δευτερολέπτων"
           }
         },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Show Seconds"
+            "value": "Show Second Hand"
           }
         },
         "he": {
           "stringUnit": {
             "state": "translated",
-            "value": "הצג שניות"
+            "value": "הצג מחוג שניות"
           }
         },
         "hi": {
           "stringUnit": {
             "state": "translated",
-            "value": "सेकंड दिखाएं"
+            "value": "सेकंड की सुई दिखाएं"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "秒を表示"
+            "value": "秒針を表示"
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "초 표시"
+            "value": "초침 표시"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Показать секунды"
+            "value": "Показать секундную стрелку"
           }
         },
         "th": {
           "stringUnit": {
             "state": "translated",
-            "value": "แสดงวินาที"
+            "value": "แสดงเข็มวินาที"
           }
         },
         "vi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Hiển thị giây"
+            "value": "Hiển thị kim giây"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "显示秒"
+            "value": "显示秒针"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "顯示秒"
+            "value": "顯示秒針"
           }
         },
         "bn": {
           "stringUnit": {
             "state": "translated",
-            "value": "সেকেন্ড দেখান"
+            "value": "সেকেন্ডের কাঁটা দেখান"
           }
         },
         "fa": {
           "stringUnit": {
             "state": "translated",
-            "value": "نمایش ثانیه"
+            "value": "نمایش عقربه ثانیه"
           }
         },
         "km": {
           "stringUnit": {
             "state": "translated",
-            "value": "បង្ហាញវិនាទី"
+            "value": "បង្ហាញម្ជុលវិនាទី"
           }
         },
         "lo": {
           "stringUnit": {
             "state": "translated",
-            "value": "ສະແດງວິນາທີ"
+            "value": "ສະແດງເຂັມວິນາທີ"
           }
         },
         "mn": {
           "stringUnit": {
             "state": "translated",
-            "value": "Секунд харуулах"
+            "value": "Секундын зүү харуулах"
           }
         },
         "my": {
           "stringUnit": {
             "state": "translated",
-            "value": "စက္ကန့်ပြ"
+            "value": "စက္ကန့်လက်တံပြ"
           }
         },
         "ne": {
           "stringUnit": {
             "state": "translated",
-            "value": "सेकेन्ड देखाउनुहोस्"
+            "value": "सेकेन्डको सुई देखाउनुहोस्"
           }
         },
         "si": {
           "stringUnit": {
             "state": "translated",
-            "value": "තත්පර පෙන්වන්න"
+            "value": "තත්පර කටුව පෙන්වන්න"
           }
         },
         "ta": {
           "stringUnit": {
             "state": "translated",
-            "value": "வினாடிகள் காட்டு"
+            "value": "வினாடி முள் காட்டு"
           }
         },
         "te": {
           "stringUnit": {
             "state": "translated",
-            "value": "సెకన్లు చూపించు"
+            "value": "సెకను ముల్లు చూపించు"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Показати секунди"
+            "value": "Показати секундну стрілку"
           }
         }
       }

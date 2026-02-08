@@ -156,7 +156,7 @@ struct MouseCursorIndicatorSettingsView: View {
                     HStack {
                         Text("opacity", tableName: "MouseCursorIndicator")
                         Spacer()
-                        Slider(value: $appSettings.settings.mouseCursorIndicator.opacity, in: 0.5...1.0, step: 0.05)
+                        Slider(value: $appSettings.settings.mouseCursorIndicator.opacity, in: 0.1...1.0, step: 0.05)
                             .frame(width: 150)
                             .onChange(of: appSettings.settings.mouseCursorIndicator.opacity) { _, _ in
                                 saveSettings()

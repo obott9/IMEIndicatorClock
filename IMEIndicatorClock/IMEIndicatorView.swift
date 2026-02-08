@@ -50,8 +50,8 @@ struct IMEIndicatorView: View {
 				.fill(
 					RadialGradient(
 						gradient: Gradient(colors: [
-							color.color.opacity(opacity * 0.6),
-							color.color.opacity(opacity * 0.3),
+							color.color.opacity(0.6),
+							color.color.opacity(0.3),
 							Color.clear
 						]),
 						center: .center,
@@ -66,8 +66,8 @@ struct IMEIndicatorView: View {
 				.fill(
 					LinearGradient(
 						gradient: Gradient(colors: [
-							color.color.opacity(opacity),
-							color.color.opacity(opacity * 0.7)
+							color.color,
+							color.color.opacity(0.7)
 						]),
 						startPoint: .topLeading,
 						endPoint: .bottomTrailing
@@ -100,6 +100,7 @@ struct IMEIndicatorView: View {
 			}
 		}
 		.frame(width: size, height: size)
+		.opacity(opacity)
 	}
 
 	// MARK: - ヘルパー
