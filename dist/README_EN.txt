@@ -17,12 +17,14 @@ near the mouse cursor and on an analog clock.
    (System Settings > Privacy & Security > Accessibility)
 
 [Features]
-- Supports 18+ languages
+- Supports 21+ languages
   Japanese (Red), Korean (Purple), Chinese Traditional (Dark Green),
   Chinese Simplified (Green), English (Blue), and more
 - Customizable analog/digital clock
 - Mouse cursor indicator (smaller IME indicator) for convenient input
 - Adjustable position, size, background color, font, font color, and opacity
+- Unified settings window (tabbed interface for all features)
+- Right-click context menu for quick access to settings
 
 [Uninstall]
 Simply delete from the Applications folder.
