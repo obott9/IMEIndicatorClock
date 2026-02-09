@@ -34,4 +34,4 @@ macOSユーティリティです。
 
 【ライセンス】
 MIT License
-Copyright (c) 2025 Hideki Obote
+Copyright (c) 2025-2026 obott9

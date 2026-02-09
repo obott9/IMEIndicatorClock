@@ -35,4 +35,4 @@ IMEIndicatorClock - 自述文件
 
 [许可证]
 MIT License
-Copyright (c) 2025 Hideki Obote
+Copyright (c) 2025-2026 obott9

@@ -35,4 +35,4 @@ IMEIndicatorClock - 읽어주세요
 
 [라이선스]
 MIT License
-Copyright (c) 2025 Hideki Obote
+Copyright (c) 2025-2026 obott9
