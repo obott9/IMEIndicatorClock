@@ -37,7 +37,7 @@
 | <img src="docs/images/ime_ja.png" width="48"> | <img src="docs/images/ime_ko.png" width="48"> | <img src="docs/images/ime_zh_hant.png" width="48"> | <img src="docs/images/ime_zh_hans.png" width="48"> | <img src="docs/images/ime_en.png" width="48"> |
 | 紅色「あ」 | 紫色「가」 | 深綠色「繁」 | 綠色「简」 | 藍色「A」 |
 
-- 可自訂位置、大小、背景顏色、字體、字體顏色和透明度
+- 可自訂位置、大小、背景顏色、字體、字體顏色和不透明度
 
 ### 桌面時鐘
 - 支援類比和數位模式的浮動時鐘
@@ -49,6 +49,10 @@
 - 在滑鼠游標附近顯示輸入法狀態
 - 以較小尺寸顯示輸入法指示器
 - 方便文字輸入時使用
+
+### 統一設定 & 快速存取
+- 標籤頁切換的統一設定視窗，一站式管理所有功能
+- 各視窗右鍵選單快速存取設定
 
 ## 語言支援
 

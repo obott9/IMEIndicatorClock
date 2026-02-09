@@ -37,7 +37,7 @@ IME 사용자가 현재 입력 모드를 한눈에 확인할 수 있도록 돕�
 | <img src="docs/images/ime_ja.png" width="48"> | <img src="docs/images/ime_ko.png" width="48"> | <img src="docs/images/ime_zh_hant.png" width="48"> | <img src="docs/images/ime_zh_hans.png" width="48"> | <img src="docs/images/ime_en.png" width="48"> |
 | 빨강 "あ" | 보라 "가" | 진한 초록 "繁" | 초록 "简" | 파랑 "A" |
 
-- 위치, 크기, 배경색, 글꼴, 글꼴 색상, 투명도 사용자 정의 가능
+- 위치, 크기, 배경색, 글꼴, 글꼴 색상, 불투명도 사용자 정의 가능
 
 ### 데스크톱 시계
 - 아날로그 및 디지털 모드를 지원하는 플로팅 시계
@@ -49,6 +49,10 @@ IME 사용자가 현재 입력 모드를 한눈에 확인할 수 있도록 돕�
 - 마우스 커서 근처에 IME 상태를 표시
 - IME 표시기를 작게 표시
 - 텍스트 입력 시 편리
+
+### 통합 설정 & 빠른 접근
+- 탭 전환 통합 설정 창으로 모든 기능을 한번에 관리
+- 각 창의 오른쪽 클릭 메뉴로 설정에 빠르게 접근
 
 ## 언어 지원
 

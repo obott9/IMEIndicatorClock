@@ -50,6 +50,10 @@ We aim to help IME users see their current input mode at a glance.
 - Shows a smaller version of the IME indicator
 - Convenient for text input
 
+### Unified Settings & Quick Access
+- Tabbed settings window for managing all features in one place
+- Right-click context menu on each window for quick access to settings
+
 ## Language Support
 
 ### Full Support (IME Detection + UI)

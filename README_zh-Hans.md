@@ -37,7 +37,7 @@
 | <img src="docs/images/ime_ja.png" width="48"> | <img src="docs/images/ime_ko.png" width="48"> | <img src="docs/images/ime_zh_hant.png" width="48"> | <img src="docs/images/ime_zh_hans.png" width="48"> | <img src="docs/images/ime_en.png" width="48"> |
 | 红色「あ」 | 紫色「가」 | 深绿色「繁」 | 绿色「简」 | 蓝色「A」 |
 
-- 可自定义位置、大小、背景颜色、字体、字体颜色和透明度
+- 可自定义位置、大小、背景颜色、字体、字体颜色和不透明度
 
 ### 桌面时钟
 - 支持模拟和数字模式的浮动时钟
@@ -49,6 +49,10 @@
 - 在鼠标光标附近显示输入法状态
 - 以较小尺寸显示输入法指示器
 - 方便文字输入时使用
+
+### 统一设置 & 快速访问
+- 标签页切换的统一设置窗口，一站式管理所有功能
+- 各窗口右键菜单快速访问设置
 
 ## 语言支持
 
