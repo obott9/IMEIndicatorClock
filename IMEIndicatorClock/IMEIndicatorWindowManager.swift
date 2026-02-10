@@ -66,6 +66,23 @@ class IMEIndicatorWindowManager: NSObject {
 		indicatorWindow = nil
 	}
 
+	// MARK: - ユーティリティ
+
+	/// 保存された相対位置をvisibleFrame内にクランプした絶対座標を返す
+	private func clampedWindowOrigin(relativeX: CGFloat, relativeY: CGFloat, windowSize: CGFloat, screen: NSScreen) -> CGPoint {
+		let absoluteX = screen.frame.origin.x + relativeX
+		let absoluteY = screen.frame.origin.y + relativeY
+		let visible = screen.visibleFrame
+
+		let clampedX = max(visible.minX, min(absoluteX, visible.maxX - windowSize))
+		let clampedY = max(visible.minY, min(absoluteY, visible.maxY - windowSize))
+
+		dbgLog(1, "📐 [IMEIndicator] clampedWindowOrigin: relative(%.0f, %.0f) → clamped(%.0f, %.0f)",
+			   relativeX, relativeY, clampedX, clampedY)
+
+		return CGPoint(x: clampedX, y: clampedY)
+	}
+
 	// MARK: - ウィンドウ管理
 
 	/// インジケータウィンドウを作成・表示
@@ -95,12 +112,14 @@ class IMEIndicatorWindowManager: NSObject {
 		}
 		let screen = NSScreen.screens[displayIndex]
 
-		// ウィンドウの位置とサイズを計算
-		let globalX = screen.frame.origin.x + settings.positionX
-		let globalY = screen.frame.origin.y + settings.positionY
+		// ウィンドウの位置とサイズを計算（visibleFrameクランプ）
+		let clampedOrigin = clampedWindowOrigin(
+			relativeX: settings.positionX, relativeY: settings.positionY,
+			windowSize: settings.indicatorSize, screen: screen
+		)
 		let windowRect = NSRect(
-			x: globalX,
-			y: globalY,
+			x: clampedOrigin.x,
+			y: clampedOrigin.y,
 			width: settings.indicatorSize,
 			height: settings.indicatorSize
 		)
@@ -262,16 +281,18 @@ class IMEIndicatorWindowManager: NSObject {
 
 		let currentSettings = settings
 
-		// 位置やサイズが変わった場合はウィンドウを再作成
+		// 位置やサイズが変わった場合はウィンドウを再作成（visibleFrameクランプ後の値で比較）
 		if let window = indicatorWindow {
 			let currentFrame = window.frame
 			let screen = NSScreen.screens[safe: currentSettings.displayIndex] ?? NSScreen.main ?? NSScreen.screens[0]
-			let expectedX = screen.frame.origin.x + currentSettings.positionX
-			let expectedY = screen.frame.origin.y + currentSettings.positionY
+			let expected = clampedWindowOrigin(
+				relativeX: currentSettings.positionX, relativeY: currentSettings.positionY,
+				windowSize: currentSettings.indicatorSize, screen: screen
+			)
 
 			let needsRecreate = (currentFrame.width != currentSettings.indicatorSize ||
-								 currentFrame.origin.x != expectedX ||
-								 currentFrame.origin.y != expectedY)
+								 currentFrame.origin.x != expected.x ||
+								 currentFrame.origin.y != expected.y)
 
 			if needsRecreate {
 				recreate()

@@ -141,16 +141,17 @@ extension ClockWindowManager {
 		// ウィンドウサイズを計算
 		let windowSize = calculateWindowSize(for: settings)
 
-		// 表示位置を計算（マルチディスプレイ対応）
+		// 表示位置を計算（マルチディスプレイ対応・visibleFrameクランプ）
 		let screen = getTargetScreen(index: settings.displayIndex)
-		let windowOrigin = CGPoint(x: settings.positionX, y: settings.positionY)
+		let clampedOrigin = clampedWindowOrigin(
+			relativeX: settings.positionX, relativeY: settings.positionY,
+			windowSize: windowSize, screen: screen
+		)
 
 		// ウィンドウの矩形を定義
 		let windowRect = NSRect(
-			x: screen.frame.origin.x + windowOrigin.x,
-			y: screen.frame.origin.y + windowOrigin.y,
-			width: windowSize.width,
-			height: windowSize.height
+			origin: clampedOrigin,
+			size: windowSize
 		)
 
 		// ウィンドウを作成
@@ -259,12 +260,12 @@ extension ClockWindowManager {
 		frame.size = clampedSize
 		window.setFrame(frame, display: true, animate: false)
 
-		// 位置の更新（ウィンドウドラッグ中は更新しない）
+		// 位置の更新（ウィンドウドラッグ中は更新しない・visibleFrameクランプ）
 		if !settingsManager.isWindowDragging {
 			let screen = getTargetScreen(index: settings.displayIndex)
-			let newOrigin = CGPoint(
-				x: screen.frame.origin.x + settings.positionX,
-				y: screen.frame.origin.y + settings.positionY
+			let newOrigin = clampedWindowOrigin(
+				relativeX: settings.positionX, relativeY: settings.positionY,
+				windowSize: clampedSize, screen: screen
 			)
 			frame.origin = newOrigin
 			window.setFrameOrigin(newOrigin)
@@ -525,6 +526,22 @@ extension ClockWindowManager {
 	/// ウィンドウサイズを計算
 	func calculateWindowSize(for settings: ClockSettings) -> NSSize {
 		return NSSize(width: settings.windowWidth, height: settings.windowHeight)
+	}
+
+	/// 保存された相対位置をvisibleFrame内にクランプした絶対座標を返す
+	func clampedWindowOrigin(relativeX: CGFloat, relativeY: CGFloat, windowSize: NSSize, screen: NSScreen) -> CGPoint {
+		let absoluteX = screen.frame.origin.x + relativeX
+		let absoluteY = screen.frame.origin.y + relativeY
+		let visible = screen.visibleFrame
+
+		let clampedX = max(visible.minX, min(absoluteX, visible.maxX - windowSize.width))
+		let clampedY = max(visible.minY, min(absoluteY, visible.maxY - windowSize.height))
+
+		dbgLog(1, "📐 [ClockWindow] clampedWindowOrigin: relative(%.0f, %.0f) → absolute(%.0f, %.0f) → clamped(%.0f, %.0f) visibleFrame=(%.0f, %.0f, %.0f, %.0f)",
+			   relativeX, relativeY, absoluteX, absoluteY, clampedX, clampedY,
+			   visible.origin.x, visible.origin.y, visible.width, visible.height)
+
+		return CGPoint(x: clampedX, y: clampedY)
 	}
 
 	/// 対象のスクリーンを取得（マルチディスプレイ対応）
