@@ -509,43 +509,48 @@ struct ClockSettingsView: View {
 	private func setPositionBottomLeft() {
 		let displayIndex = settingsManager.settings.clock.displayIndex
 		guard displayIndex < NSScreen.screens.count else { return }
-		_ = NSScreen.screens[displayIndex]
-		
-		settingsManager.settings.clock.positionX = 0
-		settingsManager.settings.clock.positionY = 0
+		let screen = NSScreen.screens[displayIndex]
+		let visible = screen.visibleFrame
+
+		// visibleFrame（Dock・メニューバー除外）をframe.originからの相対値に変換
+		settingsManager.settings.clock.positionX = visible.origin.x - screen.frame.origin.x
+		settingsManager.settings.clock.positionY = visible.origin.y - screen.frame.origin.y
 		saveAndRecreate()
 	}
-	
+
 	/// 位置プリセット: 右下
 	private func setPositionBottomRight() {
 		let displayIndex = settingsManager.settings.clock.displayIndex
 		guard displayIndex < NSScreen.screens.count else { return }
 		let screen = NSScreen.screens[displayIndex]
-		
-		settingsManager.settings.clock.positionX = screen.frame.width - settingsManager.settings.clock.windowWidth
-		settingsManager.settings.clock.positionY = 0
+		let visible = screen.visibleFrame
+
+		settingsManager.settings.clock.positionX = (visible.origin.x - screen.frame.origin.x) + visible.width - settingsManager.settings.clock.windowWidth
+		settingsManager.settings.clock.positionY = visible.origin.y - screen.frame.origin.y
 		saveAndRecreate()
 	}
-	
+
 	/// 位置プリセット: 左上
 	private func setPositionTopLeft() {
 		let displayIndex = settingsManager.settings.clock.displayIndex
 		guard displayIndex < NSScreen.screens.count else { return }
 		let screen = NSScreen.screens[displayIndex]
-		
-		settingsManager.settings.clock.positionX = 0
-		settingsManager.settings.clock.positionY = screen.frame.height - settingsManager.settings.clock.windowHeight
+		let visible = screen.visibleFrame
+
+		settingsManager.settings.clock.positionX = visible.origin.x - screen.frame.origin.x
+		settingsManager.settings.clock.positionY = (visible.origin.y - screen.frame.origin.y) + visible.height - settingsManager.settings.clock.windowHeight
 		saveAndRecreate()
 	}
-	
+
 	/// 位置プリセット: 右上
 	private func setPositionTopRight() {
 		let displayIndex = settingsManager.settings.clock.displayIndex
 		guard displayIndex < NSScreen.screens.count else { return }
 		let screen = NSScreen.screens[displayIndex]
-		
-		settingsManager.settings.clock.positionX = screen.frame.width - settingsManager.settings.clock.windowWidth
-		settingsManager.settings.clock.positionY = screen.frame.height - settingsManager.settings.clock.windowHeight
+		let visible = screen.visibleFrame
+
+		settingsManager.settings.clock.positionX = (visible.origin.x - screen.frame.origin.x) + visible.width - settingsManager.settings.clock.windowWidth
+		settingsManager.settings.clock.positionY = (visible.origin.y - screen.frame.origin.y) + visible.height - settingsManager.settings.clock.windowHeight
 		saveAndRecreate()
 	}
 }

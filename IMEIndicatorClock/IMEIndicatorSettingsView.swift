@@ -737,10 +737,12 @@ struct IMEIndicatorSettingsView: View {
 	private func setPositionBottomLeft() {
 		let displayIndex = appSettings.settings.imeIndicator.displayIndex
 		guard displayIndex < NSScreen.screens.count else { return }
-		_ = NSScreen.screens[displayIndex]
+		let screen = NSScreen.screens[displayIndex]
+		let visible = screen.visibleFrame
+		let margin: CGFloat = 20
 
-		appSettings.settings.imeIndicator.positionX = 20
-		appSettings.settings.imeIndicator.positionY = 20
+		appSettings.settings.imeIndicator.positionX = (visible.origin.x - screen.frame.origin.x) + margin
+		appSettings.settings.imeIndicator.positionY = (visible.origin.y - screen.frame.origin.y) + margin
 		saveSettings()
 	}
 
@@ -749,9 +751,11 @@ struct IMEIndicatorSettingsView: View {
 		let displayIndex = appSettings.settings.imeIndicator.displayIndex
 		guard displayIndex < NSScreen.screens.count else { return }
 		let screen = NSScreen.screens[displayIndex]
+		let visible = screen.visibleFrame
+		let margin: CGFloat = 20
 
-		appSettings.settings.imeIndicator.positionX = screen.frame.width - appSettings.settings.imeIndicator.indicatorSize - 20
-		appSettings.settings.imeIndicator.positionY = 20
+		appSettings.settings.imeIndicator.positionX = (visible.origin.x - screen.frame.origin.x) + visible.width - appSettings.settings.imeIndicator.indicatorSize - margin
+		appSettings.settings.imeIndicator.positionY = (visible.origin.y - screen.frame.origin.y) + margin
 		saveSettings()
 	}
 
@@ -760,9 +764,11 @@ struct IMEIndicatorSettingsView: View {
 		let displayIndex = appSettings.settings.imeIndicator.displayIndex
 		guard displayIndex < NSScreen.screens.count else { return }
 		let screen = NSScreen.screens[displayIndex]
+		let visible = screen.visibleFrame
+		let margin: CGFloat = 20
 
-		appSettings.settings.imeIndicator.positionX = 20
-		appSettings.settings.imeIndicator.positionY = screen.frame.height - appSettings.settings.imeIndicator.indicatorSize - 20
+		appSettings.settings.imeIndicator.positionX = (visible.origin.x - screen.frame.origin.x) + margin
+		appSettings.settings.imeIndicator.positionY = (visible.origin.y - screen.frame.origin.y) + visible.height - appSettings.settings.imeIndicator.indicatorSize - margin
 		saveSettings()
 	}
 
@@ -771,9 +777,11 @@ struct IMEIndicatorSettingsView: View {
 		let displayIndex = appSettings.settings.imeIndicator.displayIndex
 		guard displayIndex < NSScreen.screens.count else { return }
 		let screen = NSScreen.screens[displayIndex]
+		let visible = screen.visibleFrame
+		let margin: CGFloat = 20
 
-		appSettings.settings.imeIndicator.positionX = screen.frame.width - appSettings.settings.imeIndicator.indicatorSize - 20
-		appSettings.settings.imeIndicator.positionY = screen.frame.height - appSettings.settings.imeIndicator.indicatorSize - 20
+		appSettings.settings.imeIndicator.positionX = (visible.origin.x - screen.frame.origin.x) + visible.width - appSettings.settings.imeIndicator.indicatorSize - margin
+		appSettings.settings.imeIndicator.positionY = (visible.origin.y - screen.frame.origin.y) + visible.height - appSettings.settings.imeIndicator.indicatorSize - margin
 		saveSettings()
 	}
 }
