@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90D9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E5A8B;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="clockFace" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E8E8E8;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Background rounded square -->
+  <rect x="16" y="16" width="480" height="480" rx="96" ry="96" fill="url(#bgGradient)"/>
+  
+  <!-- Clock face -->
+  <circle cx="256" cy="240" r="140" fill="url(#clockFace)" filter="url(#shadow)"/>
+  
+  <!-- Clock border -->
+  <circle cx="256" cy="240" r="140" fill="none" stroke="#2E5A8B" stroke-width="6"/>
+  
+  <!-- Hour markers -->
+  <g stroke="#2E5A8B" stroke-width="4" stroke-linecap="round">
+    <!-- 12 -->
+    <line x1="256" y1="115" x2="256" y2="130"/>
+    <!-- 3 -->
+    <line x1="381" y1="240" x2="366" y2="240"/>
+    <!-- 6 -->
+    <line x1="256" y1="365" x2="256" y2="350"/>
+    <!-- 9 -->
+    <line x1="131" y1="240" x2="146" y2="240"/>
+  </g>
+  
+  <!-- Small hour markers -->
+  <g fill="#2E5A8B">
+    <circle cx="296" cy="120" r="4"/>
+    <circle cx="330" cy="140" r="4"/>
+    <circle cx="356" cy="174" r="4"/>
+    <circle cx="376" cy="214" r="4"/>
+    <circle cx="376" cy="266" r="4"/>
+    <circle cx="356" cy="306" r="4"/>
+    <circle cx="330" cy="340" r="4"/>
+    <circle cx="296" cy="360" r="4"/>
+    <circle cx="216" cy="360" r="4"/>
+    <circle cx="182" cy="340" r="4"/>
+    <circle cx="156" cy="306" r="4"/>
+    <circle cx="136" cy="266" r="4"/>
+    <circle cx="136" cy="214" r="4"/>
+    <circle cx="156" cy="174" r="4"/>
+    <circle cx="182" cy="140" r="4"/>
+    <circle cx="216" cy="120" r="4"/>
+  </g>
+  
+  <!-- Clock hands -->
+  <!-- Hour hand -->
+  <line x1="256" y1="240" x2="256" y2="175" stroke="#2E5A8B" stroke-width="8" stroke-linecap="round"/>
+  <!-- Minute hand -->
+  <line x1="256" y1="240" x2="310" y2="200" stroke="#2E5A8B" stroke-width="5" stroke-linecap="round"/>
+  
+  <!-- Center dot -->
+  <circle cx="256" cy="240" r="10" fill="#2E5A8B"/>
+  
+  <!-- Language indicator badge -->
+  <g transform="translate(320, 340)">
+    <!-- Badge background -->
+    <ellipse cx="60" cy="45" rx="75" ry="50" fill="#FF6B6B" filter="url(#shadow)"/>
+    <ellipse cx="60" cy="45" rx="75" ry="50" fill="none" stroke="#CC5555" stroke-width="3"/>
+    
+    <!-- Language symbols: A and あ with arrow -->
+    <text x="20" y="58" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="bold" fill="white">A</text>
+    <text x="70" y="62" font-family="Hiragino Sans, sans-serif" font-size="38" font-weight="bold" fill="white">あ</text>
+    
+    <!-- Small switch arrows -->
+    <path d="M50 25 L65 25 L60 18 M65 25 L60 32" stroke="white" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M75 70 L60 70 L65 77 M60 70 L65 63" stroke="white" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

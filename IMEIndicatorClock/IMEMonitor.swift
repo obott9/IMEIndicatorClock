@@ -202,24 +202,21 @@ class IMEMonitor {
 			return .japanese
 		}
 
-		// 中国語（簡体字）- ピンイン、五筆など
-		if sourceID.contains("Pinyin") ||
-		   sourceID.contains("Wubi") ||
-		   sourceID.contains("SCIM") ||
-		   sourceID.contains("com.apple.inputmethod.SCIM") ||
-		   sourceID.contains("PinyinIM") {
-			return .chineseSimplified
-		}
-
-		// 中国語（繁体字）- 注音、倉頡、広東語など
-		if sourceID.contains("Zhuyin") ||
+		// 中国語（繁体字）- TCIM/TYIMを先に判定（TCIM.Pinyinの誤判定を防ぐ）
+		if sourceID.contains("TCIM") ||
+		   sourceID.contains("TYIM") ||
+		   sourceID.contains("Zhuyin") ||
 		   sourceID.contains("Cangjie") ||
-		   sourceID.contains("TCIM") ||
-		   sourceID.contains("TYIM") ||  // 広東語（粤語）入力メソッド
-		   sourceID.contains("com.apple.inputmethod.TCIM") ||
-		   sourceID.contains("com.apple.inputmethod.TYIM") ||
 		   sourceID.contains("TraditionalChinese") {
 			return .chineseTraditional
+		}
+
+		// 中国語（簡体字）- ピンイン、五筆など
+		if sourceID.contains("SCIM") ||
+		   sourceID.contains("Pinyin") ||
+		   sourceID.contains("Wubi") ||
+		   sourceID.contains("PinyinIM") {
+			return .chineseSimplified
 		}
 
 		// 韓国語
