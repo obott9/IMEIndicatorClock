@@ -94,6 +94,10 @@
 3. 将 `IMEIndicatorClock.app` 移动到「应用程序」文件夹
 4. 启动应用程序
 
+### 从 Vector 下载
+
+- [Vector](https://www.vector.co.jp/soft/mac/writing/se528406.html)
+
 ### 从源码构建
 
 ```bash

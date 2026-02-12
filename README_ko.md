@@ -94,6 +94,10 @@ IME 사용자가 현재 입력 모드를 한눈에 확인할 수 있도록 돕�
 3. `IMEIndicatorClock.app`을 응용 프로그램 폴더로 이동
 4. 앱 실행
 
+### Vector에서 다운로드
+
+- [Vector](https://www.vector.co.jp/soft/mac/writing/se528406.html)
+
 ### 소스에서 빌드
 
 ```bash
