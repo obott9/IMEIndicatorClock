@@ -23,6 +23,11 @@ class ContextMenuHostingView<Content: View>: NSHostingView<Content> {
 	/// 初期化
 	required init(rootView: Content) {
 		super.init(rootView: rootView)
+		// NSHostingViewのデフォルト動作ではコンテンツサイズに合わせて
+		// ウィンドウを拡大してしまうため、自動サイズ伝播を無効化
+		if #available(macOS 13.0, *) {
+			self.sizingOptions = []
+		}
 	}
 
 	@MainActor required dynamic init?(coder: NSCoder) {
