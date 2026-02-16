@@ -23,16 +23,26 @@ xcodebuild archive \
 
 ### 3. ZIPファイル作成
 
-xcarchive 内の .app を直接ZIP化する（READMEは同梱しない）。
+`IMEIndicatorClock/` フォルダに .app と README を同梱してZIP化する。
 
 ```bash
 cd build/release
-mkdir _tmp_zip
-cp -R IMEIndicatorClock.xcarchive/Products/Applications/IMEIndicatorClock.app _tmp_zip/
-cd _tmp_zip
-zip -r ../IMEIndicatorClock_vX.X.X.zip IMEIndicatorClock.app
-cd ..
-rm -rf _tmp_zip
+rm -rf IMEIndicatorClock
+mkdir IMEIndicatorClock
+
+# アプリをコピー
+cp -R IMEIndicatorClock.xcarchive/Products/Applications/IMEIndicatorClock.app IMEIndicatorClock/
+
+# READMEをコピー
+cp ../../dist/README.txt IMEIndicatorClock/
+cp ../../dist/README_EN.txt IMEIndicatorClock/
+cp ../../dist/README_ko.txt IMEIndicatorClock/
+cp ../../dist/README_zh-CN.txt IMEIndicatorClock/
+cp ../../dist/README_zh-TW.txt IMEIndicatorClock/
+
+# ZIPを作成
+zip -r IMEIndicatorClock_vX.X.X.zip IMEIndicatorClock
+rm -rf IMEIndicatorClock
 ```
 
 ### 4. gitタグ作成・push
