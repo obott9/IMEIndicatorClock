@@ -7,53 +7,63 @@
 
 ## リリースビルド作成
 
-### 1. Xcodeでアーカイブ
+### 1. バージョン番号を更新
 
-```
-Product > Archive
-```
+`IMEIndicatorClock.xcodeproj/project.pbxproj` 内の `MARKETING_VERSION` を全箇所（6箇所）更新する。
 
-または、コマンドラインで：
+### 2. アーカイブビルド
 
 ```bash
-xcodebuild -project IMEIndicatorClock.xcodeproj \
+cd /path/to/IMEIndicatorClock
+xcodebuild archive \
+  -project IMEIndicatorClock.xcodeproj \
   -scheme IMEIndicatorClock \
-  -configuration Release \
-  -archivePath build/IMEIndicatorClock.xcarchive \
-  archive
+  -archivePath build/release/IMEIndicatorClock.xcarchive
 ```
-
-### 2. アプリをエクスポート
-
-Organizer から「Distribute App」→「Copy App」でエクスポート
 
 ### 3. ZIPファイル作成
 
+xcarchive 内の .app を直接ZIP化する（READMEは同梱しない）。
+
 ```bash
-# 作業ディレクトリを作成（.gitignoreに追加済み）
-mkdir -p build/release/IMEIndicatorClock
-
-# アプリをコピー（エクスポート先のパスを指定）
-cp -r /path/to/exported/IMEIndicatorClock.app build/release/IMEIndicatorClock/
-
-# READMEをコピー
-cp dist/README.txt build/release/IMEIndicatorClock/
-cp dist/README_EN.txt build/release/IMEIndicatorClock/
-cp dist/README_ko.txt build/release/IMEIndicatorClock/
-cp dist/README_zh-CN.txt build/release/IMEIndicatorClock/
-cp dist/README_zh-TW.txt build/release/IMEIndicatorClock/
-
-# ZIPを作成
 cd build/release
-zip -r IMEIndicatorClock_vX.X.X.zip IMEIndicatorClock
+mkdir _tmp_zip
+cp -R IMEIndicatorClock.xcarchive/Products/Applications/IMEIndicatorClock.app _tmp_zip/
+cd _tmp_zip
+zip -r ../IMEIndicatorClock_vX.X.X.zip IMEIndicatorClock.app
+cd ..
+rm -rf _tmp_zip
 ```
 
-### 4. GitHub Releasesにアップロード
+### 4. gitタグ作成・push
 
-1. GitHubでタグを作成（例: `v1.0.0`）
-2. Releases → Draft a new release
-3. 作成したZIPファイルをアップロード
-4. リリースノートを記載して公開
+```bash
+git tag vX.X.X
+git push origin vX.X.X
+git push origin main
+```
+
+### 5. GitHub Releaseを作成
+
+```bash
+gh release create vX.X.X \
+  --draft \
+  --title "vX.X.X" \
+  --notes "リリースノート（5言語）"
+
+gh release upload vX.X.X build/release/IMEIndicatorClock_vX.X.X.zip
+```
+
+動作確認後にドラフトを公開：
+
+```bash
+gh release edit vX.X.X --draft=false
+```
+
+### リリースノートのフォーマット
+
+5言語（English / 日本語 / 한국어 / 简体中文 / 繁體中文）で記載する。
+過去のリリースを参考にすること: `gh release view vX.X.X`
 
 ## ファイル構成
 
@@ -61,15 +71,16 @@ zip -r IMEIndicatorClock_vX.X.X.zip IMEIndicatorClock
 リポジトリ内（コミット対象）:
   dist/
     ├── RELEASE.md          # この手順書
-    ├── README.txt          # ZIPに同梱（日本語）
-    ├── README_EN.txt       # ZIPに同梱（English）
-    ├── README_ko.txt       # ZIPに同梱（한국어）
-    ├── README_zh-CN.txt    # ZIPに同梱（简体中文）
-    └── README_zh-TW.txt    # ZIPに同梱（繁體中文）
+    ├── README.txt          # 配布用（日本語）
+    ├── README_EN.txt       # 配布用（English）
+    ├── README_ko.txt       # 配布用（한국어）
+    ├── README_zh-CN.txt    # 配布用（简体中文）
+    └── README_zh-TW.txt    # 配布用（繁體中文）
 
 作業用（.gitignoreで除外）:
   build/
     └── release/
+        ├── IMEIndicatorClock.xcarchive/
         └── IMEIndicatorClock_vX.X.X.zip
 
 GitHub Releases（最終配布先）:
@@ -89,10 +100,12 @@ GitHub Releases（最終配布先）:
 
 ## リリースチェックリスト
 
-- [ ] バージョン番号を更新（Info.plist）
-- [ ] Release構成でビルド
+- [ ] バージョン番号を更新（project.pbxproj の MARKETING_VERSION 6箇所）
+- [ ] Release構成でアーカイブビルド
 - [ ] アプリが正常に起動するか確認
 - [ ] dist/README.txt の内容が最新か確認
 - [ ] dist/README.txt と README_EN.txt の動作環境がプロジェクト設定（MACOSX_DEPLOYMENT_TARGET）と一致しているか確認
-- [ ] GitHubにタグを作成
-- [ ] GitHub Releasesに ZIPをアップロード
+- [ ] gitタグを作成・push
+- [ ] GitHub Releasesにドラフト作成・ZIPアップロード
+- [ ] 動作確認後にドラフトを公開
+- [ ] IMEIndicatorZ にも同じ修正を同期・バージョン更新
