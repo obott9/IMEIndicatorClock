@@ -256,6 +256,10 @@ extension ClockWindowManager {
 		let clampedHeight = min(windowSize.height, AppConstants.clockWindowMaxSize)
 		let clampedSize = NSSize(width: clampedWidth, height: clampedHeight)
 
+		// オブザーバーを一時解除（setFrame/setFrameOriginによるdidMoveNotification発火で
+		// プリセット位置が上書きされるのを防ぐ）
+		removeAllObservers()
+
 		var frame = window.frame
 		frame.size = clampedSize
 		window.setFrame(frame, display: true, animate: false)
@@ -274,6 +278,9 @@ extension ClockWindowManager {
 		} else {
 			dbgLog(1, "📐 [ClockWindow] ウィンドウサイズを更新: %dx%d (ドラッグ中のため位置更新スキップ)", Int(clampedWidth), Int(clampedHeight))
 		}
+
+		// オブザーバーを再登録
+		registerObservers(for: window)
 
 		// 移動モードの更新
 		updateMoveMode(for: window, moveMode: settings.moveMode)
