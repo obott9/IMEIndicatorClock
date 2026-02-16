@@ -62,6 +62,8 @@ struct ClockView: View {
 			}
 			.padding(16)
 		}
+		.frame(maxWidth: .infinity, maxHeight: .infinity)
+		.clipped()
 		.opacity(settings.backgroundOpacity)
 		.onAppear {
 			// Combineの Timer.publish を使用（SwiftUI推奨パターン）
