@@ -11,38 +11,56 @@
 import SwiftUI
 import AppKit
 
-// MARK: - コンテキストメニュー付きNSHostingView
+// MARK: - コンテキストメニュー付きコンテナビュー
 
-/// 右クリックメニューをサポートするNSHostingView
-/// 設定ウィンドウが開いていない時のみ右クリックメニューを表示
-class ContextMenuHostingView<Content: View>: NSHostingView<Content> {
+/// 右クリックメニューをサポートするコンテナビュー
+/// NSHostingViewを子ビューとして保持し、ウィンドウサイズの自動拡大を防止する
+class ContextMenuHostingView<Content: View>: NSView {
 
 	/// 設定を開くタブの種類
 	var settingsTab: SettingsTab = .clock
 
+	/// 内部のNSHostingView
+	private var hostingView: NSHostingView<Content>
+
+	/// SwiftUIビューのルートを更新
+	var rootView: Content {
+		get { hostingView.rootView }
+		set { hostingView.rootView = newValue }
+	}
+
 	/// 初期化
 	required init(rootView: Content) {
-		super.init(rootView: rootView)
-		// NSHostingViewのデフォルト動作ではコンテンツサイズに合わせて
-		// ウィンドウを拡大してしまうため、自動サイズ伝播を無効化
+		self.hostingView = NSHostingView(rootView: rootView)
+		super.init(frame: .zero)
+
+		// NSHostingViewをサブビューとして追加し、親ビューのサイズに従わせる
+		hostingView.translatesAutoresizingMaskIntoConstraints = false
+		addSubview(hostingView)
+		NSLayoutConstraint.activate([
+			hostingView.topAnchor.constraint(equalTo: topAnchor),
+			hostingView.leadingAnchor.constraint(equalTo: leadingAnchor),
+			hostingView.trailingAnchor.constraint(equalTo: trailingAnchor),
+			hostingView.bottomAnchor.constraint(equalTo: bottomAnchor),
+		])
+
+		// コンテンツがはみ出す場合はクリップ
+		self.clipsToBounds = true
+
+		// NSHostingViewからウィンドウへのサイズ伝播を無効化
 		if #available(macOS 13.0, *) {
-			self.sizingOptions = []
+			hostingView.sizingOptions = []
 		}
 	}
 
-	@MainActor required dynamic init?(coder: NSCoder) {
+	required init?(coder: NSCoder) {
 		fatalError("init(coder:) has not been implemented")
-	}
-
-	/// コンテンツサイズによるウィンドウ拡大を防止
-	override var intrinsicContentSize: NSSize {
-		return NSSize(width: NSView.noIntrinsicMetric, height: NSView.noIntrinsicMetric)
 	}
 
 	/// 右クリックイベント
 	override func rightMouseDown(with event: NSEvent) {
 		dbgLog(0, "🖱️ [ContextMenu] rightMouseDown呼び出し")
-		
+
 		// 設定ウィンドウが開いている場合はメニューを表示しない
 		guard !UnifiedSettingsWindowManager.shared.isOpen else {
 			dbgLog(0, "🖱️ [ContextMenu] 設定ウィンドウが開いているためメニューをスキップ")
