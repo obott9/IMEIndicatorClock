@@ -59,6 +59,7 @@ struct ClockView: View {
 					clockContent(currentDate: currentTime)
 				}
 				.padding(16)
+				.fixedSize()
 			}
 			.clipped()
 			.opacity(settings.backgroundOpacity)
