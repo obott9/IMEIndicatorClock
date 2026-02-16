@@ -34,6 +34,11 @@ class ContextMenuHostingView<Content: View>: NSHostingView<Content> {
 		fatalError("init(coder:) has not been implemented")
 	}
 
+	/// コンテンツサイズによるウィンドウ拡大を防止
+	override var intrinsicContentSize: NSSize {
+		return NSSize(width: NSView.noIntrinsicMetric, height: NSView.noIntrinsicMetric)
+	}
+
 	/// 右クリックイベント
 	override func rightMouseDown(with event: NSEvent) {
 		dbgLog(0, "🖱️ [ContextMenu] rightMouseDown呼び出し")
