@@ -51,8 +51,15 @@ class MenuBarManager: NSObject, NSMenuDelegate {
 		menu.delegate = self
 
 		// --- アプリ情報 ---
+		let aboutTitle: String
+		#if DEBUG
+		aboutTitle = String(localized: "menu.about_app")
+			.replacingOccurrences(of: "IMEIndicatorClock", with: "IMEIndicatorClock(dbg)")
+		#else
+		aboutTitle = String(localized: "menu.about_app")
+		#endif
 		let aboutItem = NSMenuItem(
-			title: String(localized: "menu.about_app"),
+			title: aboutTitle,
 			action: #selector(openAbout),
 			keyEquivalent: ""
 		)
