@@ -273,7 +273,7 @@ class IMEIndicatorWindowManager: NSObject {
 		// 位置やサイズが変わった場合はウィンドウを再作成（visibleFrameクランプ後の値で比較）
 		if let window = indicatorWindow {
 			let currentFrame = window.frame
-			let screen = NSScreen.screens[safe: currentSettings.displayIndex] ?? NSScreen.main ?? NSScreen.screens[0]
+			let screen = NSScreen.screens[safe: currentSettings.displayIndex] ?? NSScreen.main ?? NSScreen.screens.first!
 			let expected = clampedWindowOrigin(
 				relativeX: currentSettings.positionX, relativeY: currentSettings.positionY,
 				windowSize: currentSettings.indicatorSize, screen: screen

@@ -455,7 +455,7 @@ extension ClockWindowManager {
 		}
 
 		let frame = window.frame
-		let screen = window.screen ?? NSScreen.main ?? NSScreen.screens[0]
+		let screen = window.screen ?? NSScreen.main ?? NSScreen.screens.first!
 
 		let relativeX = frame.origin.x - screen.frame.origin.x
 		let relativeY = frame.origin.y - screen.frame.origin.y
@@ -508,7 +508,7 @@ extension ClockWindowManager {
 		let newHeight = frame.size.height
 		let windowOrigin = frame.origin
 
-		let screen = window.screen ?? NSScreen.main ?? NSScreen.screens[0]
+		let screen = window.screen ?? NSScreen.main ?? NSScreen.screens.first!
 		let relativeX = windowOrigin.x - screen.frame.origin.x
 		let relativeY = windowOrigin.y - screen.frame.origin.y
 
@@ -585,7 +585,7 @@ extension ClockWindowManager {
 		if index < screens.count {
 			return screens[index]
 		} else {
-			return NSScreen.main ?? screens[0]
+			return NSScreen.main ?? screens.first!
 		}
 	}
 
