@@ -230,23 +230,8 @@ class AppSettingsManager: ObservableObject {
 
 		settings.clock.positionX = x
 		settings.clock.positionY = y
-
-		// プレビューモードの場合は保存しない
-		guard !isPreviewMode, let fileURL = settingsFileURL else {
-			dbgLog(1, "🎨 [AppSettings] プレビューモードのため位置保存をスキップ")
-			DispatchQueue.main.async { self.isUpdatingFromWindow = false }
-			return
-		}
-
-		do {
-			let encoder = JSONEncoder()
-			encoder.outputFormatting = [.prettyPrinted, .sortedKeys]
-			let data = try encoder.encode(settings)
-			try data.write(to: fileURL)
-			dbgLog(1, "💾 [AppSettings] 位置を保存しました: (%d, %d)", Int(x), Int(y))
-		} catch {
-			dbgLog(-1, "❌ [AppSettings] 保存エラー: %@", error.localizedDescription)
-		}
+		save()
+		dbgLog(1, "💾 [AppSettings] 位置を保存しました: (%d, %d)", Int(x), Int(y))
 
 		DispatchQueue.main.async {
 			self.isUpdatingFromWindow = false
@@ -260,23 +245,8 @@ class AppSettingsManager: ObservableObject {
 
 		settings.clock.windowWidth = width
 		settings.clock.windowHeight = height
-
-		// プレビューモードの場合は保存しない
-		guard !isPreviewMode, let fileURL = settingsFileURL else {
-			dbgLog(1, "🎨 [AppSettings] プレビューモードのためサイズ保存をスキップ")
-			DispatchQueue.main.async { self.isUpdatingFromWindow = false }
-			return
-		}
-
-		do {
-			let encoder = JSONEncoder()
-			encoder.outputFormatting = [.prettyPrinted, .sortedKeys]
-			let data = try encoder.encode(settings)
-			try data.write(to: fileURL)
-			dbgLog(1, "💾 [AppSettings] サイズを保存しました: (%dx%d)", Int(width), Int(height))
-		} catch {
-			dbgLog(-1, "❌ [AppSettings] 保存エラー: %@", error.localizedDescription)
-		}
+		save()
+		dbgLog(1, "💾 [AppSettings] サイズを保存しました: (%dx%d)", Int(width), Int(height))
 
 		DispatchQueue.main.async {
 			self.isUpdatingFromWindow = false
