@@ -90,8 +90,8 @@ class IMEIndicatorWindowManager: NSObject {
 		}
 
 		// 設定を取得
-		let settings = settings
-		isVisible = settings.isVisible
+		let currentSettings = settings
+		isVisible = currentSettings.isVisible
 
 		// 表示設定がOFFの場合は作成しない
 		guard isVisible else {
@@ -100,7 +100,7 @@ class IMEIndicatorWindowManager: NSObject {
 		}
 
 		// 選択されたディスプレイを取得
-		let displayIndex = settings.displayIndex
+		let displayIndex = currentSettings.displayIndex
 		guard displayIndex < NSScreen.screens.count else {
 			dbgLog(-1, "⚠️ [IMEIndicator] 無効なディスプレイインデックス: %d", displayIndex)
 			return
@@ -109,14 +109,14 @@ class IMEIndicatorWindowManager: NSObject {
 
 		// ウィンドウの位置とサイズを計算（visibleFrameクランプ）
 		let clampedOrigin = clampedWindowOrigin(
-			relativeX: settings.positionX, relativeY: settings.positionY,
-			windowSize: settings.indicatorSize, screen: screen
+			relativeX: currentSettings.positionX, relativeY: currentSettings.positionY,
+			windowSize: currentSettings.indicatorSize, screen: screen
 		)
 		let windowRect = NSRect(
 			x: clampedOrigin.x,
 			y: clampedOrigin.y,
-			width: settings.indicatorSize,
-			height: settings.indicatorSize
+			width: currentSettings.indicatorSize,
+			height: currentSettings.indicatorSize
 		)
 
 		// ウィンドウを作成
@@ -136,12 +136,12 @@ class IMEIndicatorWindowManager: NSObject {
 			.stationary,
 			.ignoresCycle
 		]
-		window.isMovableByWindowBackground = settings.moveMode
+		window.isMovableByWindowBackground = currentSettings.moveMode
 		window.ignoresMouseEvents = false
 		window.hasShadow = true
 
 		// SwiftUIビューを作成（DraggableHostingViewでドラッグ機能を有効化）
-		let contentView = createIndicatorView(settings: settings)
+		let contentView = createIndicatorView(settings: currentSettings)
 		let newHostingView = DraggableHostingView(rootView: contentView)
 		self.hostingView = newHostingView
 		window.contentView = newHostingView
@@ -170,8 +170,8 @@ class IMEIndicatorWindowManager: NSObject {
 	func recreate() {
 		dbgLog(1, "🔄 [IMEIndicator] recreate開始")
 
-		let settings = settings
-		isVisible = settings.isVisible
+		let currentSettings = settings
+		isVisible = currentSettings.isVisible
 
 		// 表示設定に応じて処理
 		if isVisible {
