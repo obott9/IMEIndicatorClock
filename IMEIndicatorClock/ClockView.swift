@@ -215,7 +215,7 @@ struct ClockView: View {
 		}
 
 		// 独自の色設定を使用する場合
-		if settingsManager.isJapaneseInput {
+		if settingsManager.isIMEActive {
 			return settings.backgroundColorOn.color
 		} else {
 			return settings.backgroundColorOff.color
@@ -370,7 +370,7 @@ struct ClockView: View {
 		manager.settings.clock.analogClockSize = 200
 		manager.settings.clock.fontSize = 82
 		manager.settings.clock.timeFormatStyle = .complete
-		manager.isJapaneseInput = false
+		manager.isIMEActive = false
 		return manager
 	}())
 	.frame(width: 400, height: 300)
@@ -382,7 +382,7 @@ struct ClockView: View {
 		manager.settings.clock.style = .analog
 		manager.settings.clock.dateTimePosition = .dateTimeHorizontal
 		manager.settings.clock.analogClockSize = 200
-		manager.isJapaneseInput = false
+		manager.isIMEActive = false
 		return manager
 	}())
 	.frame(width: 400, height: 300)
@@ -394,7 +394,7 @@ struct ClockView: View {
 		manager.settings.clock.style = .analog
 		manager.settings.clock.dateTimePosition = .timeDateVertical
 		manager.settings.clock.analogClockSize = 200
-		manager.isJapaneseInput = false
+		manager.isIMEActive = false
 		return manager
 	}())
 	.frame(width: 400, height: 300)
@@ -406,7 +406,7 @@ struct ClockView: View {
 		manager.settings.clock.style = .analog
 		manager.settings.clock.dateTimePosition = .timeDateHorizontal
 		manager.settings.clock.analogClockSize = 200
-		manager.isJapaneseInput = false
+		manager.isIMEActive = false
 		return manager
 	}())
 	.frame(width: 400, height: 300)
@@ -418,7 +418,7 @@ struct ClockView: View {
 		manager.settings.clock.style = .analog
 		manager.settings.clock.dateTimePosition = .dateOnly
 		manager.settings.clock.analogClockSize = 200
-		manager.isJapaneseInput = false
+		manager.isIMEActive = false
 		return manager
 	}())
 	.frame(width: 400, height: 300)
@@ -430,7 +430,7 @@ struct ClockView: View {
 		manager.settings.clock.style = .analog
 		manager.settings.clock.dateTimePosition = .timeOnly
 		manager.settings.clock.analogClockSize = 200
-		manager.isJapaneseInput = false
+		manager.isIMEActive = false
 		return manager
 	}())
 	.frame(width: 400, height: 300)
@@ -442,7 +442,7 @@ struct ClockView: View {
 		manager.settings.clock.style = .digital
 		manager.settings.clock.dateTimePosition = .dateTimeVertical
 		manager.settings.clock.fontSize = 56
-		manager.isJapaneseInput = true
+		manager.isIMEActive = true
 		return manager
 	}())
 	.frame(width: 500, height: 150)
@@ -454,7 +454,7 @@ struct ClockView: View {
 		manager.settings.clock.style = .digital
 		manager.settings.clock.dateTimePosition = .dateTimeHorizontal
 		manager.settings.clock.fontSize = 26
-		manager.isJapaneseInput = false
+		manager.isIMEActive = false
 		return manager
 	}())
 	.frame(width: 400, height: 100)
@@ -466,7 +466,7 @@ struct ClockView: View {
 		manager.settings.clock.style = .digital
 		manager.settings.clock.dateTimePosition = .timeDateVertical
 		manager.settings.clock.fontSize = 56
-		manager.isJapaneseInput = true
+		manager.isIMEActive = true
 		return manager
 	}())
 	.frame(width: 500, height: 150)
@@ -478,7 +478,7 @@ struct ClockView: View {
 		manager.settings.clock.style = .digital
 		manager.settings.clock.dateTimePosition = .timeDateHorizontal
 		manager.settings.clock.fontSize = 26
-		manager.isJapaneseInput = false
+		manager.isIMEActive = false
 		return manager
 	}())
 	.frame(width: 400, height: 100)
@@ -491,7 +491,7 @@ struct ClockView: View {
 		manager.settings.clock.style = .digital
 		manager.settings.clock.dateTimePosition = .dateOnly
 		manager.settings.clock.fontSize = 26
-		manager.isJapaneseInput = true
+		manager.isIMEActive = true
 		return manager
 	}())
 	.frame(width: 300, height: 150)
@@ -504,7 +504,7 @@ struct ClockView: View {
 		manager.settings.clock.style = .digital
 		manager.settings.clock.dateTimePosition = .timeOnly
 		manager.settings.clock.fontSize = 26
-		manager.isJapaneseInput = false
+		manager.isIMEActive = false
 		return manager
 	}())
 	.frame(width: 400, height: 100)

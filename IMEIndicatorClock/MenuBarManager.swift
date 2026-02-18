@@ -139,13 +139,13 @@ class MenuBarManager: NSObject, NSMenuDelegate {
 	}
 
 	/// IME状態表示を更新
-	func updateIMEStatus(_ isJapanese: Bool) {
+	func updateIMEStatus(_ isIMEOn: Bool) {
 		guard let menu = statusItem?.menu else { return }
 
 		let statusPrefix = String(localized: "menu.status_prefix")
 		for item in menu.items {
 			if item.title.starts(with: statusPrefix) {
-				item.title = isJapanese
+				item.title = isIMEOn
 					? String(localized: "menu.status_japanese")
 					: String(localized: "menu.status_english")
 			}

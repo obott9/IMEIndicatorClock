@@ -71,8 +71,8 @@ class AppSettingsManager: ObservableObject {
 	/// プレビューモードかどうか
 	private let isPreviewMode: Bool
 
-	/// IME状態（日本語入力かどうか）
-	@Published var isJapaneseInput: Bool = false
+	/// IME状態（IMEがONかどうか：英語以外はすべてtrue）
+	@Published var isIMEActive: Bool = false
 
 	/// 現在の入力言語（ビューのリアクティブ更新用）
 	@Published var currentLanguage: InputLanguage = .english
@@ -215,9 +215,9 @@ class AppSettingsManager: ObservableObject {
 	// MARK: - IME状態の更新
 	
 	/// IME状態を更新（時計の背景色切り替え用）
-	func updateIMEState(isJapanese: Bool) {
+	func updateIMEState(isIMEOn: Bool) {
 		DispatchQueue.main.async {
-			self.isJapaneseInput = isJapanese
+			self.isIMEActive = isIMEOn
 		}
 	}
 	
