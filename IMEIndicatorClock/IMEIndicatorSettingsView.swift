@@ -628,7 +628,7 @@ struct IMEIndicatorSettingsView: View {
 		.onAppear {
 			// 設定画面表示時：移動モードをON
 			appSettings.settings.imeIndicator.moveMode = true
-			NotificationCenter.default.post(name: NSNotification.Name("IMEIndicatorSettingsChanged"), object: nil)
+			NotificationCenter.default.post(name: .imeIndicatorSettingsChanged, object: nil)
 			dbgLog(1, "📱 [IMEIndicatorSettingsView] 表示：移動モードON")
 		}
 		.onDisappear {
@@ -636,7 +636,7 @@ struct IMEIndicatorSettingsView: View {
 			appSettings.settings.imeIndicator.moveMode = false
 			// 設定を明示的に保存
 			appSettings.save()
-			NotificationCenter.default.post(name: NSNotification.Name("IMEIndicatorSettingsChanged"), object: nil)
+			NotificationCenter.default.post(name: .imeIndicatorSettingsChanged, object: nil)
 			dbgLog(1, "📱 [IMEIndicatorSettingsView] 非表示：移動モードOFF、設定保存完了")
 		}
 	}
@@ -698,7 +698,7 @@ struct IMEIndicatorSettingsView: View {
 		appSettings.save()
 
 		// AppDelegateに通知して表示を更新
-		NotificationCenter.default.post(name: NSNotification.Name("IMEIndicatorSettingsChanged"), object: nil)
+		NotificationCenter.default.post(name: .imeIndicatorSettingsChanged, object: nil)
 	}
 
 	/// 設定をリセット

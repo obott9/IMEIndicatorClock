@@ -205,7 +205,7 @@ class DraggableHostingView<Content: View>: NSHostingView<Content> {
 		AppSettingsManager.shared.save()
 
 		// 設定画面のUI更新のため通知を送信
-		NotificationCenter.default.post(name: NSNotification.Name("IMEIndicatorSettingsChanged"), object: nil)
+		NotificationCenter.default.post(name: .imeIndicatorSettingsChanged, object: nil)
 
 		dbgLog(1, "📍 [IMEIndicator] ドラッグ終了: グローバル=(%d, %d) → ディスプレイ%d相対=(%d, %d)",
 			   Int(finalOrigin.x), Int(finalOrigin.y),

@@ -222,9 +222,9 @@ private func writeToFile(_ message: String) {
 		if FileManager.default.fileExists(atPath: fileURL.path) {
 			// ファイルが存在する場合は追記
 			let fileHandle = try FileHandle(forWritingTo: fileURL)
+			defer { fileHandle.closeFile() }
 			fileHandle.seekToEndOfFile()
 			fileHandle.write(data)
-			fileHandle.closeFile()
 			print("[dbgLog] ログ追記成功: \(fileURL.path)")
 		} else {
 			// ファイルが存在しない場合は新規作成

@@ -54,7 +54,7 @@ class IMEIndicatorWindowManager: NSObject {
 		NotificationCenter.default.addObserver(
 			self,
 			selector: #selector(settingsChanged),
-			name: NSNotification.Name("IMEIndicatorSettingsChanged"),
+			name: .imeIndicatorSettingsChanged,
 			object: nil
 		)
 	}

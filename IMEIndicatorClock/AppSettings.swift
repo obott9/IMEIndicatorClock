@@ -100,11 +100,16 @@ class AppSettingsManager: ObservableObject {
 	private init() {
 		self.isPreviewMode = false
 		// アプリケーションサポートディレクトリのパスを取得
-		guard let appSupportURL = FileManager.default.urls(
+		let appSupportURL: URL
+		if let url = FileManager.default.urls(
 			for: .applicationSupportDirectory,
 			in: .userDomainMask
-		).first else {
-			fatalError("Application Support directory not found")
+		).first {
+			appSupportURL = url
+		} else {
+			// Application Supportが取得できない場合は一時ディレクトリをフォールバックとして使用
+			appSupportURL = FileManager.default.temporaryDirectory
+			dbgLog(-1, "⚠️ [AppSettings] Application Supportディレクトリが見つかりません。一時ディレクトリを使用: %@", appSupportURL.path)
 		}
 
 		// Bundle IDに基づいてディレクトリ名を決定（デバッグとリリースで分離）

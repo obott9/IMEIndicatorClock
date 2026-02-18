@@ -136,7 +136,7 @@ class IMEMonitor {
 		DistributedNotificationCenter.default().addObserver(
 			self,
 			selector: #selector(inputSourceChanged),
-			name: NSNotification.Name("AppleSelectedInputSourcesChangedNotification"),
+			name: .appleSelectedInputSourcesChanged,
 			object: nil
 		)
 

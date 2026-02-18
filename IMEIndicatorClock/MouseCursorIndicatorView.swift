@@ -65,7 +65,7 @@ struct MouseCursorIndicatorView: View {
         .frame(width: indicatorSize, height: indicatorSize, alignment: .topLeading)
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
         .opacity(indicatorOpacity)
-        .onReceive(NotificationCenter.default.publisher(for: NSNotification.Name("MouseCursorIndicatorLanguageChanged"))) { notification in
+        .onReceive(NotificationCenter.default.publisher(for: .mouseCursorIndicatorLanguageChanged)) { notification in
             if let language = notification.object as? InputLanguage {
                 currentLanguage = language
             }

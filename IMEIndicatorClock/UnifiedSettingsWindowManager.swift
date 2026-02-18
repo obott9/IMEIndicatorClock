@@ -136,7 +136,7 @@ class UnifiedSettingsWindowManager: NSObject {
 		// 少し待ってから通知を送信（確実に反映させる）
 		DispatchQueue.main.asyncAfter(deadline: .now() + 0.05) {
 			NotificationCenter.default.post(
-				name: NSNotification.Name("IMEIndicatorSettingsChanged"),
+				name: .imeIndicatorSettingsChanged,
 				object: nil
 			)
 		}
@@ -163,7 +163,7 @@ class UnifiedSettingsWindowManager: NSObject {
 			// 少し待ってから通知を送信（確実に反映させる）
 			DispatchQueue.main.asyncAfter(deadline: .now() + 0.05) {
 				NotificationCenter.default.post(
-					name: NSNotification.Name("IMEIndicatorSettingsChanged"),
+					name: .imeIndicatorSettingsChanged,
 					object: nil
 				)
 			}

@@ -231,7 +231,7 @@ class MenuBarManager: NSObject, NSMenuDelegate {
 
 		// 通知を送信（WindowManagerがハンドリング）
 		NotificationCenter.default.post(
-			name: NSNotification.Name("MouseCursorIndicatorSettingsChanged"),
+			name: .mouseCursorIndicatorSettingsChanged,
 			object: nil
 		)
 

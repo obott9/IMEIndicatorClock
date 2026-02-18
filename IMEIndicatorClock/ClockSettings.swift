@@ -211,6 +211,50 @@ enum DateTimePosition: String, Codable, CaseIterable {
 
 // MARK: - 日付の書式スタイル
 
+/// DateFormatterのキャッシュ（毎秒の時計更新で再生成を防ぐ）
+private enum DateFormatterCache {
+	/// dateStyle/timeStyle ベースのフォーマッターキャッシュ
+	/// キー: "date_{rawValue}" または "time_{rawValue}"
+	private static var styleCache: [String: DateFormatter] = [:]
+
+	/// カスタムフォーマット文字列ベースのフォーマッターキャッシュ
+	/// キー: "{locale}_{formatString}"
+	private static var customCache: [String: DateFormatter] = [:]
+
+	/// dateStyle指定のフォーマッターを取得（キャッシュあり）
+	static func formatter(dateStyle: DateFormatter.Style, locale: Locale) -> DateFormatter {
+		let key = "date_\(dateStyle.rawValue)_\(locale.identifier)"
+		if let cached = styleCache[key] { return cached }
+		let formatter = DateFormatter()
+		formatter.locale = locale
+		formatter.dateStyle = dateStyle
+		styleCache[key] = formatter
+		return formatter
+	}
+
+	/// timeStyle指定のフォーマッターを取得（キャッシュあり）
+	static func formatter(timeStyle: DateFormatter.Style, locale: Locale) -> DateFormatter {
+		let key = "time_\(timeStyle.rawValue)_\(locale.identifier)"
+		if let cached = styleCache[key] { return cached }
+		let formatter = DateFormatter()
+		formatter.locale = locale
+		formatter.timeStyle = timeStyle
+		styleCache[key] = formatter
+		return formatter
+	}
+
+	/// カスタムフォーマット文字列のフォーマッターを取得（キャッシュあり）
+	static func formatter(customFormat: String, locale: Locale) -> DateFormatter {
+		let key = "\(locale.identifier)_\(customFormat)"
+		if let cached = customCache[key] { return cached }
+		let formatter = DateFormatter()
+		formatter.locale = locale
+		formatter.dateFormat = customFormat
+		customCache[key] = formatter
+		return formatter
+	}
+}
+
 /// 日付の表示書式（標準4種 + カスタム2種）
 enum DateFormatStyle: String, Codable, CaseIterable {
 	case numeric = "numeric"           // 数値のみ
@@ -254,26 +298,19 @@ enum DateFormatStyle: String, Codable, CaseIterable {
 
 	/// 日付をフォーマット（標準形式用）
 	func format(_ date: Date, locale: Locale = .current) -> String {
-		let formatter = DateFormatter()
-		formatter.locale = locale
-
 		switch self {
 		case .numeric:
 			// 2026/1/9 (en: 1/9/26)
-			formatter.dateStyle = .short
-			return formatter.string(from: date)
+			return DateFormatterCache.formatter(dateStyle: .short, locale: locale).string(from: date)
 		case .abbreviated:
 			// Jan 9, 2026 (ja: 2026/01/09)
-			formatter.dateStyle = .medium
-			return formatter.string(from: date)
+			return DateFormatterCache.formatter(dateStyle: .medium, locale: locale).string(from: date)
 		case .long:
 			// January 9, 2026 (ja: 2026年1月9日)
-			formatter.dateStyle = .long
-			return formatter.string(from: date)
+			return DateFormatterCache.formatter(dateStyle: .long, locale: locale).string(from: date)
 		case .complete:
 			// Thursday, January 9, 2026 (ja: 2026年1月9日木曜日)
-			formatter.dateStyle = .full
-			return formatter.string(from: date)
+			return DateFormatterCache.formatter(dateStyle: .full, locale: locale).string(from: date)
 		case .custom1, .custom2:
 			// カスタムはClockSettingsから取得する必要があるため空文字
 			return ""
@@ -282,10 +319,7 @@ enum DateFormatStyle: String, Codable, CaseIterable {
 
 	/// カスタムフォーマット文字列で日付をフォーマット
 	static func formatCustom(_ date: Date, format: String, locale: Locale = .current) -> String {
-		let formatter = DateFormatter()
-		formatter.locale = locale
-		formatter.dateFormat = format
-		return formatter.string(from: date)
+		return DateFormatterCache.formatter(customFormat: format, locale: locale).string(from: date)
 	}
 }
 
@@ -332,22 +366,16 @@ enum TimeFormatStyle: String, Codable, CaseIterable {
 
 	/// 時刻をフォーマット（標準形式用）
 	func format(_ date: Date, locale: Locale = .current) -> String {
-		let formatter = DateFormatter()
-		formatter.locale = locale
-
 		switch self {
 		case .standard:
 			// 12:34:56
-			formatter.timeStyle = .medium
-			return formatter.string(from: date)
+			return DateFormatterCache.formatter(timeStyle: .medium, locale: locale).string(from: date)
 		case .shortened:
 			// 12:34
-			formatter.timeStyle = .short
-			return formatter.string(from: date)
+			return DateFormatterCache.formatter(timeStyle: .short, locale: locale).string(from: date)
 		case .complete:
 			// 12:34:56 JST
-			formatter.timeStyle = .long
-			return formatter.string(from: date)
+			return DateFormatterCache.formatter(timeStyle: .long, locale: locale).string(from: date)
 		case .custom1, .custom2:
 			// カスタムはClockSettingsから取得する必要があるため空文字
 			return ""
@@ -356,10 +384,7 @@ enum TimeFormatStyle: String, Codable, CaseIterable {
 
 	/// カスタムフォーマット文字列で時刻をフォーマット
 	static func formatCustom(_ date: Date, format: String, locale: Locale = .current) -> String {
-		let formatter = DateFormatter()
-		formatter.locale = locale
-		formatter.dateFormat = format
-		return formatter.string(from: date)
+		return DateFormatterCache.formatter(customFormat: format, locale: locale).string(from: date)
 	}
 }
 

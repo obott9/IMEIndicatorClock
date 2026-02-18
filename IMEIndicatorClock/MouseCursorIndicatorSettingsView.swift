@@ -205,7 +205,7 @@ struct MouseCursorIndicatorSettingsView: View {
                settings.opacity * 100)
         appSettings.save()
         NotificationCenter.default.post(
-            name: NSNotification.Name("MouseCursorIndicatorSettingsChanged"),
+            name: .mouseCursorIndicatorSettingsChanged,
             object: nil
         )
     }

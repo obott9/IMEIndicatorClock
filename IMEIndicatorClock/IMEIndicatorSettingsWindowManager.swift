@@ -79,7 +79,7 @@ class IMEIndicatorSettingsWindowManager {
 		
 		// 少し待ってから通知を送信（確実に反映させる）
 		DispatchQueue.main.asyncAfter(deadline: .now() + 0.05) {
-			NotificationCenter.default.post(name: NSNotification.Name("IMEIndicatorSettingsChanged"), object: nil)
+			NotificationCenter.default.post(name: .imeIndicatorSettingsChanged, object: nil)
 		}
 		
 		settingsWindow?.close()
@@ -98,7 +98,7 @@ class IMEIndicatorSettingsWindowManager {
 			
 			// 少し待ってから通知を送信（確実に反映させる）
 			DispatchQueue.main.asyncAfter(deadline: .now() + 0.05) {
-				NotificationCenter.default.post(name: NSNotification.Name("IMEIndicatorSettingsChanged"), object: nil)
+				NotificationCenter.default.post(name: .imeIndicatorSettingsChanged, object: nil)
 			}
 			
 			settingsWindow = nil

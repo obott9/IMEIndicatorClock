@@ -42,7 +42,7 @@ class MouseCursorIndicatorWindowManager {
         dbgLog(-1, "🖱️ [MouseCursorIndicator] WindowManager初期化開始")
         // 設定変更の監視
         settingsObserver = NotificationCenter.default.addObserver(
-            forName: NSNotification.Name("MouseCursorIndicatorSettingsChanged"),
+            forName: .mouseCursorIndicatorSettingsChanged,
             object: nil,
             queue: .main
         ) { [weak self] _ in
@@ -77,7 +77,7 @@ class MouseCursorIndicatorWindowManager {
 
         // 現在のIME状態をViewに通知（正しい色を表示するため）
         NotificationCenter.default.post(
-            name: NSNotification.Name("MouseCursorIndicatorLanguageChanged"),
+            name: .mouseCursorIndicatorLanguageChanged,
             object: currentLanguage
         )
 
@@ -272,7 +272,7 @@ class MouseCursorIndicatorWindowManager {
         if indicatorWindow != nil && changed {
             dbgLog(1, "🔤 [MouseCursorIndicator] 言語変更: %@", String(describing: language))
             NotificationCenter.default.post(
-                name: NSNotification.Name("MouseCursorIndicatorLanguageChanged"),
+                name: .mouseCursorIndicatorLanguageChanged,
                 object: language
             )
         }
