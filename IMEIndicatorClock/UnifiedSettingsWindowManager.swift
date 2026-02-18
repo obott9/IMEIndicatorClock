@@ -153,6 +153,9 @@ class UnifiedSettingsWindowManager: NSObject {
 		if let window = notification.object as? NSWindow,
 		   window == settingsWindow {
 
+			// オブザーバーを解除（リーク防止）
+			NotificationCenter.default.removeObserver(self, name: NSWindow.willCloseNotification, object: window)
+
 			// IMEインジケータの移動モードをOFF（既存動作を維持）
 			AppSettingsManager.shared.settings.imeIndicator.moveMode = false
 
