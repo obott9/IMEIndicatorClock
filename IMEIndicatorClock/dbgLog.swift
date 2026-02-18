@@ -38,6 +38,8 @@ private let PATH_STYLE: PathStyle = .parent2
 /// ログファイルURLのキャッシュ
 /// nilなら初回（ディレクトリ未作成）、値があれば作成済み
 private var cachedLogFileURL: URL?
+/// cachedLogFileURL へのアクセスを保護するロック
+private let cachedLogFileURLLock = NSLock()
 
 /// タイムスタンプ用のDateFormatterキャッシュ（パフォーマンス最適化）
 private let timestampFormatter: DateFormatter = {
@@ -51,6 +53,9 @@ private let timestampFormatter: DateFormatter = {
 
 /// ログファイル保存先を環境から取得（キャッシュあり）
 private func getLogFilePath() -> URL {
+	cachedLogFileURLLock.lock()
+	defer { cachedLogFileURLLock.unlock() }
+
 	// キャッシュがあればそれを返す
 	if let cached = cachedLogFileURL {
 		return cached
@@ -79,13 +84,16 @@ private func getLogFilePath() -> URL {
 /// ログディレクトリを確保する（初回のみ + 念のため存在チェック）
 private func ensureLogDirectory() {
 	// cachedLogFileURLがあれば既にディレクトリ確保済み
-	if cachedLogFileURL != nil {
+	cachedLogFileURLLock.lock()
+	let alreadyCached = cachedLogFileURL != nil
+	cachedLogFileURLLock.unlock()
+	if alreadyCached {
 		return
 	}
-	
+
 	let fileURL = getLogFilePath()  // これでcachedLogFileURLも設定される
 	let directory = fileURL.deletingLastPathComponent()
-	
+
 	// 念のため存在チェック
 	if !FileManager.default.fileExists(atPath: directory.path) {
 		print("[dbgLog] ログディレクトリを作成: \(directory.path)")
@@ -95,7 +103,9 @@ private func ensureLogDirectory() {
 			// cachedLogFileURLは既にgetLogFilePath()で設定済み
 		} catch {
 			print("[dbgLog] エラー: ディレクトリ作成失敗 - \(error)")
+			cachedLogFileURLLock.lock()
 			cachedLogFileURL = nil  // 失敗したらキャッシュをクリア（次回再試行）
+			cachedLogFileURLLock.unlock()
 		}
 	} else {
 		print("[dbgLog] ログディレクトリ既に存在: \(directory.path)")

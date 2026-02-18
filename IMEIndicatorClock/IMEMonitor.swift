@@ -152,7 +152,13 @@ class IMEMonitor {
 
 	/// 入力ソースが変更された時に呼ばれる
 	@objc private func inputSourceChanged() {
-		checkIMEState()
+		if Thread.isMainThread {
+			checkIMEState()
+		} else {
+			DispatchQueue.main.async { [weak self] in
+				self?.checkIMEState()
+			}
+		}
 	}
 
 	/// 現在のIME状態をチェックして更新

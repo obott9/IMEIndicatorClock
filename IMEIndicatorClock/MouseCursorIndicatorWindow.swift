@@ -168,7 +168,8 @@ class MouseCursorIndicatorWindowManager {
 
         // タイマーベースのバックアップ（スクロール等でイベントが来ない場合用）
         // メインスレッドのRunLoopに明示的に追加
-        let timer = Timer(timeInterval: 0.05, repeats: true) { [unowned self] _ in
+        let timer = Timer(timeInterval: 0.3, repeats: true) { [weak self] _ in
+            guard let self else { return }
             self.handleMouseMoved()
         }
         RunLoop.main.add(timer, forMode: .common)
