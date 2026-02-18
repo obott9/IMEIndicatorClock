@@ -102,6 +102,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 		// 時計の背景色を更新
 		AppSettingsManager.shared.updateIMEState(isJapanese: language.isIMEOn)
+
+		// 現在の言語を設定マネージャーに反映（ClockViewのリアクティブ更新用）
+		AppSettingsManager.shared.currentLanguage = language
 	}
 }
 

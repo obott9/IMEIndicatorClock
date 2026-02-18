@@ -74,6 +74,9 @@ class AppSettingsManager: ObservableObject {
 	/// IME状態（日本語入力かどうか）
 	@Published var isJapaneseInput: Bool = false
 
+	/// 現在の入力言語（ビューのリアクティブ更新用）
+	@Published var currentLanguage: InputLanguage = .english
+
 	/// ウィンドウドラッグ中のフラグ
 	@Published var isWindowDragging: Bool = false
 

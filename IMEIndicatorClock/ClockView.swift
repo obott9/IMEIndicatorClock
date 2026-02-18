@@ -209,7 +209,7 @@ struct ClockView: View {
 	private var currentBackgroundColor: Color {
 		// IMEインジケータの言語別色を使用する場合
 		if settingsManager.settings.clock.useIMEIndicatorColors {
-			let currentLanguage = IMEMonitor.shared.currentLanguage
+			let currentLanguage = settingsManager.currentLanguage
 			let colorComponents = settingsManager.settings.imeIndicator.color(for: currentLanguage)
 			return colorComponents.color
 		}
