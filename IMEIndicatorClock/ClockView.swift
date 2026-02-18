@@ -55,7 +55,7 @@ struct ClockView: View {
 			.frame(maxWidth: .infinity, maxHeight: .infinity)
 			.overlay {
 				// コンテンツは本来のサイズで中央描画し、はみ出し分をクリップ
-				VStack(spacing: 8) {
+				VStack(spacing: 0) {
 					clockContent(currentDate: currentTime)
 				}
 				.padding(16)
