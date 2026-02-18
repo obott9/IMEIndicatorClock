@@ -70,6 +70,10 @@ class MouseCursorIndicatorWindowManager {
 
         // 現在のIME状態を取得してから表示
         currentLanguage = IMEMonitor.shared.currentLanguage
+
+        // 初回ログフラグをリセット（show/hideサイクルごとに初回ログを出力する）
+        Self.firstMouseMoveLogged = false
+
         dbgLog(-1, "🖱️ [MouseCursorIndicator] createWindow呼び出し前")
         createWindow()
         dbgLog(-1, "🖱️ [MouseCursorIndicator] createWindow完了、startMonitoring呼び出し")
