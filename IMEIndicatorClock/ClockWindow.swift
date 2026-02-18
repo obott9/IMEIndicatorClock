@@ -59,16 +59,16 @@ class ContextMenuHostingView<Content: View>: NSView {
 
 	/// 右クリックイベント
 	override func rightMouseDown(with event: NSEvent) {
-		dbgLog(0, "🖱️ [ContextMenu] rightMouseDown呼び出し")
+		dbgLog(1, "🖱️ [ContextMenu] rightMouseDown呼び出し")
 
 		// 設定ウィンドウが開いている場合はメニューを表示しない
 		guard !UnifiedSettingsWindowManager.shared.isOpen else {
-			dbgLog(0, "🖱️ [ContextMenu] 設定ウィンドウが開いているためメニューをスキップ")
+			dbgLog(1, "🖱️ [ContextMenu] 設定ウィンドウが開いているためメニューをスキップ")
 			super.rightMouseDown(with: event)
 			return
 		}
 
-		dbgLog(0, "🖱️ [ContextMenu] 右クリックメニューを表示: event.locationInWindow=(%d,%d)",
+		dbgLog(1, "🖱️ [ContextMenu] 右クリックメニューを表示: event.locationInWindow=(%d,%d)",
 			   Int(event.locationInWindow.x), Int(event.locationInWindow.y))
 
 		// メニューを作成
@@ -90,7 +90,7 @@ class ContextMenuHostingView<Content: View>: NSView {
 
 	/// 設定ウィンドウを開く
 	@objc private func openSettings() {
-		dbgLog(0, "🖱️ [ContextMenu] 設定ウィンドウを開く: tab=%@, moveMode=%@",
+		dbgLog(1, "🖱️ [ContextMenu] 設定ウィンドウを開く: tab=%@, moveMode=%@",
 			   String(describing: settingsTab),
 			   AppSettingsManager.shared.settings.clock.moveMode ? "true" : "false")
 		UnifiedSettingsWindowManager.shared.openSettings(tab: settingsTab)
@@ -361,7 +361,7 @@ extension ClockWindowManager {
 	func updateMoveMode(for window: NSWindow, moveMode: Bool) {
 		// 注意: ignoresMouseEvents = false で右クリックメニューを受け取る
 		window.ignoresMouseEvents = false
-		dbgLog(0, "🔄 [ClockWindow] ignoresMouseEvents = false に設定")
+		dbgLog(1, "🔄 [ClockWindow] ignoresMouseEvents = false に設定")
 
 		if moveMode {
 			// 移動モード ON
@@ -622,7 +622,7 @@ extension ClockWindowManager {
 			window.isMovable = false
 		}
 
-		dbgLog(0, "▶️ [ClockWindow] ignoresMouseEvents = false に設定")
+		dbgLog(1, "▶️ [ClockWindow] ignoresMouseEvents = false に設定")
 
 		return window
 	}
