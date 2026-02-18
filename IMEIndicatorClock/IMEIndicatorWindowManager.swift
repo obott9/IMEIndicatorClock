@@ -40,11 +40,6 @@ class IMEIndicatorWindowManager: NSObject {
 		return AppSettingsManager.shared.settings.imeIndicator
 	}
 
-	/// 後方互換性のため：日本語入力モードかどうか
-	var isJapanese: Bool {
-		return currentLanguage == .japanese
-	}
-
 	// MARK: - 初期化
 
 	private override init() {
@@ -228,12 +223,6 @@ class IMEIndicatorWindowManager: NSObject {
 
 		currentLanguage = newLanguage
 		updateWithAnimation()
-	}
-
-	/// IME状態を更新（後方互換性のため）
-	func updateIMEState(_ newIsJapanese: Bool) {
-		let newLanguage: InputLanguage = newIsJapanese ? .japanese : .english
-		updateLanguage(newLanguage)
 	}
 
 	/// 表示/非表示を切り替え

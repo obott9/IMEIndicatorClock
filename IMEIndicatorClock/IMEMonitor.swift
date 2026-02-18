@@ -102,16 +102,8 @@ class IMEMonitor {
 	/// 入力言語が変更された時のコールバック
 	var onLanguageChanged: ((InputLanguage) -> Void)?
 
-	/// 後方互換性のため：IME状態が変更された時のコールバック
-	var onIMEStateChanged: ((Bool) -> Void)?
-
 	/// ポーリング用タイマー（メモリリーク防止のためプロパティとして保持）
 	private var pollingTimer: Timer?
-
-	/// 後方互換性のため：日本語入力モードかどうか
-	var isJapanese: Bool {
-		return currentLanguage == .japanese
-	}
 
 	// MARK: - 初期化
 
@@ -187,13 +179,8 @@ class IMEMonitor {
 
 			dbgLog(1, "🔤 [IMEMonitor] 言語変更: %@ → %@", String(describing: oldLanguage), String(describing: newLanguage))
 
-			// 新しいコールバック
+			// コールバック
 			onLanguageChanged?(newLanguage)
-
-			// 後方互換性のためのコールバック（IME ON/OFFが変わった場合）
-			if oldLanguage.isIMEOn != newLanguage.isIMEOn {
-				onIMEStateChanged?(newLanguage.isIMEOn)
-			}
 		}
 	}
 
