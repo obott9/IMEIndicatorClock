@@ -319,48 +319,6 @@ extension Bundle {
 	}
 }
 
-// MARK: - AboutWindowManager
-
-/// Aboutウィンドウを管理するシングルトン
-class AboutWindowManager {
-
-	/// シングルトンインスタンス
-	static let shared = AboutWindowManager()
-
-	/// ウィンドウへの参照
-	private var aboutWindow: NSWindow?
-
-	private init() {}
-
-	/// Aboutウィンドウを開く
-	func openAbout() {
-		// 既存のウィンドウがあれば前面に
-		if let window = aboutWindow, window.isVisible {
-			window.makeKeyAndOrderFront(nil)
-			NSApp.activate(ignoringOtherApps: true)
-			return
-		}
-
-		// 新しいウィンドウを作成
-		let window = NSWindow(
-			contentRect: NSRect(x: 0, y: 0, width: 380, height: 440),
-			styleMask: [.titled, .closable],
-			backing: .buffered,
-			defer: false
-		)
-
-		window.title = String(localized: "window_title", table: "About")
-		window.center()
-		window.contentView = NSHostingView(rootView: AboutView())
-		window.isReleasedWhenClosed = false
-
-		window.makeKeyAndOrderFront(nil)
-		NSApp.activate(ignoringOtherApps: true)
-
-		self.aboutWindow = window
-	}
-}
-
 // MARK: - プレビュー
 
 /// プレビュー用の言語切り替えラッパー
